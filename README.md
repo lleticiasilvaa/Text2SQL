@@ -1,1 +1,1 @@
-# Text2SQL
+# Toward Small Language Models for Text-to-SQL and for Schema-Linking
