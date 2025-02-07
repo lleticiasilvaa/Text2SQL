@@ -1,0 +1,200 @@
+ SELECT company.name,  partner.name,  city.name FROM city JOIN establishment ON city.code  =  establishment.city_code JOIN partner ON establishment.basic_cnpj  =  partner.basic_cnpj JOIN company ON establishment.basic_cnpj  =  company.basic_cnpj JOIN taxation ON establishment.basic_cnpj  =  taxation.basic_cnpj WHERE partner.age_range_code BETWEEN 0 AND 12 AND city.name  =  "GUAJARA-MIRIM" AND taxation.option_for_simples_taxation  =  "yes" AND taxation.option_for_mei_taxation  =  "no"
+ SELECT company.name,  company.capital FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN establishment ON establishment.basic_cnpj  =  company.basic_cnpj WHERE taxation.option_for_simples_taxation  =  1 AND establishment.city_code  =  (SELECT code FROM city WHERE name  =  "GUAJARA-MIRIM")
+ SELECT name,  capital FROM company WHERE legal_nature_code  =  (SELECT code FROM legal_nature WHERE description  =  'Órgão Público do Poder Executivo Federal')
+ SELECT name,  capital FROM company WHERE company_size_code  =  (SELECT code FROM company_size WHERE description  =  'MICRO EMPRESA')
+ SELECT company.name,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code WHERE company.capital  >  50000
+ SELECT name FROM city
+ SELECT name FROM city
+ SELECT name FROM company WHERE basic_cnpj IN (SELECT basic_cnpj FROM taxation WHERE option_for_simples_taxation  =  1)
+ SELECT name FROM city
+ SELECT company.name,  company.capital,  legal_nature.description,  partner.name,  age_range.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code WHERE age_range.description  =  "0 a 12 anos" AND partner_type.description  =  "PESSOA FÍSICA"
+ SELECT name,  start_activity_date FROM establishment WHERE city_code  =  (SELECT code FROM city WHERE name  =  'GUAJARA-MIRIM')
+ SELECT company.name,  age_range.description,  partner_type.description FROM partner JOIN age_range ON partner.age_range_code  =  age_range.code JOIN partner_type ON partner.partner_type_code  =  partner_type.code JOIN company ON partner.basic_cnpj  =  company.basic_cnpj WHERE age_range.description  =  "0 a 12 anos" AND partner_type.description  =  "PESSOA FÍSICA"
+ SELECT company.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN city ON city.code  =  company.city_code WHERE city.name  =  "GUAJARA-MIRIM" AND partner.age_range_code  =  "0 a 12 anos"
+ SELECT company.name,  partner.name,  age_range.description,  partner_type.description,  legal_nature.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN partner_type ON partner.partner_type_code  =  partner_type.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN city ON company.city_code  =  city.code JOIN registration_status ON company.registration_status_code  =  registration_status.code WHERE city.name  =  "GUAJARA-MIRIM" AND registration_status.description  =  "ATIVA" AND partner_type.description  =  "Pessoa Física"
+ SELECT establishment.basic_cnpj FROM city JOIN establishment ON city.code  =  establishment.city_code JOIN partner ON establishment.basic_cnpj  =  partner.basic_cnpj JOIN partner_type ON partner.partner_type_code  =  partner_type.code WHERE partner_type.description  =  "PESSOA FÍSICA" AND city.name LIKE "GUA%"
+ SELECT company.name FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN company_size ON company.company_size_code  =  company_size.code WHERE taxation.option_for_simples_taxation  =  1 AND company_size.description  =  'MICRO EMPRESA'
+ SELECT name,  capital,  company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code
+ SELECT company.name,  company.capital FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN establishment ON company.city_code  =  establishment.city_code WHERE taxation.option_for_simples_taxation  =  1 AND establishment.name  =  "GUAJARA-MIRIM"
+ SELECT name,  capital FROM company WHERE company_size_code  =  (SELECT code FROM company_size WHERE description  =  'MICRO EMPRESA')
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  "MICRO EMPRESA"
+ SELECT establishment.name,  partner.name,  qualification.description FROM establishment JOIN partner ON establishment.basic_cnpj  =  partner.basic_cnpj JOIN qualification ON partner.partner_qualification_code  =  qualification.code JOIN partner_type ON partner.partner_type_code  =  partner_type.code WHERE partner_type.description  =  "Pessoa Física" AND partner.age_range_code BETWEEN 0 AND 12 AND qualification.description  =  "Órgão Público do Poder Executivo Federal"
+ SELECT name,  start_activity_date FROM establishment JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND primary_cnae_code  =  "Cultivo de arroz"
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT company.name,  company.capital,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj WHERE taxation.option_for_simples_taxation  =  1 AND legal_nature.description  =  "MICRO EMPRESA"
+ SELECT establishment.name FROM city JOIN establishment ON city.code  =  establishment.city_code JOIN taxation ON establishment.basic_cnpj  =  taxation.basic_cnpj WHERE city.name  =  "GUAJARA-MIRIM" AND taxation.option_for_simples_taxation  =  "yes"
+ SELECT company.name,  partner.name,  legal_nature.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN legal_nature ON partner.legal_nature_code  =  legal_nature.code JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj WHERE company.capital  >  50000 AND partner.age_range  =  "0 a 12 anos" AND taxation.option_for_simples_taxation  =  1
+ SELECT company.name,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code
+ SELECT name,  capital FROM company WHERE company_size_code  =  (SELECT code FROM company_size WHERE description  =  "MICRO EMPRESA")
+ SELECT name FROM city WHERE code  =  1
+ SELECT name FROM city
+ SELECT company.name,  establishment.start_activity_date FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN taxation ON establishment.basic_cnpj  =  taxation.basic_cnpj WHERE age_range.age_range_name  =  "0 a 12 anos" AND company.legal_nature  =  "Órgão Público do Poder Executivo Federal" AND taxation.option_for_simples_taxation  =  "S"
+ SELECT company.name,  age_range.description FROM partner JOIN age_range ON partner.age_range_code  =  age_range.code JOIN company ON partner.basic_cnpj  =  company.basic_cnpj JOIN partner_type ON partner.partner_type_code  =  partner_type.code WHERE age_range.code BETWEEN '0' AND '12' AND partner_type.description  =  'PESSOA FÍSICA'
+ SELECT name,  capital FROM company WHERE company_size_code  =  1
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT name FROM company WHERE capital  >  50000
+ SELECT company.name,  cnae.name FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN cnae ON establishment.primary_cnae_code  =  cnae.code JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj WHERE taxation.option_for_simples_taxation  =  1
+ SELECT company.name,  company.capital,  company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code
+ SELECT company.name,  partner.name,  partner.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN partner_type ON partner.partner_type_code  =  partner_type.code JOIN age_range ON partner.age_range_code  =  age_range.code JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj WHERE age_range.description  =  "0 a 12 anos" AND partner_type.description  =  "PESSOA FÍSICA"
+ SELECT company.name,  partner.name,  legal_nature.description,  age_range.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN legal_nature ON legal_nature.code  =  company.legal_nature_code JOIN age_range ON age_range.code  =  partner.age_range_code WHERE partner.name  =  "AFEGANISTAO" AND legal_nature.description!= "Natureza Jurídica não informada"
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT company.name FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj WHERE taxation.option_for_simples_taxation  =  1 AND establishment.primary_cnae_code  =  "Cultivo de arroz"
+ SELECT company.name,  company.capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  "MICRO EMPRESA"
+ SELECT name FROM company WHERE capital  =  60000.0
+ SELECT partner.name,  partner.partner_type_code,  partner.partner_qualification_code,  partner_type.description,  qualification.description,  establishment.name FROM partner JOIN partner_type ON partner.partner_type_code  =  partner_type.code JOIN qualification ON partner.partner_qualification_code  =  qualification.code JOIN establishment ON partner.basic_cnpj  =  establishment.basic_cnpj WHERE partner_type.description  =  "Pessoa Física" AND qualification.description  =  "Administrador"
+ SELECT company.name,  company.capital,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code
+ SELECT company.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN establishment ON establishment.basic_cnpj  =  company.basic_cnpj JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND partner.age_range_code BETWEEN "0" AND "12"
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT company.name,  company.capital FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code WHERE legal_nature.nature  =  "Natureza Jurídica não informada" AND age_range.description  =  "0 a 12 anos"
+ SELECT company.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN cnae ON establishment.primary_cnae_code  =  cnae.code WHERE cnae.name  =  "Cultivo de milho" AND partner.name  =  "Alto Alegre dos Parecis"
+ SELECT company.name FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code JOIN company_size ON company.company_size_code  =  company_size.code WHERE city.name  =  "GUAJARA-MIRIM" AND company_size.description  =  "MICRO EMPRESA"
+ SELECT company.name,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code
+ SELECT company.name FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj WHERE taxation.option_for_simples_taxation  =  1 AND establishment.primary_cnae_code  =  "Cultivo de arroz"
+ SELECT company.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN city ON city.code  =  partner.city_code JOIN taxation ON taxation.basic_cnpj  =  company.basic_cnpj WHERE city.name  =  "GUAJARA-MIRIM" AND partner.age_range_code  =  0 AND taxation.option_for_simples_taxation  =  "yes"
+ SELECT company.name,  company.capital,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code
+ SELECT name,  capital,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code ORDER BY capital DESC
+ SELECT company.name,  legal_nature.description,  company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code WHERE company.capital  >  50000
+ SELECT company.name,  legal_nature.description FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN legal_nature ON legal_nature.code  =  taxation.option_for_simples_taxation
+ SELECT establishment.name,  city.name,  cnae.name,  legal_nature.description,  company_size.description,  partner.name,  age_range.description FROM establishment JOIN partner ON establishment.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN company_size ON establishment.company_size_code  =  company_size.code JOIN cnae ON establishment.primary_cnae_code  =  cnae.code JOIN legal_nature ON establishment.legal_nature_code  =  legal_nature.code JOIN city ON establishment.city_code  =  city.code WHERE partner_type_code  =  "PESSOA FÍSICA" AND age_range.code  =  13 AND age_range.code  =  20 ORDER BY establishment.name
+ SELECT company.name,  company.capital,  legal_nature.description,  company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code
+ SELECT company.name,  company.capital FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj WHERE taxation.option_for_simples_taxation  =  1
+ SELECT company.name,  legal_nature.description FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN legal_nature ON legal_nature.code  =  taxation.option_for_simples_taxation
+ SELECT name FROM city
+ SELECT company.name FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA' AND taxation.option_for_simples_taxation  =  'S'
+ SELECT company.name,  age_range.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code WHERE partner.partner_type_code  =  "PESSOA FÍSICA" AND age_range.description  =  "Administrador" AND company.city_code  =  (SELECT city_code FROM city WHERE name  =  "GUAJARA-MIRIM")
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT company.name FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN partner_type ON partner.partner_type_code  =  partner_type.code WHERE city.name  =  "GUAJARA-MIRIM" AND age_range.name  =  "0 a 12 anos" AND partner_type.name  =  "PESSOA FÍSICA" AND taxation.option_for_simples_taxation  =  1
+ SELECT company.name FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj WHERE taxation.option_for_simples_taxation  =  1 AND establishment.primary_cnae_code  =  "Cultivo de arroz"
+ SELECT company.name,  cnae.name FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN taxation ON establishment.basic_cnpj  =  taxation.basic_cnpj JOIN cnae ON establishment.primary_cnae_code  =  cnae.code WHERE taxation.option_for_simples_taxation  =  1
+ SELECT partner.name,  age_range.description FROM partner JOIN age_range ON partner.age_range_code  =  age_range.code JOIN establishment ON partner.basic_cnpj  =  establishment.basic_cnpj WHERE partner.partner_qualification_code  =  5 AND establishment.city_code  =  1
+ SELECT company.name,  legal_nature.description,  partner.name FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN city ON company.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND partner.age_range_code  =  0
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  "MICRO EMPRESA"
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT company.name,  company.capital FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN taxation ON taxation.basic_cnpj  =  company.basic_cnpj WHERE establishment.city_code  =  (SELECT code FROM city WHERE name  =  "GUAJARA-MIRIM") AND taxation.option_for_simples_taxation  =  "Simples"
+ SELECT establishment.name FROM city JOIN establishment ON city.code  =  establishment.city_code WHERE city.name  =  "GUAJARA-MIRIM" AND taxation.option_for_simples_taxation  =  1
+ SELECT company.name,  legal_nature.description,  company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN city ON company.capital  >  50000 JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj WHERE city.name  =  "GUAJARA-MIRIM"
+ SELECT company.name,  age_range.description,  partner.name FROM partner JOIN company ON partner.basic_cnpj  =  company.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN partner_type ON partner.partner_type_code  =  partner_type.code JOIN qualification ON partner.partner_qualification_code  =  qualification.code WHERE partner_type.description  =  "PESSOA FÍSICA" AND qualification.description  =  "Não informada" OR company.city_code  =  (SELECT code FROM city WHERE name  =  "GUAJARA-MIRIM")
+ SELECT name FROM company WHERE company_size_code  =  1
+ SELECT name FROM city
+ SELECT establishment.name FROM city JOIN establishment ON city.code  =  establishment.city_code WHERE city.name  =  "GUAJARA-MIRIM" AND taxation.option_for_simples_taxation  =  "simples"
+ SELECT company.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN city ON city.code  =  partner.age_range_code WHERE city.name  =  "GUAJARA-MIRIM" AND partner.age_range_code  =  "0 a 12 anos"
+ SELECT name FROM company WHERE basic_cnpj IN (SELECT basic_cnpj FROM taxation WHERE option_for_simples_taxation  =  1)
+ SELECT company.name,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code
+ SELECT name,  capital FROM company WHERE company_size_code  =  1
+ SELECT company.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND age_range.description  =  "0 a 12 anos"
+ SELECT company.name,  legal_nature.description FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN legal_nature ON legal_nature.code  =  taxation.option_for_simples_taxation
+ SELECT company.name,  partner.name,  partner_type.description,  age_range.description FROM partner JOIN partner_type ON partner.partner_type_code  =  partner_type.code JOIN age_range ON partner.age_range_code  =  age_range.code JOIN company ON partner.basic_cnpj  =  company.basic_cnpj WHERE partner_type.description  =  "PESSOA FÍSICA" AND age_range.description  =  "13 a 20 anos" AND company.capital  >  50000 AND city.name  =  "GUAJARA-MIRIM"
+ SELECT name FROM city
+ SELECT name,  capital FROM company WHERE legal_nature_code  =  "Órgão Público do Poder Executivo Federal"
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT establishment.name,  age_range.description FROM age_range JOIN partner ON age_range.code  =  partner.age_range_code JOIN establishment ON partner.basic_cnpj  =  establishment.basic_cnpj WHERE age_range.description  =  "0 a 12 anos" INTERSECT SELECT establishment.name,  age_range.description FROM age_range JOIN partner ON age_range.code  =  partner.age_range_code JOIN establishment ON partner.basic_cnpj  =  establishment.basic_cnpj JOIN legal_nature ON legal_nature.code  =  establishment.legal_nature WHERE legal_nature.description  =  "Órgão Público do Poder Executivo Federal"
+ SELECT name,  capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT name,  capital,  legal_nature.description,  qualification.description,  company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN qualification ON company.responsible_qualification_code  =  qualification.code
+ SELECT name,  capital FROM company WHERE company_size_code  =  (SELECT code FROM company_size WHERE description  =  'MICRO EMPRESA')
+ SELECT company.name,  legal_nature.description FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN legal_nature ON legal_nature.code  =  taxation.option_for_simples_taxation WHERE taxation.option_for_simples_taxation  =  'S'
+ SELECT company.name FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN legal_nature ON legal_nature.code  =  company.legal_nature_code WHERE taxation.option_for_simples_taxation  =  1 AND legal_nature.description!= 'Natureza Jurídica não informada'
+ SELECT establishment.name,  legal_nature.description,  establishment.primary_cnae_code FROM establishment JOIN city ON establishment.city_code  =  city.code JOIN legal_nature ON establishment.legal_nature_code  =  legal_nature.code WHERE city.name  =  "GUAJARA-MIRIM"
+ SELECT name,  capital FROM company WHERE company_size_code  =   "MICRO EMPRESA"
+ SELECT company.name,  legal_nature.description,  qualification.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN qualification ON company.responsible_qualification_code  =  qualification.code JOIN city ON company.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND taxation.option_for_simples_taxation  =  "1" AND taxation.option_for_mei_taxation  =  "0"
+ SELECT company.name,  legal_nature.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code WHERE company_size.description  =  'MICRO EMPRESA' ORDER BY company.name
+ SELECT company.name,  company.capital FROM company JOIN company_size ON company.company_size_code  =  company_size.code JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code WHERE company_size.description  =  'MICRO EMPRESA' AND age_range.description  =  '0 a 12 anos'
+ SELECT name,  basic_cnpj FROM company WHERE capital  >  50000
+ SELECT name,  capital FROM company
+ SELECT company.name,  company_size.description,  cnae.description,  partner_type.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN city ON city.code  =  company.city_code JOIN company_size ON company.company_size_code  =  company_size.code JOIN cnae ON company.primary_cnae_code  =  cnae.code JOIN partner_type ON partner.partner_type_code  =  partner_type.code WHERE city.name  =  "GUAJARA-MIRIM" AND age_range.description  =  "0 a 12 anos"
+ SELECT company.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND age_range.description  =  "0 a 12 anos"
+ SELECT name,  capital FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj WHERE company.legal_nature  =  "Órgão Público do Poder Executivo Federal" AND establishment.start_activity_date  >  2014
+ SELECT name FROM city
+ SELECT company.name,  company.capital FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND company_size.code  =  "MICRO EMPRESA"
+ SELECT name FROM company WHERE company_size_code  =  (SELECT code FROM company_size WHERE description  =  'MICRO EMPRESA')
+ SELECT company.name,  partner.name,  qualification.description,  legal_nature.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code JOIN cnae ON establishment.primary_cnae_code  =  cnae.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN partner_type ON partner.partner_type_code  =  partner_type.code JOIN qualification ON partner.partner_qualification_code  =  qualification.code WHERE partner_type.description  =  'PESSOA FÍSICA' AND city.name  =  'GUAJARA-MIRIM' AND cnae.name  =  'Cultivo de arroz' AND company_size.description  =  'MICRO EMPRESA'
+ SELECT company.name,  company.capital,  partner.name,  partner.legal_representative_name,  age_range.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code WHERE partner_type_code  =  "PESSOA FÍSICA" AND partner_qualification_code!= "Não informada" OR partner_qualification_code  =  "Administrador" ORDER BY company.capital DESC
+ SELECT establishment.name,  establishment.start_activity_date,  cnae.description FROM establishment JOIN city ON establishment.city_code  =  city.code JOIN cnae ON establishment.primary_cnae_code  =  cnae.code WHERE city.name  =  "GUAJARA-MIRIM"
+ SELECT company.name,  company.capital FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN company_size ON company.company_size_code  =  company_size.code WHERE taxation.option_for_simples_taxation  =  1 AND company_size.description  =  "MICRO EMPRESA"
+ SELECT partner.name,  age_range.description,  city.name FROM age_range JOIN partner ON age_range.code  =  partner.age_range_code JOIN establishment ON partner.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND age_range.description BETWEEN "0 a 12 anos" AND "12 a 18 anos"
+ SELECT establishment.name,  cnae.name FROM establishment JOIN cnae ON establishment.primary_cnae_code  =  cnae.code JOIN taxation ON establishment.basic_cnpj  =  taxation.basic_cnpj WHERE taxation.option_for_simples_taxation  =  1
+ SELECT name,  capital FROM company WHERE company_size_code  =  (SELECT code FROM company_size WHERE description  =  'MICRO EMPRESA')
+ SELECT company.name,  company.capital FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND company.status  =  "ATIVA" AND establishment.primary_cnae_code  =  "Cultivo de arroz"
+ SELECT company.name,  legal_nature.description FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj JOIN legal_nature ON legal_nature.code  =  company.legal_nature_code WHERE taxation.option_for_simples_taxation  =  1 AND legal_nature.description!= 'Natureza Jurídica não informada'
+ SELECT company.name,  legal_nature.description FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code WHERE legal_nature.code  >  2000 ORDER BY company.name
+ SELECT company.name,  company.capital,  company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code
+ SELECT name,  start_activity_date FROM establishment WHERE city_code  =  2369
+ SELECT company.name,  company.capital,  legal_nature.description FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN legal_nature ON legal_nature.code  =  partner.legal_representative_qualification_code JOIN city ON city.code  =  company.city_code WHERE partner_type.description  =  'PESSOA FÍSICA' AND city.name  =  'GUAJARA-MIRIM' AND legal_nature.description  =  'Administrador'
+ SELECT name FROM company WHERE capital  >  50000
+ SELECT name,  start_activity_date FROM establishment JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM" AND primary_cnae_code  =  "Cultivo de arroz"
+ SELECT name FROM city
+ SELECT partner.name,  age_range.description FROM age_range JOIN partner ON age_range.code  =  partner.age_range_code JOIN establishment ON partner.basic_cnpj  =  establishment.basic_cnpj WHERE establishment.city_code  =  (SELECT code FROM city WHERE name  =  "GUAJARA-MIRIM") AND age_range.description  =  "0 a 12 anos"
+ SELECT name,  capital FROM company WHERE company_size_code  =  (SELECT code FROM company_size WHERE description  =  'MICRO EMPRESA')
+ SELECT company.name,  company.capital FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN country ON partner.country_code  =  country.code JOIN company_size ON company.company_size_code  =  company_size.code WHERE country.name  =  "AFEGANISTAO" AND company_size.description  =  "MICRO EMPRESA"
+ SELECT partner.name,  age_range.description FROM partner JOIN age_range ON partner.age_range_code  =  age_range.code WHERE age_range.description  =  "PESSOA FÍSICA" AND age_range.code BETWEEN 13 AND 20
+ SELECT name FROM city
+ SELECT company.name,  legal_nature.description,  company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN city ON company.city_code  =  city.code WHERE city.name  =  "ALTO ALEGRE DOS PARECIS" AND company.capital  >  50000
+ SELECT name,  description FROM age_range
+ SELECT name,  description FROM company_size
+ SELECT company.name FROM city JOIN establishment ON city.code  =  establishment.city_code JOIN company ON establishment.basic_cnpj  =  company.basic_cnpj WHERE city.name  =  "GUAJARA-MIRIM" AND registration_status_code  =  "ATIVA"
+ SELECT partner.name,  age_range.description FROM age_range JOIN partner ON age_range.code  =  partner.age_range_code JOIN establishment ON partner.basic_cnpj  =  establishment.basic_cnpj WHERE establishment.city_code  =  (SELECT code FROM city WHERE name  =  "GUAJARA-MIRIM") AND age_range.description  =  "0 a 12 anos"
+ SELECT name,  start_activity_date FROM establishment JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "GUAJARA-MIRIM"
+ SELECT count(*) FROM company
+ SELECT basic_cnpj FROM company WHERE capital  <  1000
+ SELECT name FROM company WHERE capital  >  1000000
+ SELECT count(*) FROM company WHERE capital  >  1000000
+ SELECT sum(capital) FROM company
+ SELECT sum(capital) FROM company WHERE company_size_code  =  3
+ SELECT max(capital) FROM company
+ SELECT min(capital),  max(capital) FROM company
+ SELECT min(capital),  max(capital) FROM company WHERE company_size_code  =  3
+ SELECT avg(capital) FROM company
+ SELECT basic_cnpj FROM company WHERE capital BETWEEN 1000 AND 10000
+ SELECT state FROM establishment
+ SELECT basic_cnpj FROM establishment WHERE state  =  "RN"
+ SELECT count(*) FROM establishment WHERE main_or_branch  =  'Main'
+ SELECT state FROM establishment WHERE main_or_branch  =  'Branch'
+ SELECT basic_cnpj FROM establishment WHERE primary_cnae_code  =  5612100
+ SELECT name,  state FROM establishment WHERE registration_status_code  =  1
+ SELECT basic_cnpj FROM establishment WHERE name LIKE 'S%'
+ SELECT code FROM cnae WHERE name LIKE "%Z%"
+ SELECT name FROM city WHERE code  <  10
+ SELECT DISTINCT primary_cnae_code FROM establishment WHERE state  =  "SP"
+ SELECT description FROM partner_type
+ SELECT description,  code FROM age_range
+ SELECT description FROM age_range WHERE code  =  5
+ SELECT count(DISTINCT name) FROM cnae
+ SELECT name FROM company ORDER BY capital DESC LIMIT 1
+ SELECT company_size_code FROM company GROUP BY company_size_code ORDER BY sum(capital) LIMIT 1
+ SELECT basic_cnpj FROM company ORDER BY capital DESC LIMIT 3
+ SELECT company_size.name,  avg(company.capital) FROM company JOIN company_size ON company.company_size_code  =  company_size.code GROUP BY company_size.name
+ SELECT company_size_code,  count(*) FROM company GROUP BY company_size_code
+ SELECT state,  count(*) FROM establishment GROUP BY state
+ SELECT state,  count(*) FROM establishment GROUP BY state ORDER BY count(*) DESC LIMIT 5
+ SELECT sum(capital),  legal_nature_code FROM company GROUP BY legal_nature_code
+ SELECT capital FROM company WHERE basic_cnpj  =  02281679
+ SELECT sum(capital) FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'MICRO EMPRESA'
+ SELECT count(*) FROM establishment JOIN cnae ON establishment.primary_cnae_code  =  cnae.code WHERE cnae.name LIKE 'Comércio%'
+ SELECT count(*) FROM establishment JOIN cnae ON establishment.primary_cnae_code  =  cnae.code WHERE cnae.name  =  "Serviços de engenharia"
+ SELECT company_size.description FROM company JOIN company_size ON company.company_size_code  =  company_size.code ORDER BY capital DESC LIMIT 1
+ SELECT basic_cnpj,  registration_status.description FROM establishment JOIN registration_status ON establishment.registration_status_code  =  registration_status.code
+ SELECT basic_cnpj FROM taxation WHERE option_for_simples_taxation  =  1 AND option_for_mei_taxation  =  1
+ SELECT country.name FROM country JOIN establishment ON country.code  =  establishment.country_code
+ SELECT cnae.name FROM cnae JOIN establishment ON cnae.code  =  establishment.primary_cnae_code GROUP BY establishment.primary_cnae_code ORDER BY count(*) DESC LIMIT 1
+ SELECT city.name FROM city JOIN establishment ON city.code  =  establishment.city_code GROUP BY city.name ORDER BY count(*) DESC LIMIT 5
+ SELECT age_range.description,  count(*) FROM age_range JOIN partner ON age_range.code  =  partner.age_range_code GROUP BY age_range.code
+ SELECT description FROM registration_status JOIN establishment ON registration_status.code  =  establishment.registration_status_code WHERE basic_cnpj  =  "02391701"
+ SELECT name,  basic_cnpj FROM establishment WHERE state  =  "MG" AND primary_cnae_code  =  (SELECT code FROM cnae WHERE name  =  "Construção de edifícios")
+ SELECT name FROM company WHERE basic_cnpj IN (SELECT basic_cnpj FROM partner WHERE basic_cnpj  =  "61204657000165")
+ SELECT count(*) FROM partner WHERE cpf_or_cnpj  =  "***847828***"
+ SELECT count(*) FROM establishment WHERE state  =  "MG" AND registration_status_code  =  "ATIVA"
+ SELECT count(*) FROM city JOIN establishment ON city.code  =  establishment.city_code WHERE city.name  =  "RIO DE JANEIRO" AND establishment.registration_status_code  =  1
+ SELECT count(*) FROM partner WHERE cpf_or_cnpj LIKE "004123%"
+ SELECT name,  capital FROM company WHERE state  =  "SP" AND capital  >  1000000
+ SELECT name,  basic_cnpj FROM establishment JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "PARA DE MINAS" AND primary_cnae_code  =  "11.11.11"
+ SELECT name FROM establishment JOIN registration_status_reason ON establishment.registration_status_reason_code  =  registration_status_reason.code WHERE registration_status_reason.description  =  'OMISSAO DE DECLARACOES'
+ SELECT company.capital FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj WHERE establishment.state  =  'GO' GROUP BY company.basic_cnpj HAVING count(*)  >  3
+ SELECT company.capital FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN age_range ON partner.age_range_code  =  age_range.code WHERE age_range.description  =  "21 - 30"
+ SELECT company.name FROM company JOIN partner ON company.basic_cnpj  =  partner.basic_cnpj JOIN qualification ON partner.partner_qualification_code  =  qualification.code WHERE qualification.description  =  'Administrador'
+ SELECT avg(capital) FROM company JOIN taxation ON company.basic_cnpj  =  taxation.basic_cnpj WHERE taxation.option_for_mei_taxation  =  1 AND company.state  =  "SP"
+ SELECT basic_cnpj FROM company WHERE capital  >  50000 AND city_code  =  (SELECT code FROM city WHERE name  =  "SAO PAULO") EXCEPT SELECT basic_cnpj FROM establishment WHERE primary_cnae_code  =  (SELECT code FROM cnae WHERE name  =  "Construção de edifícios")
+ SELECT basic_cnpj FROM establishment WHERE nature_legal  =  "Empresário (Individual)" OR nature_legal  =  "Estabelecimento, no Brasil, de Fundação ou Associação Estrangeiras"
+ SELECT country FROM company JOIN company_size ON company.company_size_code  =  company_size.code WHERE company_size.description  =  'EMPRESA DE PE
+ SELECT count(*) FROM company WHERE capital  >  (SELECT avg(capital) FROM company)
+ SELECT company.name FROM company JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code JOIN company_size ON company.company_size_code  =  company_size.code WHERE city.name  =  "PIRAJUI" AND company_size.description  =  "MICRO EMPRESA"
+ SELECT avg(capital) FROM company JOIN company_size ON company.company_size_code  =  company_size.code JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code WHERE company_size.description  =  "MICRO EMPRESA" AND company.legal_nature  =  "Empresário (Individual)" AND city.name  =  "UMBUZEIRO"
+ SELECT count(*) FROM company JOIN legal_nature ON company.legal_nature_code  =  legal_nature.code JOIN establishment ON company.basic_cnpj  =  establishment.basic_cnpj JOIN city ON establishment.city_code  =  city.code WHERE city.name  =  "RIO DE JANEIRO" AND establishment.registration_status_code  =  1 AND legal_nature.name  =  "Empresário (Individual)"

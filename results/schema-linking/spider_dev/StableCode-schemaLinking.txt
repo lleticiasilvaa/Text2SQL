@@ -1,0 +1,1034 @@
+{'singer': ['singer_id']}
+{'singer': ['singer_id']}
+{'singer': ['singer_id', 'name', 'country', 'age']}
+{'singer': ['singer_id', 'name', 'country', 'age']}
+{'singer': ['singer_id', 'country', 'age']}
+{'singer': ['singer_id', 'country', 'age']}
+{'singer': ['singer_id', 'name', 'age', 'song_name', 'song_release_year']}
+{'singer': ['singer_id', 'name', 'song_release_year', 'age']}
+{'singer': ['singer_id', 'country', 'age']}
+{'singer': ['singer_id', 'country', 'age']}
+{'singer': ['singer_id', 'country']}
+{'singer': ['singer_id', 'country']}
+{'singer': ['singer_id', 'song_name', 'age']}
+{'singer': ['singer_id', 'song_name', 'age'], 'stadium': ['stadium_id', 'average']}
+{'stadium': ['stadium_id', 'location', 'name', 'capacity']}
+{'stadium': ['stadium_id', 'location', 'name', 'capacity']}
+{'stadium': ['stadium_id', 'capacity', 'average']}
+{'stadium': ['stadium_id', 'capacity', 'average']}
+{'stadium': ['stadium_id', 'name', 'capacity', 'highest', 'average']}
+{'stadium': ['stadium_id', 'name', 'capacity', 'highest', 'average']}
+{'concert': ['concert_id', 'year']}
+{'concert': ['concert_id', 'year']}
+{'concert': ['concert_id', 'stadium_id'], 'stadium': ['stadium_id', 'name']}
+{'concert': ['concert_id', 'stadium_id']}
+{'concert': ['concert_id', 'concert_name', 'stadium_id', 'year'], 'stadium': ['stadium_id', 'name', 'capacity']}
+{'concert': ['concert_id', 'concert_name', 'stadium_id', 'year'], 'stadium': ['stadium_id', 'name', 'capacity']}
+{'concert': ['concert_id', 'year']}
+{'concert': ['concert_id', 'year']}
+{'stadium': ['stadium_id', 'name'], 'concert': ['concert_id', 'stadium_id']}
+{'stadium': ['stadium_id', 'name'], 'concert': ['concert_id', 'stadium_id']}
+{'singer': ['singer_id', 'country', 'age']}
+{'stadium': ['stadium_id', 'name'], 'concert': ['concert_id', 'name', 'stadium_id', 'year']}
+{'stadium': ['stadium_id', 'name'], 'concert': ['concert_id', 'name', 'stadium_id', 'year']}
+{'concert': ['concert_id', 'concert_name', 'theme'], 'singer_in_concert': ['concert_id']}
+{'concert': ['concert_id', 'concert_name', 'theme'], 'singer_in_concert': ['concert_id']}
+{'singer_in_concert': ['concert_id', 'singer_id'], 'singer': ['singer_id', 'name'], 'concert': ['concert_id']}
+{'singer_in_concert': ['concert_id', 'singer_id'], 'singer': ['singer_id', 'name'], 'concert': ['concert_id', 'concert_name']}
+{'singer_in_concert': ['concert_id', 'singer_id'], 'singer': ['singer_id', 'name'], 'concert': ['concert_id', 'year']}
+{'singer_in_concert': ['concert_id', 'singer_id'], 'singer': ['singer_id', 'name'], 'concert': ['concert_id', 'year']}
+{'singer': ['singer_id', 'name', 'country'], 'singer_in_concert': ['concert_id', 'singer_id'], 'concert': ['concert_id', 'concert_name']}
+{'singer': ['singer_id', 'name', 'country'], 'singer_in_concert': ['concert_id', 'singer_id'], 'concert': ['concert_id', 'concert_name']}
+{'concert': ['concert_id', 'concert_name', 'stadium_id', 'year'], 'stadium': ['stadium_id', 'location', 'name']}
+{'concert': ['concert_id', 'concert_name', 'stadium_id', 'year'], 'stadium': ['stadium_id', 'location', 'name']}
+{'concert': ['concert_id', 'stadium_id'], 'stadium': ['stadium_id', 'capacity']}
+{'concert': ['concert_id', 'stadium_id'], 'stadium': ['stadium_id', 'capacity']}
+{'pets': ['petid', 'weight']}
+{'pets': ['petid', 'weight']}
+{'pets': ['petid', 'pettype', 'pet_age', 'weight']}
+{'pets': ['petid', 'pettype', 'pet_age', 'weight']}
+{'pets': ['petid', 'pettype', 'weight']}
+{'pets': ['petid', 'pettype', 'weight']}
+{'has_pet': ['stuid'], 'pets': ['petid'], 'student': ['stuid', 'age']}
+{'has_pet': ['stuid', 'petid'], 'pets': ['petid'], 'student': ['stuid', 'age']}
+{'pets': ['petid', 'pettype'], 'has_pet': ['stuid', 'petid'], 'student': ['stuid', 'sex']}
+{'pets': ['petid', 'pettype'], 'has_pet': ['stuid', 'petid'], 'student': ['stuid', 'sex']}
+{'pets': ['petid', 'pettype']}
+{'pets': ['petid', 'pettype']}
+{'student': ['stuid', 'fname'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'student': ['stuid', 'fname'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'student': ['stuid', 'fname'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'student': ['stuid', 'fname'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'student': ['stuid', 'age', 'major'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'student': ['stuid', 'age', 'major'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'pets': ['petid', 'pettype'], 'has_pet': ['stuid', 'petid']}
+{'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'student': ['stuid', 'fname', 'age'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'student': ['stuid', 'fname'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype']}
+{'pets': ['petid', 'pettype', 'pet_age', 'weight']}
+{'pets': ['petid', 'pettype', 'pet_age', 'weight']}
+{'pets': ['petid', 'pet_age', 'weight']}
+{'pets': ['petid', 'pet_age', 'weight']}
+{'pets': ['petid', 'pettype', 'pet_age']}
+{'pets': ['petid', 'pettype', 'pet_age']}
+{'pets': ['petid', 'pettype', 'weight']}
+{'pets': ['petid', 'pettype', 'weight']}
+{'student': ['stuid', 'fname', 'age'], 'has_pet': ['stuid']}
+{'student': ['stuid', 'fname', 'age'], 'has_pet': ['stuid']}
+{'student': ['stuid', 'lname'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid']}
+{'has_pet': ['stuid', 'petid'], 'pets': ['petid'], 'student': ['stuid', 'lname']}
+{'has_pet': ['stuid'], 'pets': ['petid'], 'student': ['stuid']}
+{'student': ['stuid'], 'has_pet': ['stuid']}
+{'student': ['stuid', 'fname', 'sex'], 'has_pet': ['stuid']}
+{'student': ['stuid', 'fname', 'sex'], 'has_pet': ['stuid']}
+{'student': ['stuid', 'lname'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype', 'pet_age']}
+{'student': ['stuid', 'lname'], 'has_pet': ['stuid', 'petid'], 'pets': ['petid', 'pettype', 'pet_age']}
+{'student': ['stuid', 'age'], 'has_pet': ['stuid']}
+{'student': ['stuid', 'age'], 'has_pet': ['stuid']}
+{'continents': ['contid']}
+{'continents': ['contid']}
+{'continents': ['contid', 'continent'], 'countries': ['countryid', 'continent']}
+{'continents': ['contid', 'continent'], 'countries': ['countryid', 'countryname', 'continent']}
+{'countries': ['countryid']}
+{'countries': ['countryid']}
+{'car_makers': ['id', 'maker', 'fullname'], 'model_list': ['modelid', 'maker']}
+{'car_makers': ['id', 'maker', 'fullname'], 'model_list': ['modelid', 'maker']}
+{'car_names': ['makeid', 'model'], 'cars_data': ['id', 'horsepower']}
+{'car_names': ['makeid', 'model'], 'cars_data': ['id', 'horsepower']}
+{'cars_data': ['id', 'weight'], 'car_names': ['makeid', 'model']}
+{'car_names': ['makeid', 'model'], 'cars_data': ['id', 'weight']}
+{'car_makers': ['id', 'maker'], 'cars_data': ['id', 'year']}
+{'car_makers': ['id', 'maker'], 'cars_data': ['id', 'year']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'year']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'year']}
+{'car_names': ['makeid', 'model'], 'cars_data': ['id', 'year']}
+{'car_names': ['makeid', 'model'], 'cars_data': ['id', 'year']}
+{'continents': ['contid', 'continent'], 'countries': ['countryid', 'countryname', 'continent']}
+{'continents': ['contid', 'continent'], 'car_makers': ['id', 'maker', 'continent']}
+{'car_makers': ['id', 'country']}
+{'car_makers': ['id', 'country']}
+{'car_makers': ['id', 'maker', 'fullname'], 'model_list': ['modelid', 'maker', 'model']}
+{'car_makers': ['id', 'maker', 'fullname'], 'model_list': ['modelid', 'maker']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'accelerate']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'accelerate']}
+{'car_makers': ['id', 'country']}
+{'car_makers': ['id', 'maker', 'country']}
+{'car_makers': ['id', 'country'], 'model_list': ['modelid', 'maker', 'model']}
+{'car_makers': ['id', 'country'], 'model_list': ['modelid', 'maker', 'model']}
+{'cars_data': ['id', 'mpg', 'cylinders']}
+{'cars_data': ['id', 'mpg', 'cylinders']}
+{'cars_data': ['id', 'cylinders', 'weight', 'year']}
+{'cars_data': ['id', 'cylinders', 'weight', 'year']}
+{'model_list': ['modelid', 'maker', 'model']}
+{'car_makers': ['id', 'maker'], 'model_list': ['modelid', 'maker', 'model']}
+{'car_makers': ['id', 'country']}
+{'car_makers': ['id', 'country'], 'countries': ['countryid', 'countryname']}
+{'cars_data': ['id', 'horsepower']}
+{'cars_data': ['id', 'horsepower']}
+{'cars_data': ['id', 'weight', 'year']}
+{'cars_data': ['id', 'year', 'weight']}
+{'countries': ['countryid', 'countryname', 'continent'], 'car_makers': ['id', 'maker', 'country']}
+{'countries': ['countryid', 'countryname'], 'car_makers': ['id', 'maker', 'country']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'cylinders', 'horsepower']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'cylinders', 'horsepower']}
+{'cars_data': ['id', 'mpg', 'model'], 'model_list': ['modelid', 'model']}
+{'cars_data': ['id', 'mpg', 'model']}
+{'cars_data': ['id', 'horsepower', 'year']}
+{'cars_data': ['id', 'horsepower', 'year']}
+{'cars_data': ['id', 'edispl'], 'model_list': ['modelid', 'model'], 'car_names': ['makeid', 'model']}
+{'cars_data': ['id', 'edispl'], 'car_names': ['makeid', 'model', 'make']}
+{'cars_data': ['id', 'cylinders', 'accelerate']}
+{'cars_data': ['id', 'cylinders', 'accelerate']}
+{'car_names': ['makeid', 'model', 'make']}
+{'model_list': ['modelid', 'model']}
+{'cars_data': ['id', 'cylinders']}
+{'cars_data': ['id', 'cylinders']}
+{'cars_data': ['id', 'year']}
+{'cars_data': ['id', 'year']}
+{'car_makers': ['id', 'maker', 'fullname'], 'model_list': ['modelid', 'maker', 'model']}
+{'car_makers': ['id', 'maker'], 'model_list': ['modelid', 'maker', 'model']}
+{'car_makers': ['id', 'maker', 'fullname'], 'model_list': ['modelid', 'maker']}
+{'car_makers': ['id', 'maker'], 'model_list': ['modelid', 'maker']}
+{'car_makers': ['id', 'maker', 'fullname'], 'model_list': ['modelid', 'maker', 'model'], 'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'weight']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'weight', 'year'], 'car_makers': ['id', 'maker', 'country']}
+{'cars_data': ['id', 'year', 'weight']}
+{'cars_data': ['id', 'year', 'weight']}
+{'cars_data': ['id', 'horsepower', 'accelerate']}
+{'cars_data': ['id', 'horsepower', 'accelerate']}
+{'cars_data': ['id', 'cylinders', 'accelerate'], 'car_names': ['makeid', 'model']}
+{'car_names': ['makeid', 'model'], 'cars_data': ['id', 'cylinders', 'accelerate']}
+{'cars_data': ['id', 'horsepower', 'accelerate']}
+{'cars_data': ['id', 'horsepower', 'accelerate']}
+{'car_makers': ['id', 'country']}
+{'car_makers': ['id', 'country']}
+{'cars_data': ['id', 'cylinders']}
+{'cars_data': ['id', 'cylinders']}
+{'cars_data': ['id', 'cylinders', 'horsepower'], 'model_list': ['modelid', 'model']}
+{'cars_data': ['id', 'cylinders', 'horsepower'], 'model_list': ['modelid', 'model']}
+{'car_names': ['makeid', 'make'], 'cars_data': ['id', 'cylinders', 'horsepower']}
+{'car_names': ['makeid', 'make'], 'cars_data': ['id', 'cylinders', 'horsepower']}
+{'cars_data': ['id', 'mpg', 'cylinders', 'year']}
+{'cars_data': ['id', 'mpg', 'cylinders', 'year']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'weight', 'year'], 'car_makers': ['id', 'maker', 'country']}
+{'car_names': ['makeid', 'model', 'make'], 'cars_data': ['id', 'weight', 'year'], 'car_makers': ['id', 'maker', 'country']}
+{'countries': ['countryid', 'countryname'], 'car_makers': ['id', 'country']}
+{'countries': ['countryid', 'countryname'], 'car_makers': ['id', 'country']}
+{'car_makers': ['id', 'maker'], 'model_list': ['modelid', 'maker']}
+{'car_makers': ['id', 'maker'], 'model_list': ['modelid', 'maker']}
+{'car_makers': ['id', 'maker', 'country'], 'countries': ['countryid', 'countryname'], 'model_list': ['modelid', 'maker', 'model'], 'car_names': ['makeid', 'model', 'make']}
+{'car_makers': ['id', 'maker', 'country'], 'countries': ['countryid', 'countryname'], 'model_list': ['modelid', 'maker', 'model']}
+{'airlines': ['uid', 'airline', 'country']}
+{'airlines': ['uid', 'airline', 'country']}
+{'airlines': ['uid', 'airline', 'abbreviation']}
+{'airlines': ['uid', 'airline', 'abbreviation']}
+{'airlines': ['uid', 'airline', 'abbreviation', 'country']}
+{'airlines': ['uid', 'airline', 'abbreviation', 'country']}
+{'airports': ['airportcode', 'airportname', 'city']}
+{'airports': ['airportcode', 'airportname', 'city']}
+{'airlines': ['uid']}
+{'airlines': ['uid']}
+{'airports': ['airportcode']}
+{'airports': ['airportcode']}
+{'flights': ['airline']}
+{'flights': ['airline']}
+{'airlines': ['uid', 'airline', 'abbreviation']}
+{'airlines': ['uid', 'airline', 'abbreviation']}
+{'airlines': ['uid', 'country']}
+{'airlines': ['uid', 'country']}
+{'airports': ['city', 'airportcode', 'airportname', 'country']}
+{'airports': ['airportcode', 'airportname', 'country']}
+{'airports': ['airportcode', 'airportname']}
+{'airports': ['airportcode', 'airportname']}
+{'airports': ['city', 'airportcode', 'airportname']}
+{'airports': ['city', 'airportcode', 'airportname']}
+{'airports': ['airportcode', 'airportname'], 'flights': ['airline', 'sourceairport']}
+{'flights': ['airline', 'sourceairport'], 'airports': ['airportcode', 'airportname']}
+{'flights': ['airline', 'destairport']}
+{'flights': ['airline', 'destairport'], 'airports': ['airportcode', 'airportname']}
+{'airports': ['city', 'airportcode'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['airportcode', 'airportname'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['city', 'airportcode'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['airportcode', 'airportname'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['city', 'airportcode'], 'flights': ['airline', 'flightno', 'sourceairport', 'destairport']}
+{'airports': ['city', 'airportcode', 'airportname'], 'flights': ['airline', 'flightno', 'sourceairport', 'destairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport'], 'airports': ['airportcode', 'airportname']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport'], 'airports': ['airportcode', 'airportname']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport'], 'airports': ['city', 'airportcode']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport'], 'airports': ['airportcode', 'airportname']}
+{'airports': ['city', 'airportcode'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['city', 'airportcode'], 'flights': ['airline', 'destairport']}
+{'airports': ['city', 'airportcode'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['city', 'airportcode'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['airportcode', 'airportname'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['airportcode'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['airportcode'], 'flights': ['airline', 'sourceairport']}
+{'airports': ['airportcode', 'airportname'], 'flights': ['airline', 'sourceairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline', 'abbreviation', 'country'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline', 'abbreviation', 'country'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'destairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'destairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport', 'destairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'sourceairport']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'flightno']}
+{'airlines': ['uid', 'airline'], 'flights': ['airline', 'flightno']}
+{'flights': ['airline', 'flightno', 'sourceairport'], 'airports': ['airportcode', 'airportname']}
+{'flights': ['airline', 'flightno', 'sourceairport']}
+{'flights': ['airline', 'flightno', 'destairport'], 'airports': ['airportcode', 'airportname']}
+{'flights': ['airline', 'flightno', 'destairport']}
+{'flights': ['airline', 'flightno', 'sourceairport'], 'airports': ['city', 'airportcode']}
+{'flights': ['airline', 'flightno', 'sourceairport'], 'airports': ['airportcode', 'airportname']}
+{'flights': ['airline', 'flightno', 'destairport'], 'airports': ['city', 'airportcode']}
+{'flights': ['airline', 'flightno', 'destairport'], 'airports': ['airportcode', 'airportname']}
+{'airports': ['city', 'airportcode'], 'flights': ['airline', 'flightno', 'destairport']}
+{'airports': ['airportcode', 'airportname'], 'flights': ['airline', 'sourceairport', 'destairport']}
+{'airports': ['airportcode', 'airportname'], 'flights': ['airline', 'sourceairport', 'destairport']}
+{'airports': ['airportcode', 'airportname'], 'flights': ['airline', 'sourceairport', 'destairport']}
+{'employee': ['employee_id']}
+{'employee': ['employee_id']}
+{'employee': ['employee_id', 'name', 'age']}
+{'employee': ['employee_id', 'name', 'age']}
+{'employee': ['employee_id', 'city']}
+{'employee': ['employee_id', 'city']}
+{'employee': ['employee_id', 'age', 'city']}
+{'employee': ['employee_id', 'age', 'city']}
+{'shop': ['shop_id', 'location']}
+{'shop': ['shop_id', 'location']}
+{'shop': ['shop_id', 'name', 'location', 'district', 'number_products', 'manager_name']}
+{'shop': ['shop_id', 'name', 'location', 'district', 'number_products', 'manager_name']}
+{'shop': ['shop_id', 'number_products']}
+{'shop': ['shop_id', 'number_products']}
+{'shop': ['shop_id', 'name', 'location', 'district', 'number_products']}
+{'shop': ['shop_id', 'name', 'location', 'district', 'number_products']}
+{'shop': ['shop_id', 'name', 'number_products']}
+{'shop': ['shop_id', 'name', 'number_products']}
+{'employee': ['employee_id', 'name'], 'evaluation': ['employee_id']}
+{'employee': ['employee_id', 'name'], 'evaluation': ['employee_id']}
+{'employee': ['employee_id', 'name'], 'evaluation': ['employee_id', 'bonus']}
+{'employee': ['employee_id', 'name'], 'evaluation': ['employee_id', 'bonus']}
+{'employee': ['employee_id', 'name'], 'evaluation': ['employee_id']}
+{'employee': ['employee_id', 'name'], 'evaluation': ['employee_id']}
+{'hiring': ['shop_id'], 'shop': ['shop_id', 'name']}
+{'shop': ['shop_id', 'name'], 'hiring': ['shop_id']}
+{'shop': ['shop_id', 'name'], 'hiring': ['shop_id']}
+{'shop': ['shop_id', 'name'], 'hiring': ['shop_id']}
+{'hiring': ['shop_id', 'employee_id'], 'shop': ['shop_id', 'name']}
+{'hiring': ['shop_id', 'employee_id'], 'shop': ['shop_id', 'name']}
+{'evaluation': ['employee_id', 'bonus']}
+{'evaluation': ['employee_id', 'bonus']}
+{'hiring': ['shop_id', 'employee_id']}
+{'hiring': ['shop_id', 'employee_id']}
+{'shop': ['shop_id', 'district', 'number_products']}
+{'shop': ['shop_id', 'district', 'number_products']}
+{'shop': ['shop_id', 'location']}
+{'shop': ['shop_id', 'location']}
+{'documents': ['document_id']}
+{'documents': ['document_id']}
+{'documents': ['document_id', 'document_name', 'document_description']}
+{'documents': ['document_id', 'document_name', 'document_description']}
+{'documents': ['document_id', 'template_id', 'document_name', 'document_description']}
+{'documents': ['document_id', 'template_id', 'document_name', 'document_description']}
+{'documents': ['document_id', 'template_id', 'document_name', 'document_description']}
+{'documents': ['document_id', 'template_id', 'document_name', 'document_description']}
+{'documents': ['document_id', 'template_id']}
+{'documents': ['document_id', 'template_id']}
+{'documents': ['document_id', 'template_id'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id']}
+{'documents': ['document_id', 'template_id']}
+{'templates': ['template_id', 'template_type_code'], 'documents': ['document_id', 'template_id']}
+{'documents': ['document_id', 'template_id'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id']}
+{'documents': ['document_id', 'template_id']}
+{'templates': ['template_id'], 'documents': ['document_id', 'template_id']}
+{'templates': ['template_id'], 'documents': ['document_id', 'template_id']}
+{'templates': ['template_id']}
+{'templates': ['template_id']}
+{'templates': ['template_id', 'version_number', 'template_type_code']}
+{'templates': ['template_id', 'version_number', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'ref_template_types': ['template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'ref_template_types': ['template_type_code', 'template_type_description'], 'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'version_number', 'template_type_code']}
+{'templates': ['template_id', 'version_number', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'version_number', 'template_type_code']}
+{'templates': ['template_id', 'version_number', 'template_type_code']}
+{'documents': ['document_id', 'template_id', 'document_name'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id', 'document_name'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id', 'document_name'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id', 'document_name'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id'], 'templates': ['template_id', 'template_type_code']}
+{'documents': ['document_id', 'template_id'], 'templates': ['template_id', 'template_type_code']}
+{'templates': ['template_id', 'template_type_code'], 'documents': ['document_id', 'template_id']}
+{'ref_template_types': ['template_type_code'], 'templates': ['template_id', 'template_type_code']}
+{'ref_template_types': ['template_type_code', 'template_type_description']}
+{'ref_template_types': ['template_type_code', 'template_type_description']}
+{'ref_template_types': ['template_type_code', 'template_type_description']}
+{'ref_template_types': ['template_type_code', 'template_type_description']}
+{'ref_template_types': ['template_type_code', 'template_type_description']}
+{'ref_template_types': ['template_type_code', 'template_type_description']}
+{'ref_template_types': ['template_type_code', 'template_type_description'], 'templates': ['template_id', 'template_type_code']}
+{'ref_template_types': ['template_type_code', 'template_type_description'], 'templates': ['template_id', 'template_type_code'], 'documents': ['document_id', 'template_id']}
+{'ref_template_types': ['template_type_code', 'template_type_description'], 'templates': ['template_id', 'template_type_code']}
+{'ref_template_types': ['template_type_code', 'template_type_description'], 'templates': ['template_id', 'template_type_code']}
+{'paragraphs': ['paragraph_id']}
+{'paragraphs': ['paragraph_id']}
+{'paragraphs': ['paragraph_id', 'document_id'], 'documents': ['document_id', 'document_name']}
+{'paragraphs': ['paragraph_id', 'document_id'], 'documents': ['document_id', 'document_name']}
+{'paragraphs': ['paragraph_id', 'paragraph_text', 'other_details']}
+{'paragraphs': ['paragraph_id', 'paragraph_text', 'other_details']}
+{'paragraphs': ['paragraph_id', 'document_id', 'paragraph_text'], 'documents': ['document_id', 'document_name']}
+{'paragraphs': ['paragraph_id', 'document_id', 'paragraph_text'], 'documents': ['document_id', 'document_name']}
+{'paragraphs': ['paragraph_id', 'document_id', 'paragraph_text'], 'documents': ['document_id', 'document_name']}
+{'paragraphs': ['paragraph_id', 'document_id', 'paragraph_text'], 'documents': ['document_id', 'document_name']}
+{'paragraphs': ['paragraph_id', 'document_id']}
+{'paragraphs': ['paragraph_id', 'document_id']}
+{'documents': ['document_id', 'document_name'], 'paragraphs': ['paragraph_id', 'document_id']}
+{'documents': ['document_id', 'document_name'], 'paragraphs': ['paragraph_id', 'document_id']}
+{'paragraphs': ['paragraph_id', 'document_id']}
+{'documents': ['document_id'], 'paragraphs': ['paragraph_id', 'document_id']}
+{'paragraphs': ['paragraph_id', 'document_id'], 'documents': ['document_id', 'document_name']}
+{'documents': ['document_id', 'document_name'], 'paragraphs': ['paragraph_id', 'document_id']}
+{'paragraphs': ['paragraph_id', 'document_id']}
+{'documents': ['document_id'], 'paragraphs': ['paragraph_id', 'document_id']}
+{'paragraphs': ['paragraph_id', 'document_id']}
+{'documents': ['document_id'], 'paragraphs': ['paragraph_id', 'document_id']}
+{'paragraphs': ['paragraph_id', 'document_id', 'paragraph_text']}
+{'paragraphs': ['paragraph_id', 'document_id', 'paragraph_text']}
+{'teacher': ['teacher_id']}
+{'teacher': ['teacher_id']}
+{'teacher': ['teacher_id', 'name', 'age']}
+{'teacher': ['teacher_id', 'name', 'age']}
+{'teacher': ['teacher_id', 'age', 'hometown']}
+{'teacher': ['teacher_id', 'age', 'hometown']}
+{'teacher': ['teacher_id', 'name', 'hometown']}
+{'teacher': ['teacher_id', 'name', 'hometown']}
+{'teacher': ['teacher_id', 'name', 'age']}
+{'teacher': ['teacher_id', 'name', 'age']}
+{'teacher': ['teacher_id', 'age', 'hometown']}
+{'teacher': ['teacher_id', 'age', 'hometown']}
+{'teacher': ['teacher_id', 'hometown']}
+{'teacher': ['teacher_id', 'hometown']}
+{'teacher': ['teacher_id', 'hometown']}
+{'teacher': ['teacher_id', 'hometown']}
+{'teacher': ['teacher_id', 'hometown']}
+{'teacher': ['teacher_id', 'hometown']}
+{'course_arrange': ['course_id', 'teacher_id'], 'course': ['course_id', 'course'], 'teacher': ['teacher_id', 'name']}
+{'course_arrange': ['course_id', 'teacher_id'], 'course': ['course_id', 'course'], 'teacher': ['teacher_id', 'name']}
+{'course_arrange': ['course_id', 'teacher_id'], 'course': ['course_id', 'course'], 'teacher': ['teacher_id', 'name']}
+{'course_arrange': ['course_id', 'teacher_id'], 'course': ['course_id', 'course'], 'teacher': ['teacher_id', 'name']}
+{'course': ['course_id', 'course'], 'course_arrange': ['course_id', 'teacher_id'], 'teacher': ['teacher_id', 'name']}
+{'course_arrange': ['course_id', 'teacher_id'], 'teacher': ['teacher_id', 'name'], 'course': ['course_id', 'course']}
+{'course_arrange': ['course_id', 'teacher_id'], 'teacher': ['teacher_id', 'name']}
+{'course_arrange': ['course_id', 'teacher_id'], 'teacher': ['teacher_id', 'name']}
+{'course_arrange': ['course_id', 'teacher_id'], 'teacher': ['teacher_id', 'name']}
+{'course_arrange': ['course_id', 'teacher_id'], 'teacher': ['teacher_id', 'name']}
+{'teacher': ['teacher_id', 'name'], 'course_arrange': ['course_id', 'teacher_id']}
+{'teacher': ['teacher_id', 'name'], 'course_arrange': ['course_id', 'teacher_id']}
+{'visitor': ['id', 'age']}
+{'visitor': ['id', 'name', 'level_of_membership']}
+{'visitor': ['id', 'level_of_membership', 'age']}
+{'visitor': ['id', 'name', 'level_of_membership', 'age']}
+{'museum': ['museum_id', 'name', 'num_of_staff']}
+{'museum': ['museum_id', 'num_of_staff', 'open_year']}
+{'museum': ['museum_id', 'name', 'num_of_staff', 'open_year']}
+{'museum': ['museum_id', 'name', 'num_of_staff', 'open_year']}
+{'visit': ['museum_id', 'visitor_id'], 'visitor': ['id', 'name', 'age']}
+{'visitor': ['id', 'name', 'level_of_membership'], 'visit': ['museum_id', 'visitor_id', 'total_spent']}
+{'visit': ['museum_id'], 'museum': ['museum_id', 'name']}
+{'museum': ['museum_id', 'name'], 'visit': ['museum_id']}
+{'visitor': ['id', 'name', 'age'], 'visit': ['museum_id', 'visitor_id', 'num_of_ticket']}
+{'visit': ['museum_id', 'num_of_ticket']}
+{'visit': ['museum_id', 'visitor_id', 'num_of_ticket'], 'visitor': ['id', 'level_of_membership']}
+{'visit': ['museum_id', 'visitor_id'], 'museum': ['museum_id', 'name', 'open_year'], 'visitor': ['id', 'name']}
+{'visitor': ['id'], 'visit': ['museum_id', 'visitor_id'], 'museum': ['museum_id', 'open_year']}
+{'museum': ['museum_id', 'open_year']}
+{'players': ['player_id']}
+{'players': ['player_id']}
+{'matches': ['match_num']}
+{'matches': ['match_num']}
+{'players': ['player_id', 'first_name', 'birth_date', 'country_code']}
+{'players': ['player_id', 'first_name', 'birth_date', 'country_code']}
+{'matches': ['loser_age', 'winner_age']}
+{'matches': ['loser_age', 'winner_age']}
+{'matches': ['winner_rank']}
+{'matches': ['winner_rank']}
+{'matches': ['loser_rank']}
+{'matches': ['loser_rank']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['loser_id', 'loser_name']}
+{'matches': ['loser_name']}
+{'matches': ['match_num', 'tourney_name']}
+{'matches': ['match_num', 'tourney_name']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['winner_id', 'winner_name', 'year']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['winner_id', 'winner_name', 'year']}
+{'matches': ['year']}
+{'matches': ['year']}
+{'players': ['player_id', 'first_name', 'country_code'], 'matches': ['winner_id', 'tourney_name']}
+{'players': ['player_id', 'first_name', 'country_code'], 'matches': ['winner_id', 'tourney_name']}
+{'players': ['player_id', 'first_name', 'birth_date', 'country_code']}
+{'players': ['player_id', 'first_name', 'birth_date', 'country_code']}
+{'players': ['player_id', 'first_name', 'last_name', 'birth_date']}
+{'players': ['player_id', 'first_name', 'last_name', 'birth_date']}
+{'players': ['player_id', 'first_name', 'last_name', 'hand', 'birth_date']}
+{'players': ['player_id', 'first_name', 'last_name', 'hand', 'birth_date']}
+{'players': ['player_id', 'first_name', 'country_code'], 'rankings': ['ranking', 'player_id', 'tours']}
+{'players': ['player_id', 'first_name', 'country_code'], 'rankings': ['ranking', 'player_id', 'tours']}
+{'matches': ['year']}
+{'matches': ['year']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['winner_id', 'winner_name', 'winner_rank', 'winner_rank_points']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['winner_id', 'winner_rank_points']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['winner_id', 'winner_name', 'winner_rank_points', 'tourney_name']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['winner_id', 'winner_name', 'winner_rank_points', 'tourney_name']}
+{'matches': ['loser_id', 'loser_name', 'winner_id', 'winner_name', 'minutes']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['loser_id', 'loser_name', 'winner_id', 'winner_name', 'minutes']}
+{'players': ['player_id', 'first_name'], 'rankings': ['ranking', 'player_id']}
+{'players': ['player_id', 'first_name'], 'rankings': ['ranking', 'player_id']}
+{'players': ['player_id', 'first_name'], 'rankings': ['ranking_points', 'player_id']}
+{'players': ['player_id', 'first_name'], 'rankings': ['player_id', 'ranking_points']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'rankings': ['ranking_date', 'tours']}
+{'rankings': ['ranking_date', 'tours']}
+{'matches': ['year']}
+{'matches': ['year']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['winner_id', 'winner_name', 'winner_rank']}
+{'players': ['player_id', 'first_name', 'last_name', 'birth_date'], 'matches': ['winner_id', 'winner_name', 'winner_rank']}
+{'players': ['player_id', 'hand'], 'matches': ['winner_id', 'tourney_name']}
+{'players': ['player_id', 'hand'], 'matches': ['winner_id', 'tourney_name']}
+{'players': ['player_id', 'first_name', 'birth_date', 'country_code'], 'matches': ['winner_id', 'winner_rank_points']}
+{'players': ['player_id', 'first_name', 'birth_date', 'country_code'], 'matches': ['winner_rank_points', 'winner_id']}
+{'players': ['player_id', 'hand']}
+{'players': ['player_id', 'hand']}
+{'ship': ['id', 'disposition_of_ship']}
+{'ship': ['id', 'name', 'tonnage']}
+{'battle': ['id', 'name', 'date', 'result']}
+{'death': ['id', 'killed']}
+{'death': ['id', 'injured']}
+{'death': ['caused_by_ship_id', 'id', 'injured'], 'ship': ['id', 'tonnage']}
+{'battle': ['id', 'name', 'bulgarian_commander', 'result']}
+{'ship': ['lost_in_battle', 'id', 'name'], 'battle': ['id', 'name']}
+{'death': ['id', 'caused_by_ship_id', 'killed'], 'ship': ['id', 'name'], 'battle': ['id', 'name']}
+{'death': ['caused_by_ship_id', 'id', 'injured'], 'ship': ['id', 'name']}
+{'battle': ['id', 'name', 'bulgarian_commander', 'latin_commander']}
+{'battle': ['id', 'result']}
+{'battle': ['id', 'name'], 'ship': ['id', 'name', 'tonnage', 'lost_in_battle']}
+{'battle': ['id', 'name', 'date'], 'ship': ['lost_in_battle', 'id', 'name']}
+{'battle': ['id', 'name', 'bulgarian_commander', 'result'], 'ship': ['lost_in_battle', 'id', 'name']}
+{'death': ['id', 'note']}
+{'addresses': ['address_id', 'line_1', 'line_2']}
+{'addresses': ['address_id', 'line_1', 'line_2']}
+{'courses': ['course_id']}
+{'courses': ['course_id']}
+{'courses': ['course_id', 'course_name', 'course_description']}
+{'courses': ['course_id', 'course_name', 'course_description']}
+{'addresses': ['address_id', 'city', 'zip_postcode']}
+{'addresses': ['address_id', 'zip_postcode', 'city']}
+{'departments': ['department_id', 'department_name'], 'degree_programs': ['degree_program_id', 'department_id']}
+{'departments': ['department_id', 'department_name'], 'degree_programs': ['degree_program_id', 'department_id']}
+{'departments': ['department_id'], 'degree_programs': ['degree_program_id', 'department_id']}
+{'departments': ['department_id'], 'degree_programs': ['degree_program_id', 'department_id']}
+{'degree_programs': ['degree_program_id', 'degree_summary_name']}
+{'degree_programs': ['degree_program_id']}
+{'departments': ['department_id', 'department_name'], 'degree_programs': ['degree_program_id', 'department_id']}
+{'departments': ['department_id', 'department_name'], 'degree_programs': ['degree_program_id', 'department_id']}
+{'sections': ['section_id', 'section_name', 'section_description']}
+{'sections': ['section_id', 'section_name', 'section_description']}
+{'courses': ['course_id', 'course_name'], 'sections': ['section_id', 'course_id']}
+{'courses': ['course_id', 'course_name'], 'sections': ['section_id', 'course_id']}
+{'sections': ['section_id', 'section_name']}
+{'sections': ['section_id', 'section_name']}
+{'semesters': ['semester_id', 'semester_name'], 'student_enrolment': ['student_enrolment_id', 'semester_id']}
+{'student_enrolment': ['student_enrolment_id', 'semester_id'], 'semesters': ['semester_id', 'semester_name']}
+{'departments': ['department_id', 'department_name', 'department_description']}
+{'departments': ['department_id', 'department_name', 'department_description']}
+{'student_enrolment': ['student_enrolment_id', 'degree_program_id', 'semester_id'], 'students': ['student_id', 'first_name', 'middle_name', 'last_name']}
+{'student_enrolment': ['student_enrolment_id', 'degree_program_id', 'semester_id'], 'students': ['student_id', 'first_name', 'middle_name', 'last_name']}
+{'student_enrolment': ['student_enrolment_id', 'degree_program_id', 'student_id'], 'students': ['student_id', 'first_name', 'middle_name', 'last_name']}
+{'students': ['student_id', 'first_name', 'middle_name', 'last_name'], 'student_enrolment': ['student_enrolment_id', 'degree_program_id', 'student_id'], 'degree_programs': ['degree_program_id', 'degree_summary_name']}
+{'student_enrolment': ['student_enrolment_id', 'degree_program_id'], 'degree_programs': ['degree_program_id', 'degree_summary_name']}
+{'student_enrolment': ['student_enrolment_id', 'degree_program_id'], 'degree_programs': ['degree_program_id', 'degree_summary_name']}
+{'degree_programs': ['degree_program_id', 'degree_summary_name'], 'student_enrolment': ['student_enrolment_id', 'degree_program_id']}
+{'student_enrolment': ['student_enrolment_id', 'degree_program_id'], 'degree_programs': ['degree_program_id', 'degree_summary_name']}
+{'student_enrolment': ['student_enrolment_id', 'student_id'], 'students': ['student_id', 'first_name', 'middle_name', 'last_name']}
+{'students': ['student_id', 'first_name', 'middle_name', 'last_name'], 'student_enrolment': ['student_enrolment_id', 'student_id']}
+{'semesters': ['semester_id', 'semester_name'], 'student_enrolment': ['student_enrolment_id', 'semester_id']}
+{'semesters': ['semester_id', 'semester_name'], 'student_enrolment': ['student_enrolment_id', 'semester_id']}
+{'courses': ['course_id', 'course_name'], 'student_enrolment_courses': ['student_course_id', 'course_id']}
+{'courses': ['course_id', 'course_name'], 'student_enrolment_courses': ['student_course_id', 'course_id']}
+{'courses': ['course_id', 'course_name'], 'student_enrolment_courses': ['student_course_id', 'course_id']}
+{'courses': ['course_id', 'course_name'], 'student_enrolment_courses': ['student_course_id', 'course_id']}
+{'students': ['student_id', 'last_name', 'current_address_id'], 'addresses': ['address_id', 'state_province_county']}
+{'students': ['student_id', 'last_name', 'current_address_id'], 'addresses': ['address_id', 'state_province_county'], 'student_enrolment': ['student_enrolment_id', 'student_id']}
+{'transcripts': ['transcript_id', 'transcript_date'], 'transcript_contents': ['student_course_id', 'transcript_id']}
+{'transcripts': ['transcript_id', 'transcript_date'], 'transcript_contents': ['student_course_id', 'transcript_id']}
+{'students': ['student_id', 'first_name', 'last_name', 'cell_mobile_number']}
+{'students': ['student_id', 'first_name', 'middle_name', 'last_name', 'cell_mobile_number']}
+{'students': ['student_id', 'first_name', 'middle_name', 'last_name', 'date_first_registered']}
+{'students': ['student_id', 'first_name', 'middle_name', 'last_name', 'date_first_registered']}
+{'students': ['student_id', 'first_name', 'middle_name', 'last_name', 'date_left']}
+{'students': ['student_id', 'first_name', 'middle_name', 'last_name', 'date_left']}
+{'students': ['student_id', 'current_address_id', 'permanent_address_id', 'first_name']}
+{'students': ['student_id', 'current_address_id', 'permanent_address_id', 'first_name'], 'addresses': ['address_id', 'line_1']}
+{'addresses': ['address_id', 'line_1'], 'students': ['student_id', 'current_address_id']}
+{'addresses': ['address_id', 'line_1', 'line_2'], 'students': ['student_id', 'current_address_id']}
+{'transcripts': ['transcript_id', 'transcript_date']}
+{'transcripts': ['transcript_date']}
+{'transcripts': ['transcript_id', 'transcript_date', 'other_details']}
+{'transcripts': ['transcript_id', 'transcript_date', 'other_details']}
+{'transcripts': ['transcript_id']}
+{'transcripts': ['transcript_id']}
+{'transcripts': ['transcript_id', 'transcript_date']}
+{'transcripts': ['transcript_id', 'transcript_date']}
+{'transcripts': ['transcript_id'], 'transcript_contents': ['student_course_id', 'transcript_id']}
+{'transcripts': ['transcript_id'], 'transcript_contents': ['student_course_id', 'transcript_id']}
+{'transcripts': ['transcript_id', 'transcript_date']}
+{'transcripts': ['transcript_id', 'transcript_date']}
+{'student_enrolment': ['student_enrolment_id', 'degree_program_id', 'semester_id'], 'semesters': ['semester_id', 'semester_name']}
+{'student_enrolment': ['student_enrolment_id', 'degree_program_id', 'semester_id'], 'semesters': ['semester_id', 'semester_name']}
+{'students': ['student_id', 'current_address_id'], 'addresses': ['address_id']}
+{'addresses': ['address_id'], 'students': ['student_id', 'current_address_id']}
+{'students': ['student_id', 'other_student_details']}
+{'students': ['student_id', 'other_student_details']}
+{'sections': ['section_id', 'section_name']}
+{'sections': ['section_id', 'section_name', 'section_description']}
+{'students': ['student_id', 'first_name', 'permanent_address_id', 'cell_mobile_number'], 'addresses': ['address_id', 'country']}
+{'students': ['student_id', 'current_address_id', 'first_name', 'cell_mobile_number'], 'addresses': ['address_id', 'country']}
+{'cartoon': ['id', 'title']}
+{'cartoon': ['id', 'title']}
+{'cartoon': ['id', 'directed_by']}
+{'cartoon': ['id', 'title', 'directed_by']}
+{'cartoon': ['id', 'written_by']}
+{'cartoon': ['id', 'written_by']}
+{'cartoon': ['id', 'title', 'directed_by', 'original_air_date']}
+{'cartoon': ['id', 'title', 'directed_by', 'original_air_date']}
+{'cartoon': ['id', 'title', 'directed_by']}
+{'cartoon': ['id', 'title', 'directed_by']}
+{'tv_channel': ['id', 'country']}
+{'tv_channel': ['id', 'country']}
+{'tv_channel': ['id', 'series_name', 'content']}
+{'tv_channel': ['id', 'series_name', 'content']}
+{'tv_channel': ['id', 'series_name', 'content']}
+{'tv_channel': ['id', 'series_name', 'content']}
+{'tv_channel': ['id', 'series_name', 'package_option']}
+{'tv_channel': ['id', 'series_name', 'package_option']}
+{'tv_channel': ['id', 'language']}
+{'tv_channel': ['id', 'language']}
+{'tv_channel': ['id', 'language']}
+{'tv_channel': ['id', 'language']}
+{'tv_channel': ['id', 'language']}
+{'tv_channel': ['id', 'language']}
+{'tv_channel': ['id', 'series_name'], 'cartoon': ['id', 'title', 'channel']}
+{'tv_channel': ['id', 'series_name'], 'cartoon': ['id', 'title', 'channel']}
+{'cartoon': ['id', 'title', 'channel'], 'tv_channel': ['id', 'series_name']}
+{'cartoon': ['id', 'title', 'channel'], 'tv_channel': ['id', 'series_name']}
+{'tv_series': ['id', 'episode', 'rating']}
+{'tv_series': ['id', 'episode', 'rating']}
+{'tv_series': ['id', 'episode', 'rating']}
+{'tv_series': ['id', 'episode', 'rating']}
+{'tv_series': ['id', 'share']}
+{'tv_series': ['id', 'share']}
+{'tv_series': ['id', 'episode', 'air_date']}
+{'tv_series': ['id', 'episode', 'air_date']}
+{'tv_series': ['id', 'episode', 'weekly_rank']}
+{'tv_series': ['id', 'episode', 'weekly_rank']}
+{'tv_series': ['id', 'episode', 'channel'], 'tv_channel': ['id', 'series_name', 'channel']}
+{'tv_series': ['id', 'episode', 'series_name']}
+{'tv_series': ['id', 'episode', 'channel'], 'tv_channel': ['id', 'series_name', 'country']}
+{'tv_series': ['id', 'episode', 'series_name']}
+{'cartoon': ['id', 'directed_by']}
+{'cartoon': ['id', 'directed_by']}
+{'cartoon': ['id', 'title', 'production_code', 'channel']}
+{'cartoon': ['id', 'title', 'production_code', 'channel']}
+{'tv_channel': ['id', 'series_name', 'high_definition_tv', 'package_option']}
+{'tv_channel': ['id', 'series_name', 'hight_definition_tv', 'package_option']}
+{'cartoon': ['id', 'written_by', 'channel'], 'tv_channel': ['id', 'country']}
+{'cartoon': ['id', 'written_by', 'channel'], 'tv_channel': ['id', 'country']}
+{'tv_channel': ['id', 'country'], 'cartoon': ['id', 'written_by', 'channel']}
+{'tv_channel': ['id', 'country'], 'cartoon': ['id', 'written_by', 'channel']}
+{'tv_channel': ['id', 'series_name', 'country'], 'cartoon': ['id', 'title', 'directed_by', 'channel'], 'tv_series': ['id', 'episode', 'air_date', 'rating', 'channel']}
+{'tv_channel': ['id', 'series_name', 'country'], 'cartoon': ['id', 'directed_by', 'channel']}
+{'tv_channel': ['id', 'country', 'language', 'pixel_aspect_ratio_par']}
+{'tv_channel': ['id', 'country', 'language', 'pixel_aspect_ratio_par']}
+{'tv_channel': ['id', 'country']}
+{'tv_channel': ['id']}
+{'tv_channel': ['id'], 'cartoon': ['id', 'directed_by', 'channel']}
+{'cartoon': ['id', 'directed_by', 'channel']}
+{'tv_channel': ['id', 'package_option'], 'cartoon': ['id', 'directed_by', 'channel']}
+{'tv_channel': ['id', 'package_option'], 'cartoon': ['id', 'directed_by', 'channel']}
+{'poker_player': ['poker_player_id']}
+{'poker_player': ['poker_player_id']}
+{'poker_player': ['poker_player_id', 'earnings']}
+{'poker_player': ['poker_player_id', 'earnings']}
+{'poker_player': ['poker_player_id', 'final_table_made', 'best_finish']}
+{'poker_player': ['poker_player_id', 'final_table_made', 'best_finish']}
+{'poker_player': ['poker_player_id', 'earnings']}
+{'poker_player': ['poker_player_id', 'earnings']}
+{'poker_player': ['poker_player_id', 'earnings', 'money_rank']}
+{'poker_player': ['poker_player_id', 'earnings', 'money_rank']}
+{'poker_player': ['poker_player_id', 'final_table_made', 'earnings']}
+{'poker_player': ['poker_player_id', 'final_table_made', 'earnings']}
+{'people': ['people_id', 'name'], 'poker_player': ['poker_player_id', 'people_id']}
+{'people': ['people_id', 'name'], 'poker_player': ['poker_player_id', 'people_id']}
+{'poker_player': ['poker_player_id', 'people_id', 'earnings'], 'people': ['people_id', 'name']}
+{'poker_player': ['poker_player_id', 'people_id', 'earnings'], 'people': ['people_id', 'name']}
+{'people': ['people_id', 'name'], 'poker_player': ['poker_player_id', 'people_id', 'final_table_made']}
+{'people': ['people_id', 'name'], 'poker_player': ['poker_player_id', 'people_id', 'final_table_made']}
+{'people': ['people_id', 'birth_date'], 'poker_player': ['poker_player_id', 'people_id', 'earnings']}
+{'people': ['people_id', 'birth_date'], 'poker_player': ['poker_player_id', 'people_id', 'earnings']}
+{'poker_player': ['poker_player_id', 'money_rank'], 'people': ['people_id', 'height']}
+{'poker_player': ['poker_player_id', 'people_id', 'money_rank'], 'people': ['people_id', 'height']}
+{'poker_player': ['poker_player_id', 'people_id', 'earnings'], 'people': ['people_id', 'height']}
+{'poker_player': ['poker_player_id', 'people_id', 'earnings'], 'people': ['people_id', 'height']}
+{'people': ['people_id', 'name'], 'poker_player': ['poker_player_id', 'people_id', 'earnings']}
+{'people': ['people_id', 'name'], 'poker_player': ['poker_player_id', 'people_id', 'earnings']}
+{'people': ['people_id', 'nationality']}
+{'people': ['people_id', 'nationality']}
+{'people': ['people_id', 'nationality']}
+{'people': ['people_id', 'nationality']}
+{'people': ['people_id', 'nationality']}
+{'people': ['people_id', 'nationality']}
+{'people': ['people_id', 'name', 'birth_date']}
+{'people': ['people_id', 'name', 'birth_date']}
+{'people': ['people_id', 'nationality', 'name']}
+{'people': ['people_id', 'nationality', 'name']}
+{'people': ['people_id', 'name'], 'poker_player': ['poker_player_id', 'people_id']}
+{'people': ['people_id', 'name'], 'poker_player': ['poker_player_id', 'people_id']}
+{'people': ['people_id', 'nationality']}
+{'people': ['people_id', 'nationality']}
+{'area_code_state': ['area_code', 'state']}
+{'contestants': ['contestant_number', 'contestant_name']}
+{'votes': ['vote_id', 'phone_number', 'state']}
+{'area_code_state': ['area_code']}
+{'votes': ['vote_id', 'state', 'created']}
+{'contestants': ['contestant_number', 'contestant_name']}
+{'votes': ['vote_id', 'state', 'created']}
+{'votes': ['vote_id', 'contestant_number'], 'contestants': ['contestant_number', 'contestant_name']}
+{'votes': ['vote_id', 'contestant_number'], 'contestants': ['contestant_number', 'contestant_name']}
+{'votes': ['vote_id', 'state']}
+{'contestants': ['contestant_number'], 'votes': ['vote_id', 'contestant_number']}
+{'area_code_state': ['area_code'], 'votes': ['vote_id', 'area_code']}
+{'votes': ['vote_id', 'phone_number', 'state', 'contestant_number', 'created'], 'contestants': ['contestant_number', 'contestant_name']}
+{'votes': ['vote_id', 'area_code', 'contestant_number'], 'contestants': ['contestant_number', 'contestant_name']}
+{'contestants': ['contestant_number', 'contestant_name']}
+{'country': ['code', 'name', 'indepyear']}
+{'country': ['code', 'name', 'indepyear']}
+{'country': ['code', 'governmentform']}
+{'country': ['code', 'governmentform']}
+{'country': ['code', 'region', 'surfacearea']}
+{'country': ['code', 'name', 'continent', 'surfacearea']}
+{'country': ['code', 'name', 'continent']}
+{'country': ['code', 'name', 'continent']}
+{'city': ['id', 'name', 'region']}
+{'country': ['code', 'name', 'region']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code', 'name', 'population', 'lifeexpectancy'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name', 'population', 'lifeexpectancy']}
+{'country': ['code', 'name', 'region', 'population']}
+{'country': ['code', 'name', 'region', 'population']}
+{'country': ['code', 'region', 'lifeexpectancy']}
+{'country': ['code', 'name', 'continent', 'lifeexpectancy']}
+{'country': ['code', 'name', 'continent', 'lifeexpectancy']}
+{'country': ['code', 'name', 'continent', 'lifeexpectancy']}
+{'country': ['code', 'continent', 'population', 'gnp']}
+{'country': ['code', 'continent', 'population', 'gnp']}
+{'country': ['code', 'continent', 'lifeexpectancy'], 'countrylanguage': ['countrycode', 'language'], 'city': ['id', 'name', 'countrycode']}
+{'country': ['code', 'continent', 'lifeexpectancy'], 'countrylanguage': ['countrycode', 'language'], 'city': ['id', 'name', 'countrycode']}
+{'country': ['code', 'continent', 'surfacearea']}
+{'country': ['code', 'continent', 'surfacearea']}
+{'city': ['id', 'district', 'population']}
+{'city': ['id', 'name', 'district', 'population']}
+{'country': ['code', 'name', 'governmentform', 'population', 'gnp']}
+{'country': ['code', 'name', 'population', 'gnp']}
+{'countrylanguage': ['countrycode', 'language']}
+{'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'continent', 'governmentform']}
+{'country': ['code', 'continent', 'governmentform']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'continent'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'continent'], 'countrylanguage': ['countrycode', 'language']}
+{'countrylanguage': ['countrycode', 'language']}
+{'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'continent'], 'countrylanguage': ['countrycode', 'language']}
+{'countrylanguage': ['countrycode', 'language'], 'country': ['code', 'continent']}
+{'country': ['code', 'region'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'region'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'continent'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code', 'continent'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'governmentform'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'governmentform'], 'countrylanguage': ['countrycode', 'language']}
+{'city': ['id', 'name', 'population'], 'countrylanguage': ['countrycode', 'language'], 'country': ['code', 'name']}
+{'city': ['id', 'name', 'population'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code', 'name', 'continent', 'population', 'lifeexpectancy'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code', 'name', 'continent', 'population', 'lifeexpectancy'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code', 'lifeexpectancy'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'lifeexpectancy'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'population'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'headofstate'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'name', 'headofstate'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'indepyear'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'indepyear'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'name', 'continent', 'surfacearea']}
+{'country': ['code', 'name', 'continent', 'surfacearea']}
+{'country': ['code', 'continent', 'population']}
+{'country': ['code', 'continent', 'population']}
+{'country': ['code', 'continent', 'population']}
+{'country': ['code', 'continent', 'population']}
+{'country': ['code'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'governmentform'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name', 'governmentform'], 'countrylanguage': ['countrycode', 'language']}
+{'city': ['id', 'name', 'countrycode'], 'country': ['code', 'name', 'continent'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'city': ['id', 'name', 'countrycode'], 'country': ['code', 'name', 'continent'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'city': ['id', 'name', 'countrycode'], 'country': ['code', 'name', 'continent'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'city': ['id', 'name', 'countrycode'], 'country': ['code', 'name', 'continent'], 'countrylanguage': ['countrycode', 'language', 'isofficial']}
+{'country': ['code', 'name', 'indepyear', 'population', 'surfacearea']}
+{'country': ['code', 'name', 'indepyear', 'population', 'surfacearea']}
+{'country': ['code', 'name', 'surfacearea', 'population', 'headofstate']}
+{'country': ['code', 'name', 'surfacearea', 'headofstate'], 'city': ['id', 'name', 'countrycode']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language']}
+{'city': ['id', 'district', 'population']}
+{'city': ['id', 'district', 'population']}
+{'country': ['code', 'name', 'governmentform', 'population', 'lifeexpectancy']}
+{'country': ['code', 'population', 'lifeexpectancy', 'governmentform']}
+{'country': ['code', 'continent', 'population', 'lifeexpectancy']}
+{'country': ['code', 'continent', 'population', 'lifeexpectancy']}
+{'country': ['code', 'name', 'surfacearea']}
+{'country': ['code', 'name', 'surfacearea']}
+{'country': ['code', 'name', 'population']}
+{'country': ['code', 'name', 'population']}
+{'country': ['code', 'name', 'population']}
+{'country': ['code', 'name', 'population']}
+{'country': ['code', 'continent']}
+{'country': ['code', 'continent']}
+{'country': ['code', 'name', 'continent', 'population']}
+{'country': ['code', 'name', 'continent', 'population']}
+{'country': ['code', 'continent', 'surfacearea', 'population']}
+{'country': ['code', 'name', 'continent', 'surfacearea']}
+{'city': ['id', 'name', 'population']}
+{'city': ['id', 'name', 'population']}
+{'countrylanguage': ['countrycode', 'language']}
+{'countrylanguage': ['countrycode', 'language']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'country': ['code', 'name'], 'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'countrylanguage': ['countrycode', 'language', 'percentage']}
+{'conductor': ['conductor_id']}
+{'conductor': ['conductor_id']}
+{'conductor': ['conductor_id', 'name', 'age']}
+{'conductor': ['conductor_id', 'name', 'age']}
+{'conductor': ['conductor_id', 'name', 'nationality']}
+{'conductor': ['conductor_id', 'name', 'nationality']}
+{'orchestra': ['orchestra_id', 'orchestra', 'record_company', 'year_of_founded']}
+{'orchestra': ['orchestra_id', 'orchestra', 'record_company', 'year_of_founded']}
+{'show': ['show_id', 'attendance']}
+{'show': ['show_id', 'attendance']}
+{'performance': ['performance_id', 'type', 'share']}
+{'performance': ['performance_id', 'type', 'share']}
+{'conductor': ['conductor_id', 'nationality']}
+{'conductor': ['conductor_id', 'nationality']}
+{'conductor': ['conductor_id', 'name', 'year_of_work']}
+{'conductor': ['conductor_id', 'name', 'age', 'year_of_work']}
+{'conductor': ['conductor_id', 'name', 'year_of_work']}
+{'conductor': ['conductor_id', 'name', 'age', 'year_of_work']}
+{'orchestra': ['orchestra_id', 'orchestra', 'conductor_id'], 'conductor': ['conductor_id', 'name']}
+{'orchestra': ['orchestra_id', 'orchestra', 'conductor_id'], 'conductor': ['conductor_id', 'name']}
+{'orchestra': ['orchestra_id', 'orchestra', 'conductor_id'], 'conductor': ['conductor_id', 'name']}
+{'orchestra': ['orchestra_id', 'orchestra', 'conductor_id'], 'conductor': ['conductor_id', 'name']}
+{'orchestra': ['orchestra_id', 'orchestra', 'conductor_id'], 'conductor': ['conductor_id', 'name']}
+{'orchestra': ['orchestra_id', 'orchestra', 'conductor_id'], 'conductor': ['conductor_id', 'name']}
+{'orchestra': ['orchestra_id', 'orchestra', 'conductor_id', 'year_of_founded'], 'conductor': ['conductor_id', 'name']}
+{'orchestra': ['orchestra_id', 'orchestra', 'conductor_id', 'year_of_founded'], 'conductor': ['conductor_id', 'name']}
+{'orchestra': ['orchestra_id', 'orchestra', 'record_company']}
+{'orchestra': ['orchestra_id', 'orchestra', 'record_company']}
+{'orchestra': ['orchestra_id', 'orchestra', 'major_record_format']}
+{'orchestra': ['orchestra_id', 'orchestra', 'major_record_format']}
+{'orchestra': ['orchestra_id', 'orchestra', 'record_company']}
+{'orchestra': ['orchestra_id', 'orchestra', 'record_company']}
+{'orchestra': ['orchestra_id', 'orchestra'], 'performance': ['performance_id', 'orchestra_id']}
+{'orchestra': ['orchestra_id', 'orchestra'], 'performance': ['performance_id', 'orchestra_id']}
+{'orchestra': ['orchestra_id', 'orchestra', 'record_company', 'year_of_founded']}
+{'orchestra': ['orchestra_id', 'orchestra', 'record_company', 'year_of_founded']}
+{'orchestra': ['orchestra_id', 'orchestra', 'major_record_format']}
+{'orchestra': ['orchestra_id', 'orchestra', 'major_record_format']}
+{'orchestra': ['orchestra_id', 'orchestra', 'year_of_founded'], 'performance': ['performance_id', 'orchestra_id']}
+{'performance': ['performance_id', 'orchestra_id'], 'orchestra': ['orchestra_id', 'orchestra', 'year_of_founded']}
+{'highschooler': ['id']}
+{'highschooler': ['id']}
+{'highschooler': ['id', 'name', 'grade']}
+{'highschooler': ['id', 'name', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'name', 'grade']}
+{'highschooler': ['id', 'name', 'grade']}
+{'highschooler': ['id', 'name', 'grade']}
+{'highschooler': ['id', 'name', 'grade']}
+{'highschooler': ['id', 'name']}
+{'highschooler': ['id', 'name']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'highschooler': ['id', 'grade']}
+{'friend': ['student_id']}
+{'friend': ['student_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id', 'friend_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id', 'friend_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id', 'friend_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id', 'friend_id']}
+{'friend': ['student_id', 'friend_id'], 'highschooler': ['id', 'name']}
+{'friend': ['student_id', 'friend_id'], 'highschooler': ['id', 'name']}
+{'highschooler': ['id'], 'friend': ['student_id']}
+{'highschooler': ['id'], 'friend': ['student_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id']}
+{'highschooler': ['id'], 'friend': ['student_id', 'friend_id'], 'likes': ['student_id', 'liked_id']}
+{'highschooler': ['id'], 'friend': ['student_id', 'friend_id'], 'likes': ['student_id', 'liked_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id', 'friend_id'], 'likes': ['student_id', 'liked_id']}
+{'highschooler': ['id', 'name'], 'friend': ['student_id', 'friend_id'], 'likes': ['student_id', 'liked_id']}
+{'likes': ['student_id']}
+{'likes': ['student_id']}
+{'highschooler': ['id', 'name'], 'likes': ['student_id']}
+{'highschooler': ['id', 'name'], 'likes': ['student_id']}
+{'highschooler': ['id', 'name'], 'likes': ['student_id']}
+{'highschooler': ['id', 'name'], 'likes': ['student_id']}
+{'highschooler': ['id', 'name'], 'likes': ['student_id']}
+{'highschooler': ['id', 'name'], 'likes': ['student_id']}
+{'highschooler': ['id', 'name', 'grade'], 'friend': ['student_id']}
+{'highschooler': ['id', 'name', 'grade'], 'friend': ['student_id']}
+{'highschooler': ['id', 'name'], 'likes': ['student_id', 'liked_id']}
+{'highschooler': ['id', 'name'], 'likes': ['student_id', 'liked_id']}
+{'highschooler': ['id', 'grade'], 'friend': ['student_id']}
+{'highschooler': ['id', 'grade'], 'friend': ['student_id', 'friend_id']}
+{'highschooler': ['id', 'grade'], 'friend': ['student_id']}
+{'highschooler': ['id', 'grade'], 'friend': ['student_id']}
+{'owners': ['owner_id', 'state'], 'professionals': ['professional_id', 'state']}
+{'owners': ['owner_id', 'state'], 'professionals': ['professional_id', 'state']}
+{'dogs': ['dog_id', 'age'], 'treatments': ['treatment_id', 'dog_id']}
+{'dogs': ['dog_id', 'age'], 'treatments': ['treatment_id', 'dog_id']}
+{'professionals': ['professional_id', 'state', 'cell_number', 'last_name'], 'treatments': ['treatment_id', 'professional_id']}
+{'professionals': ['professional_id', 'state'], 'treatments': ['treatment_id', 'professional_id']}
+{'dogs': ['dog_id', 'name', 'owner_id'], 'treatments': ['treatment_id', 'dog_id', 'cost_of_treatment']}
+{'dogs': ['dog_id', 'owner_id', 'name'], 'treatments': ['treatment_id', 'dog_id', 'cost_of_treatment']}
+{'owners': ['owner_id', 'first_name'], 'dogs': ['dog_id', 'owner_id', 'name']}
+{'owners': ['owner_id', 'first_name'], 'dogs': ['dog_id', 'owner_id', 'name']}
+{'professionals': ['professional_id', 'role_code', 'email_address'], 'treatments': ['treatment_id', 'professional_id']}
+{'professionals': ['professional_id', 'role_code', 'email_address'], 'treatments': ['treatment_id', 'professional_id']}
+{'dogs': ['dog_id', 'owner_id'], 'owners': ['owner_id', 'first_name', 'last_name']}
+{'dogs': ['dog_id', 'owner_id'], 'owners': ['owner_id', 'first_name', 'last_name']}
+{'professionals': ['professional_id', 'role_code', 'first_name'], 'treatments': ['treatment_id', 'professional_id']}
+{'professionals': ['professional_id', 'role_code', 'first_name'], 'treatments': ['treatment_id', 'professional_id']}
+{'dogs': ['dog_id', 'breed_code'], 'breeds': ['breed_code', 'breed_name']}
+{'dogs': ['dog_id', 'breed_code'], 'breeds': ['breed_code', 'breed_name']}
+{'owners': ['owner_id', 'last_name'], 'treatments': ['treatment_id', 'dog_id', 'professional_id']}
+{'owners': ['owner_id', 'last_name'], 'dogs': ['dog_id', 'owner_id'], 'treatments': ['treatment_id', 'dog_id', 'cost_of_treatment']}
+{'treatment_types': ['treatment_type_code', 'treatment_type_description'], 'treatments': ['treatment_id', 'treatment_type_code', 'cost_of_treatment']}
+{'treatment_types': ['treatment_type_code', 'treatment_type_description'], 'treatments': ['treatment_id', 'treatment_type_code', 'cost_of_treatment']}
+{'owners': ['owner_id', 'zip_code'], 'dogs': ['dog_id', 'owner_id'], 'treatments': ['treatment_id', 'dog_id', 'cost_of_treatment']}
+{'dogs': ['dog_id', 'owner_id'], 'treatments': ['treatment_id', 'dog_id', 'cost_of_treatment'], 'owners': ['owner_id', 'zip_code']}
+{'professionals': ['professional_id', 'cell_number'], 'treatments': ['treatment_id', 'professional_id']}
+{'professionals': ['professional_id', 'cell_number'], 'treatments': ['treatment_id', 'professional_id']}
+{'professionals': ['professional_id', 'first_name', 'last_name'], 'treatments': ['treatment_id', 'professional_id', 'cost_of_treatment']}
+{'professionals': ['professional_id', 'first_name', 'last_name'], 'treatments': ['treatment_id', 'professional_id', 'cost_of_treatment']}
+{'treatments': ['treatment_id', 'professional_id', 'date_of_treatment'], 'professionals': ['professional_id', 'first_name']}
+{'treatments': ['treatment_id', 'professional_id', 'date_of_treatment'], 'professionals': ['professional_id', 'first_name']}
+{'treatment_types': ['treatment_type_code', 'treatment_type_description'], 'treatments': ['treatment_id', 'treatment_type_code', 'cost_of_treatment']}
+{'treatment_types': ['treatment_type_code', 'treatment_type_description'], 'treatments': ['treatment_id', 'treatment_type_code', 'cost_of_treatment']}
+{'dogs': ['dog_id', 'owner_id', 'size_code'], 'owners': ['owner_id', 'first_name', 'last_name']}
+{'dogs': ['dog_id', 'owner_id', 'size_code'], 'owners': ['owner_id', 'first_name', 'last_name']}
+{'dogs': ['dog_id', 'owner_id', 'name'], 'owners': ['owner_id', 'first_name']}
+{'dogs': ['dog_id', 'owner_id', 'name'], 'owners': ['owner_id', 'first_name']}
+{'dogs': ['dog_id', 'breed_code', 'name', 'date_of_birth'], 'breeds': ['breed_code', 'breed_name'], 'treatments': ['treatment_id', 'dog_id', 'date_of_treatment']}
+{'dogs': ['dog_id', 'breed_code', 'name', 'date_of_birth'], 'treatments': ['treatment_id', 'dog_id', 'date_of_treatment']}
+{'dogs': ['dog_id', 'owner_id', 'name'], 'owners': ['owner_id', 'first_name', 'state']}
+{'dogs': ['dog_id', 'owner_id', 'name'], 'owners': ['owner_id', 'first_name', 'state']}
+{'dogs': ['dog_id', 'date_arrived', 'date_departed'], 'treatments': ['treatment_id', 'dog_id', 'date_of_treatment']}
+{'dogs': ['dog_id', 'date_arrived', 'date_departed'], 'treatments': ['treatment_id', 'dog_id', 'date_of_treatment']}
+{'dogs': ['dog_id', 'owner_id', 'age'], 'owners': ['owner_id', 'last_name']}
+{'dogs': ['dog_id', 'owner_id', 'age', 'last_name']}
+{'professionals': ['professional_id', 'state', 'email_address']}
+{'professionals': ['professional_id', 'state', 'email_address']}
+{'dogs': ['dog_id', 'date_arrived', 'date_departed']}
+{'dogs': ['dog_id', 'date_arrived', 'date_departed']}
+{'dogs': ['dog_id'], 'treatments': ['treatment_id', 'dog_id']}
+{'treatments': ['treatment_id', 'dog_id']}
+{'treatments': ['treatment_id', 'professional_id']}
+{'treatments': ['treatment_id', 'professional_id']}
+{'professionals': ['professional_id', 'role_code', 'first_name', 'street', 'city', 'state']}
+{'professionals': ['professional_id', 'role_code', 'street', 'city', 'state']}
+{'owners': ['owner_id', 'first_name', 'last_name', 'state', 'email_address']}
+{'owners': ['owner_id', 'first_name', 'last_name', 'state', 'email_address']}
+{'dogs': ['dog_id', 'age']}
+{'dogs': ['dog_id', 'age']}
+{'treatments': ['treatment_id', 'cost_of_treatment']}
+{'treatments': ['treatment_id', 'cost_of_treatment', 'date_of_treatment']}
+{'dogs': ['dog_id'], 'treatments': ['treatment_id', 'dog_id']}
+{'dogs': ['dog_id'], 'treatments': ['treatment_id', 'dog_id']}
+{'owners': ['owner_id'], 'dogs': ['dog_id', 'owner_id']}
+{'owners': ['owner_id'], 'dogs': ['dog_id', 'owner_id', 'date_arrived']}
+{'professionals': ['professional_id'], 'treatments': ['treatment_id', 'professional_id']}
+{'professionals': ['professional_id'], 'treatments': ['treatment_id', 'professional_id']}
+{'dogs': ['dog_id', 'abandoned_yn', 'name', 'age', 'weight']}
+{'dogs': ['dog_id', 'abandoned_yn', 'name', 'age', 'weight']}
+{'dogs': ['dog_id', 'age']}
+{'dogs': ['dog_id', 'age']}
+{'dogs': ['dog_id', 'age']}
+{'dogs': ['dog_id', 'age']}
+{'charges': ['charge_id', 'charge_type', 'charge_amount']}
+{'charges': ['charge_id', 'charge_type', 'charge_amount']}
+{'charges': ['charge_id', 'charge_type', 'charge_amount']}
+{'charges': ['charge_id', 'charge_type', 'charge_amount']}
+{'professionals': ['professional_id', 'email_address', 'home_phone', 'cell_number']}
+{'professionals': ['professional_id', 'email_address', 'home_phone', 'cell_number']}
+{'breeds': ['breed_code', 'breed_name'], 'sizes': ['size_code', 'size_description']}
+{'dogs': ['dog_id', 'breed_code', 'size_code']}
+{'professionals': ['professional_id', 'first_name'], 'treatments': ['treatment_id', 'professional_id', 'treatment_type_code']}
+{'professionals': ['professional_id', 'first_name', 'treatment_type_description'], 'treatments': ['treatment_id', 'professional_id']}
+{'singer': ['singer_id']}
+{'singer': ['singer_id']}
+{'singer': ['singer_id', 'name', 'net_worth_millions']}
+{'singer': ['singer_id', 'name', 'net_worth_millions']}
+{'singer': ['singer_id', 'birth_year', 'citizenship']}
+{'singer': ['singer_id', 'birth_year', 'citizenship']}
+{'singer': ['singer_id', 'name', 'citizenship']}
+{'singer': ['singer_id', 'name', 'citizenship']}
+{'singer': ['singer_id', 'name', 'birth_year']}
+{'singer': ['singer_id', 'name', 'birth_year']}
+{'singer': ['singer_id', 'name', 'net_worth_millions']}
+{'singer': ['singer_id', 'name', 'net_worth_millions']}
+{'singer': ['singer_id', 'citizenship']}
+{'singer': ['singer_id', 'citizenship']}
+{'singer': ['singer_id', 'citizenship']}
+{'singer': ['singer_id', 'citizenship']}
+{'singer': ['singer_id', 'net_worth_millions', 'citizenship']}
+{'singer': ['singer_id', 'net_worth_millions', 'citizenship']}
+{'song': ['song_id', 'title', 'singer_id'], 'singer': ['singer_id', 'name']}
+{'song': ['song_id', 'title', 'singer_id'], 'singer': ['singer_id', 'name']}
+{'singer': ['singer_id', 'name'], 'song': ['song_id', 'title', 'singer_id', 'sales']}
+{'singer': ['singer_id', 'name'], 'song': ['song_id', 'title', 'singer_id', 'sales']}
+{'singer': ['singer_id', 'name'], 'song': ['song_id', 'singer_id']}
+{'singer': ['singer_id', 'name'], 'song': ['song_id', 'singer_id']}
+{'singer': ['singer_id', 'name'], 'song': ['song_id', 'title', 'singer_id', 'sales']}
+{'singer': ['singer_id', 'name'], 'song': ['song_id', 'title', 'singer_id', 'sales']}
+{'singer': ['singer_id', 'name'], 'song': ['song_id', 'singer_id']}
+{'singer': ['singer_id', 'name'], 'song': ['song_id', 'title', 'singer_id']}
+{'singer': ['singer_id', 'birth_year', 'citizenship']}
+{'singer': ['singer_id', 'birth_year', 'citizenship']}
+{'other_available_features': ['feature_id']}
+{'ref_feature_types': ['feature_type_code', 'feature_type_name']}
+{'ref_property_types': ['property_type_code', 'property_type_description'], 'properties': ['property_id', 'property_type_code']}
+{'properties': ['property_id', 'property_name', 'room_count', 'property_type_code']}

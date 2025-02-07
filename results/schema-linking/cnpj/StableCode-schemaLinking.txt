@@ -1,0 +1,200 @@
+{'company': ['basic_cnpj', 'name'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'city': ['code', 'name'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation', 'option_for_mei_taxation']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation'], 'company': ['basic_cnpj', 'name', 'capital']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'legal_nature': ['code', 'description']}
+{'city': ['code', 'name']}
+{'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'legal_nature': ['code', 'description'], 'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'age_range': ['code', 'description']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'start_activity_date', 'city_code']}
+{'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'age_range': ['code', 'description'], 'partner_type': ['code', 'description'], 'company': ['basic_cnpj', 'name']}
+{'company': ['basic_cnpj', 'name'], 'partner': ['basic_cnpj', 'name', 'age_range_code', 'city_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'registration_status_code'], 'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'age_range': ['code', 'description'], 'partner_type': ['code', 'description'], 'legal_nature': ['code', 'description'], 'city': ['code', 'name']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'city_code'], 'partner': ['basic_cnpj', 'name', 'partner_type_code'], 'partner_type': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'company_size_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'partner': ['basic_cnpj', 'name', 'partner_type_code', 'partner_qualification_code'], 'establishment': ['basic_cnpj', 'name', 'legal_nature_code'], 'age_range': ['code', 'description'], 'qualification': ['code', 'description']}
+{'establishment': ['basic_cnpj', 'name', 'start_activity_date', 'primary_cnae_code', 'city_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'legal_nature': ['code', 'description'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'partner': ['basic_cnpj', 'name', 'partner_type_code'], 'partner_type': ['code', 'description'], 'legal_nature': ['code', 'description'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name'], 'legal_nature': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'legal_nature_code']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'city': ['code', 'name']}
+{'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'start_activity_date', 'legal_nature_code'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'age_range': ['code', 'description'], 'company': ['basic_cnpj', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'primary_cnae_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name'], 'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'partner_type': ['code', 'description'], 'age_range': ['code', 'description'], 'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'primary_cnae_code']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'age_range': ['code', 'description'], 'legal_nature': ['code', 'description'], 'partner_type': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'name', 'primary_cnae_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital']}
+{'partner': ['basic_cnpj', 'name', 'partner_type_code', 'partner_qualification_code'], 'partner_type': ['code', 'description'], 'qualification': ['code', 'description'], 'legal_nature': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'legal_nature_code']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'establishment': ['basic_cnpj', 'name', 'city_code']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'city': ['code', 'name'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'name', 'primary_cnae_code'], 'partner': ['basic_cnpj', 'name', 'partner_type_code'], 'cnae': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'company_size_code'], 'company_size': ['code', 'description'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name'], 'legal_nature': ['code', 'description'], 'establishment': ['basic_cnpj', 'legal_nature_code']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'name', 'primary_cnae_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'city': ['code', 'name'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'legal_nature': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'legal_nature_code']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'legal_nature': ['code', 'description']}
+{'company_size': ['code', 'description'], 'legal_nature': ['code', 'description'], 'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code', 'company_size_code']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'company_size_code'], 'company_size': ['code', 'description'], 'legal_nature': ['code', 'description'], 'cnae': ['code', 'name'], 'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'primary_cnae_code', 'legal_nature_code'], 'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'age_range': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code', 'company_size_code'], 'company_size': ['code', 'description'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation'], 'legal_nature': ['code', 'description']}
+{'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'company_size_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation'], 'company_size': ['code', 'description']}
+{'city': ['code', 'name'], 'company': ['basic_cnpj', 'name', 'city_code'], 'partner': ['basic_cnpj', 'name', 'legal_representative_name', 'partner_type_code', 'age_range_code'], 'age_range': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'city': ['code', 'name'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'name', 'primary_cnae_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'primary_cnae_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'partner': ['basic_cnpj', 'name', 'partner_type_code', 'partner_qualification_code', 'age_range_code'], 'age_range': ['code', 'description'], 'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'legal_nature_code'], 'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'partner': ['basic_cnpj', 'name', 'age_range_code', 'city_code'], 'age_range': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code', 'legal_nature_code'], 'company_size': ['code', 'description'], 'legal_nature': ['code', 'description'], 'city': ['code', 'name']}
+{'partner': ['basic_cnpj', 'name', 'partner_type_code', 'partner_qualification_code', 'age_range_code'], 'age_range': ['code', 'description'], 'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code']}
+{'company': ['basic_cnpj', 'name', 'company_size_code'], 'company_size': ['code', 'description']}
+{'city': ['code', 'name']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name'], 'legal_nature': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'legal_nature_code']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'city_code'], 'city': ['code', 'name'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation'], 'legal_nature': ['code', 'description']}
+{'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'age_range': ['code', 'description'], 'city': ['code', 'name'], 'company': ['basic_cnpj', 'name', 'capital', 'city_code']}
+{'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'legal_nature_code'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code', 'responsible_qualification_code', 'company_size_code'], 'company_size': ['code', 'description'], 'legal_nature': ['code', 'description'], 'qualification': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'legal_nature': ['code', 'description'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'establishment': ['basic_cnpj', 'name', 'primary_cnae_code', 'city_code', 'legal_nature_code'], 'city': ['code', 'name'], 'legal_nature': ['code', 'description'], 'cnae': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code', 'responsible_qualification_code'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'city': ['code', 'name'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation', 'option_for_mei_taxation']}
+{'company_size': ['code', 'description'], 'company': ['basic_cnpj', 'name', 'company_size_code'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital']}
+{'company': ['basic_cnpj', 'name', 'capital']}
+{'company': ['basic_cnpj', 'name', 'company_size_code'], 'company_size': ['code', 'description'], 'partner': ['basic_cnpj', 'name', 'partner_type_code', 'age_range_code'], 'partner_type': ['code', 'description'], 'age_range': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'primary_cnae_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'city_code'], 'city': ['code', 'name'], 'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'establishment': ['basic_cnpj', 'name', 'start_activity_date', 'legal_nature_code']}
+{'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'company_size': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'company_size_code']}
+{'company': ['basic_cnpj', 'name', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'company_size': ['code', 'description'], 'cnae': ['code', 'name'], 'partner': ['basic_cnpj', 'name', 'partner_type_code', 'partner_qualification_code'], 'partner_type': ['code', 'description'], 'qualification': ['code', 'description'], 'legal_nature': ['code', 'description'], 'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'primary_cnae_code']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'partner': ['basic_cnpj', 'name', 'legal_representative_name', 'partner_type_code', 'partner_qualification_code', 'age_range_code'], 'age_range': ['code', 'description'], 'partner_type': ['code', 'description']}
+{'establishment': ['basic_cnpj', 'name', 'start_activity_date', 'primary_cnae_code', 'city_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation'], 'company_size': ['code', 'description']}
+{'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description'], 'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'city_code']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'name', 'primary_cnae_code'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'primary_cnae_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'legal_nature_code'], 'legal_nature': ['code', 'description'], 'taxation': ['basic_cnpj', 'option_for_simples_taxation']}
+{'company': ['basic_cnpj', 'name'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'start_activity_date', 'city_code']}
+{'company': ['basic_cnpj', 'name', 'capital', 'legal_nature_code'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'partner': ['basic_cnpj', 'name', 'legal_representative_name', 'partner_type_code', 'legal_representative_qualification_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital']}
+{'establishment': ['basic_cnpj', 'name', 'start_activity_date', 'primary_cnae_code', 'city_code'], 'city': ['code', 'name']}
+{'city': ['code', 'name']}
+{'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description'], 'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code'], 'company_size': ['code', 'description'], 'partner': ['basic_cnpj', 'name', 'country_code'], 'country': ['code', 'name']}
+{'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description'], 'establishment': ['basic_cnpj', 'name']}
+{'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital', 'company_size_code', 'legal_nature_code'], 'company_size': ['code', 'description'], 'legal_nature': ['code', 'description'], 'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code']}
+{'age_range': ['code', 'description']}
+{'company_size': ['code', 'description']}
+{'company': ['basic_cnpj', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'registration_status_code'], 'city': ['code', 'name']}
+{'partner': ['basic_cnpj', 'name', 'age_range_code'], 'age_range': ['code', 'description'], 'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'name', 'city_code']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'start_activity_date', 'city_code']}
+{'company': ['basic_cnpj']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'name', 'capital']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'capital', 'company_size_code']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'capital', 'company_size_code']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'capital']}
+{'establishment': ['basic_cnpj', 'state']}
+{'establishment': ['basic_cnpj', 'state']}
+{'establishment': ['basic_cnpj', 'main_or_branch']}
+{'establishment': ['basic_cnpj', 'main_or_branch', 'state']}
+{'establishment': ['basic_cnpj', 'primary_cnae_code']}
+{'establishment': ['basic_cnpj', 'name', 'state', 'registration_status_code']}
+{'establishment': ['basic_cnpj', 'name']}
+{'cnae': ['code', 'name']}
+{'city': ['code', 'name']}
+{'establishment': ['basic_cnpj', 'primary_cnae_code', 'state']}
+{'partner_type': ['code', 'description']}
+{'age_range': ['code', 'description']}
+{'age_range': ['code', 'description']}
+{'cnae': ['code', 'name']}
+{'company': ['basic_cnpj', 'name', 'capital']}
+{'company_size': ['code', 'description'], 'company': ['basic_cnpj', 'capital', 'company_size_code']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'capital', 'company_size_code']}
+{'company_size': ['code', 'description'], 'company': ['basic_cnpj', 'company_size_code']}
+{'establishment': ['basic_cnpj', 'state']}
+{'establishment': ['basic_cnpj', 'state']}
+{'company': ['basic_cnpj', 'capital', 'legal_nature_code'], 'legal_nature': ['code', 'description']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'capital', 'company_size_code'], 'company_size': ['code', 'description']}
+{'establishment': ['basic_cnpj', 'primary_cnae_code'], 'cnae': ['code', 'name']}
+{'establishment': ['basic_cnpj', 'primary_cnae_code'], 'cnae': ['code', 'name']}
+{'company_size': ['code', 'description'], 'company': ['basic_cnpj', 'capital', 'company_size_code']}
+{'establishment': ['basic_cnpj', 'registration_status_code'], 'registration_status': ['code', 'description']}
+{'taxation': ['basic_cnpj', 'option_for_simples_taxation', 'option_for_mei_taxation']}
+{'country': ['code', 'name'], 'establishment': ['basic_cnpj', 'country_code']}
+{'establishment': ['basic_cnpj', 'primary_cnae_code']}
+{'city': ['code', 'name'], 'establishment': ['basic_cnpj', 'city_code']}
+{'partner': ['basic_cnpj', 'age_range_code'], 'age_range': ['code', 'description']}
+{'establishment': ['basic_cnpj', 'registration_status_code'], 'registration_status': ['code', 'description']}
+{'establishment': ['basic_cnpj', 'name', 'primary_cnae_code', 'state']}
+{'company': ['basic_cnpj', 'name'], 'partner': ['basic_cnpj', 'name']}
+{'partner': ['basic_cnpj', 'cpf_or_cnpj']}
+{'establishment': ['basic_cnpj', 'state', 'registration_status_code']}
+{'establishment': ['basic_cnpj', 'city_code', 'registration_status_code'], 'city': ['code', 'name']}
+{'partner': ['basic_cnpj', 'cpf_or_cnpj']}
+{'company': ['basic_cnpj', 'name', 'capital'], 'establishment': ['basic_cnpj', 'state']}
+{'establishment': ['basic_cnpj', 'name', 'city_code', 'primary_cnae_code'], 'city': ['code', 'name']}
+{'establishment': ['basic_cnpj', 'name', 'registration_status_reason_code'], 'registration_STATUS_REASON': ['code', 'description']}
+{'company': ['basic_cnpj', 'capital'], 'establishment': ['basic_cnpj', 'state']}
+{'company': ['basic_cnpj', 'capital'], 'partner': ['basic_cnpj', 'age_range_code'], 'age_range': ['code', 'description']}
+{'company': ['basic_cnpj', 'name'], 'partner': ['basic_cnpj', 'name', 'partner_qualification_code'], 'qualification': ['code', 'description']}
+{'company': ['basic_cnpj', 'capital'], 'taxation': ['basic_cnpj', 'option_for_mei_taxation', 'state']}
+{'company': ['basic_cnpj', 'capital'], 'establishment': ['basic_cnpj', 'city_code', 'primary_cnae_code'], 'city': ['code', 'name']}
+{'establishment': ['basic_cnpj', 'legal_nature']}
+{'company_size': ['code', 'description'], 'company': ['basic_cnpj', 'capital', 'country_code']}
+{'company': ['basic_cnpj', 'capital']}
+{'company': ['basic_cnpj', 'name', 'company_size_code'], 'company_size': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'capital', 'company_size_code'], 'company_size': ['code', 'description'], 'establishment': ['basic_cnpj', 'name', 'city_code'], 'city': ['code', 'name']}
+{'company': ['basic_cnpj', 'legal_nature_code'], 'establishment': ['basic_cnpj', 'name', 'city_code', 'registration_status_code']}

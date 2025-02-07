@@ -1,0 +1,1034 @@
+{'singer': ['Singer_ID']}
+{'singer': ['Singer_ID']}
+{'singer': ['Singer_ID', 'Name', 'Country', 'Age', 'Is_male']}
+{'singer': ['Singer_ID', 'Name', 'Country', 'Age', 'Is_male']}
+{'singer': ['Singer_ID', 'Country', 'Age']}
+{'singer': ['Singer_ID', 'Country', 'Age']}
+{'singer': ['Singer_ID', 'Name', 'Song_Name', 'Song_release_year', 'Age']}
+{'singer': ['Singer_ID', 'Name', 'Song_Name', 'Song_release_year', 'Age']}
+{'singer': ['Singer_ID', 'Country', 'Age']}
+{'singer': ['Singer_ID', 'Country', 'Age']}
+{'singer': ['Singer_ID', 'Country']}
+{'singer': ['Singer_ID', 'Country']}
+{'singer': ['Singer_ID', 'Name', 'Age']}
+{'singer': ['Singer_ID', 'Name', 'Age']}
+{'stadium': ['Stadium_ID', 'Location', 'Name', 'Capacity']}
+{'stadium': ['Stadium_ID', 'Location', 'Name', 'Capacity']}
+{'stadium': ['Stadium_ID', 'Capacity', 'Average']}
+{'stadium': ['Stadium_ID', 'Capacity']}
+{'stadium': ['Stadium_ID', 'Name', 'Capacity', 'Highest', 'Average']}
+{'stadium': ['Stadium_ID', 'Name', 'Capacity', 'Highest', 'Average']}
+{'concert': ['concert_ID', 'Year']}
+{'concert': ['concert_ID', 'Year']}
+{'stadium': ['Stadium_ID', 'Name'], 'concert': ['concert_ID', 'Stadium_ID']}
+{'stadium': ['Stadium_ID', 'Name'], 'concert': ['concert_ID', 'Stadium_ID']}
+{'concert': ['concert_ID', 'Stadium_ID', 'Year'], 'stadium': ['Stadium_ID', 'Name', 'Capacity']}
+{'stadium': ['Stadium_ID', 'Name', 'Capacity', 'Year'], 'concert': ['concert_ID', 'concert_Name', 'Stadium_ID']}
+{'concert': ['concert_ID', 'Year']}
+{'concert': ['concert_ID', 'Year']}
+{'stadium': ['Stadium_ID', 'Name'], 'concert': ['concert_ID', 'Stadium_ID']}
+{'stadium': ['Stadium_ID', 'Name'], 'concert': ['concert_ID', 'Stadium_ID']}
+{'singer': ['Singer_ID', 'Country', 'Age', 'Is_male']}
+{'stadium': ['Stadium_ID', 'Name', 'Year'], 'concert': ['concert_ID', 'Stadium_ID', 'Year']}
+{'stadium': ['Stadium_ID', 'Name'], 'concert': ['concert_ID', 'Stadium_ID', 'Year']}
+{'concert': ['concert_ID', 'concert_Name', 'Theme'], 'singer_in_concert': ['concert_ID', 'Singer_ID']}
+{'concert': ['concert_ID', 'concert_Name', 'Theme', 'Singer_ID']}
+{'singer': ['Singer_ID', 'Name'], 'singer_in_concert': ['concert_ID', 'Singer_ID']}
+{'singer': ['Singer_ID', 'Name'], 'singer_in_concert': ['concert_ID', 'Singer_ID']}
+{'singer_in_concert': ['concert_ID', 'Singer_ID'], 'singer': ['Singer_ID', 'Name']}
+{'singer_in_concert': ['concert_ID', 'Singer_ID'], 'singer': ['Singer_ID', 'Name']}
+{'singer': ['Singer_ID', 'Name', 'Country']}
+{'singer': ['Singer_ID', 'Name', 'Country', 'Song_Name']}
+{'stadium': ['Stadium_ID', 'Name', 'Location', 'Year'], 'concert': ['concert_ID', 'concert_Name', 'Stadium_ID']}
+{'stadium': ['Stadium_ID', 'Location', 'Name'], 'concert': ['concert_ID', 'concert_Name', 'Stadium_ID', 'Year']}
+{'stadium': ['Stadium_ID', 'Capacity'], 'concert': ['concert_ID', 'Stadium_ID']}
+{'stadium': ['Stadium_ID', 'Capacity'], 'concert': ['concert_ID', 'Stadium_ID']}
+{'Pets': ['PetID', 'Pet_age', 'weight']}
+{'Pets': ['PetID', 'PetWeight']}
+{'Pets': ['PetID', 'PetWeight']}
+{'Pets': ['PetID', 'PetWeight']}
+{'Pets': ['PetID', 'PetType', 'pet_weight']}
+{'Pets': ['PetID', 'PetType', 'pet_weight']}
+{'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'Pet_Age', 'StuID']}
+{'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'Pet_age']}
+{'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType', 'sex']}
+{'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType'], 'Student': ['StuID', 'Sex']}
+{'Pets': ['PetID', 'PetType']}
+{'Pets': ['PetID', 'PetType']}
+{'Student': ['StuID', 'Fname'], 'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType']}
+{'Student': ['StuID', 'Fname'], 'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType', 'pet_age', 'weight']}
+{'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType', 'pet_first_name']}
+{'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType', 'pet_age', 'first_name']}
+{'Student': ['StuID', 'Major', 'Age'], 'Has_Pet': ['StuID']}
+{'Student': ['StuID', 'Major'], 'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType', 'pet_age']}
+{'Student': ['StuID'], 'Has_Pet': ['StuID']}
+{'Student': ['StuID'], 'Has_Pet': ['StuID']}
+{'Student': ['StuID', 'Fname', 'Age'], 'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType', 'pet_age']}
+{'Student': ['StuID', 'Fname'], 'Has_Pet': ['StuID', 'PetID']}
+{'Pets': ['PetID', 'PetType', 'pet_age', 'weight']}
+{'Pets': ['PetID', 'PetType', 'pet_age', 'weight']}
+{'Pets': ['PetID', 'Pet_age', 'weight']}
+{'Pets': ['PetID', 'Pet_age', 'weight']}
+{'Pets': ['PetID', 'PetType', 'pet_age']}
+{'Pets': ['PetID', 'PetType', 'pet_age']}
+{'Pets': ['PetID', 'PetType', 'pet_weight']}
+{'Pets': ['PetID', 'PetType', 'pet_weight']}
+{'Student': ['StuID', 'Fname', 'Age'], 'Has_Pet': ['StuID']}
+{'Student': ['StuID', 'Fname', 'Age'], 'Has_Pet': ['StuID']}
+{'Has_Pet': ['StuID', 'PetID'], 'Student': ['StuID', 'LName']}
+{'Has_Pet': ['StuID', 'PetID'], 'Student': ['StuID', 'LName']}
+{'Has_Pet': ['StuID'], 'Pets': ['PetID', 'StuID']}
+{'Has_Pet': ['StuID'], 'Pets': ['PetID', 'StuID']}
+{'Student': ['StuID', 'Fname', 'Gender'], 'Has_Pet': ['StuID']}
+{'Student': ['StuID', 'Fname', 'Gender'], 'Has_Pet': ['StuID']}
+{'Student': ['StuID', 'LName'], 'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType', 'pet_age']}
+{'Student': ['StuID', 'LName'], 'Has_Pet': ['StuID', 'PetID'], 'Pets': ['PetID', 'PetType', 'pet_age']}
+{'Student': ['StuID', 'Age'], 'Has_Pet': ['StuID']}
+{'Student': ['StuID', 'Age'], 'Has_Pet': ['StuID']}
+{'continents': ['ContId']}
+{'continents': ['ContId']}
+{'continents': ['ContId', 'Continent'], 'countries': ['CountryId', 'Continent']}
+{'countries': ['CountryId', 'CountryName', 'Continent']}
+{'countries': ['CountryId']}
+{'countries': ['CountryId']}
+{'car_makers': ['Id', 'Maker'], 'model_list': ['ModelId', 'Maker']}
+{'car_makers': ['Id', 'Maker', 'Country'], 'model_list': ['ModelId', 'Maker', 'Model']}
+{'model_list': ['ModelId', 'Maker', 'Horsepower']}
+{'model_list': ['ModelId', 'Maker', 'Horsepower']}
+{'cars_data': ['Id', 'Weight', 'Model']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Model', 'Weight']}
+{'car_names': ['MakeId', 'Model', 'Make'], 'cars_data': ['Id', 'Year']}
+{'car_makers': ['Id', 'Maker', 'Year']}
+{'cars_data': ['Id', 'MakeId', 'Year']}
+{'cars_data': ['Id', 'Maker', 'Year']}
+{'model_list': ['ModelId', 'Model', 'Year']}
+{'model_list': ['ModelId', 'Model', 'Year']}
+{'car_makers': ['Id', 'Maker', 'Continent']}
+{'car_makers': ['Id', 'Maker', 'Country']}
+{'countries': ['CountryId', 'CountryName'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'countries': ['CountryId', 'CountryName'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'model_list': ['ModelId', 'Maker', 'Model']}
+{'car_makers': ['Id', 'Maker', 'FullName']}
+{'cars_data': ['Id', 'Accelerate', 'MakeId'], 'car_names': ['MakeId', 'Model'], 'model_list': ['ModelId', 'Maker', 'Model']}
+{'cars_data': ['Id', 'Accelerate', 'Year'], 'model_list': ['ModelId', 'Model'], 'car_names': ['MakeId', 'Model', 'Make']}
+{'car_makers': ['Id', 'Maker', 'Country']}
+{'car_makers': ['Id', 'Maker', 'Country']}
+{'model_list': ['ModelId', 'Maker', 'Country']}
+{'model_list': ['ModelId', 'Maker', 'Country']}
+{'cars_data': ['Id', 'MPG', 'Cylinders']}
+{'cars_data': ['Id', 'MPG', 'Cylinders']}
+{'cars_data': ['Id', 'Weight', 'Year']}
+{'cars_data': ['Id', 'Cylinders', 'Weight', 'Year']}
+{'car_makers': ['Id', 'Maker', 'Model'], 'model_list': ['ModelId', 'Maker', 'Model']}
+{'car_makers': ['Id', 'Maker', 'Model'], 'model_list': ['ModelId', 'Maker', 'Model']}
+{'car_makers': ['Id', 'Maker', 'Country']}
+{'countries': ['CountryId', 'CountryName'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'cars_data': ['Id', 'Horsepower']}
+{'cars_data': ['Id', 'Horsepower']}
+{'cars_data': ['Id', 'Weight', 'Year']}
+{'cars_data': ['Id', 'Weight', 'Year']}
+{'countries': ['CountryId', 'Continent'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'countries': ['CountryId', 'CountryName'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Horsepower', 'Maker']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Horsepower', 'Maker']}
+{'model_list': ['ModelId', 'Maker', 'Mpg']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'MPG', 'ModelId']}
+{'cars_data': ['Id', 'Horsepower', 'Year']}
+{'cars_data': ['Id', 'Horsepower', 'Year']}
+{'cars_data': ['Id', 'Edispl', 'Model']}
+{'cars_data': ['Id', 'Edispl', 'Accelerate']}
+{'cars_data': ['Id', 'Cylinders', 'Accelerate']}
+{'cars_data': ['Id', 'Accelerate', 'Cylinders']}
+{'model_list': ['ModelId', 'Maker', 'Model']}
+{'model_list': ['ModelId', 'Model']}
+{'cars_data': ['Id', 'Cylinders']}
+{'cars_data': ['Id', 'Cylinders']}
+{'cars_data': ['Id', 'Year']}
+{'model_list': ['ModelId', 'Year']}
+{'car_makers': ['Id', 'Maker', 'FullName'], 'model_list': ['ModelId', 'Maker', 'Model']}
+{'model_list': ['ModelId', 'Maker', 'Model']}
+{'car_makers': ['Id', 'Maker', 'FullName']}
+{'car_makers': ['Id', 'Maker', 'Model_count']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Makename', 'Weight']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Model', 'Weight']}
+{'cars_data': ['Id', 'Year', 'Weight']}
+{'cars_data': ['Id', 'Year', 'Weight']}
+{'cars_data': ['Id', 'Horsepower', 'Accelerate']}
+{'cars_data': ['Id', 'Horsepower', 'Accelerate']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Model', 'Accelerate']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Model', 'Accelerate']}
+{'cars_data': ['Id', 'Accelerate', 'Horsepower']}
+{'cars_data': ['Id', 'Accelerate', 'Horsepower']}
+{'car_makers': ['Id', 'Country']}
+{'car_makers': ['Id', 'Country']}
+{'cars_data': ['Id', 'Cylinders']}
+{'cars_data': ['Id', 'Cylinders']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Maker', 'Horsepower', 'Cylinders']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Maker', 'Model', 'Horsepower']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Horsepower', 'Cylinders', 'MakeId']}
+{'cars_data': ['Id', 'Cylinders', 'Maker', 'Model'], 'model_list': ['ModelId', 'Maker', 'Model'], 'car_names': ['MakeId', 'Model', 'Make']}
+{'cars_data': ['Id', 'MPG', 'Cylinders', 'Year']}
+{'cars_data': ['Id', 'MPG', 'Cylinders', 'Year']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Model', 'Weight']}
+{'model_list': ['ModelId', 'Maker', 'Model'], 'cars_data': ['Id', 'Model', 'Weight']}
+{'countries': ['CountryId', 'CountryName'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'countries': ['CountryId', 'CountryName'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'car_makers': ['Id', 'Maker']}
+{'car_makers': ['Id', 'Maker'], 'model_list': ['ModelId', 'Maker']}
+{'countries': ['CountryId', 'Country'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'countries': ['CountryId', 'CountryName'], 'car_makers': ['Id', 'Maker', 'Country']}
+{'airlines': ['uid', 'Airline', 'Country']}
+{'airlines': ['uid', 'Airline', 'Country']}
+{'airlines': ['uid', 'Airline', 'Abbreviation']}
+{'airlines': ['uid', 'Airline', 'Abbreviation']}
+{'airlines': ['uid', 'Airline', 'Abbreviation', 'Country']}
+{'airlines': ['uid', 'Airline', 'Abbreviation', 'Country']}
+{'airports': ['City', 'AirportCode', 'AirportName']}
+{'airports': ['City', 'AirportCode', 'AirportName']}
+{'airlines': ['uid']}
+{'airlines': ['uid']}
+{'airports': ['City']}
+{'airports': ['City']}
+{'flights': ['Airline', 'FlightNo']}
+{'flights': ['Airline', 'FlightNo']}
+{'airlines': ['uid', 'Airline', 'Abbreviation']}
+{'airlines': ['uid', 'Airline', 'Abbreviation']}
+{'airlines': ['uid', 'Country']}
+{'airlines': ['uid', 'Country']}
+{'airports': ['City', 'AirportCode', 'AirportName', 'Country']}
+{'airports': ['City', 'AirportCode', 'AirportName', 'Country']}
+{'airports': ['City', 'AirportCode', 'AirportName']}
+{'airports': ['City', 'AirportCode', 'AirportName']}
+{'airports': ['City', 'AirportName']}
+{'airports': ['City', 'AirportCode', 'AirportName', 'Country']}
+{'airports': ['City', 'AirportCode'], 'flights': ['AirportCode', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'DestAirport']}
+{'flights': ['Airline', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['AirportCode', 'DestAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline', 'FlightNo']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline', 'FlightNo']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'Arrivals']}
+{'airports': ['City', 'DestinationAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'DestAirport']}
+{'airports': ['City', 'SourceAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'flights': ['Airline']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline', 'FlightNo']}
+{'airlines': ['uid', 'Airline', 'Abbreviation', 'Country']}
+{'airlines': ['uid', 'Airline', 'Abbreviation', 'Country']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'DestAirport']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline', 'SourceAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'DestAirport']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'SourceAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'SourceAirport']}
+{'airlines': ['uid', 'Airline'], 'airports': ['City', 'AirportCode', 'AirportName', 'Country']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline', 'Count']}
+{'airlines': ['uid', 'Airline'], 'flights': ['Airline', 'Count']}
+{'flights': ['Airline', 'FlightNo']}
+{'flights': ['Airline', 'FlightNo']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'flights': ['Airline', 'FlightNo', 'SourceAirport']}
+{'airports': ['City', 'AirportCode'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['Airline', 'FlightNo', 'DestAirport']}
+{'airports': ['City', 'AirportCode', 'AirportName'], 'flights': ['AirportCode']}
+{'employee': ['Employee_ID']}
+{'employee': ['Employee_ID']}
+{'employee': ['Employee_ID', 'Name', 'Age']}
+{'employee': ['Employee_ID', 'Name', 'Age']}
+{'employee': ['Employee_ID', 'City']}
+{'employee': ['Employee_ID', 'City']}
+{'employee': ['Employee_ID', 'Age', 'City']}
+{'employee': ['Employee_ID', 'Age', 'City']}
+{'shop': ['Shop_ID', 'Location']}
+{'shop': ['Shop_ID', 'Location']}
+{'shop': ['Shop_ID', 'Number_products', 'District', 'Manager_name']}
+{'shop': ['Shop_ID', 'Name', 'District', 'Number_products', 'Manager_name']}
+{'shop': ['Shop_ID', 'Number_products']}
+{'shop': ['Shop_ID', 'Number_products']}
+{'shop': ['Shop_ID', 'Name', 'Location', 'District', 'Number_products']}
+{'shop': ['Shop_ID', 'Name', 'Location', 'District']}
+{'shop': ['Shop_ID', 'Number_products', 'Name']}
+{'shop': ['Shop_ID', 'Number_products', 'Shop_ID']}
+{'employee': ['Employee_ID', 'Name'], 'evaluation': ['Employee_ID', 'Year_awarded']}
+{'evaluation': ['Employee_ID', 'Year_awarded', 'Bonus'], 'employee': ['Employee_ID', 'Name']}
+{'employee': ['Employee_ID', 'Name'], 'evaluation': ['Employee_ID', 'Year_awarded', 'Bonus']}
+{'evaluation': ['Employee_ID', 'Year_awarded', 'Bonus']}
+{'employee': ['Employee_ID', 'Name'], 'evaluation': ['Employee_ID']}
+{'employee': ['Employee_ID', 'Name'], 'evaluation': ['Employee_ID']}
+{'shop': ['Shop_ID', 'Name'], 'hiring': ['Shop_ID', 'Employee_ID']}
+{'shop': ['Shop_ID', 'Name']}
+{'shop': ['Shop_ID', 'Name'], 'hiring': ['Shop_ID']}
+{'shop': ['Shop_ID', 'Name'], 'hiring': ['Shop_ID']}
+{'hiring': ['Shop_ID', 'Employee_ID']}
+{'shop': ['Shop_ID', 'Name', 'Number_products']}
+{'evaluation': ['Employee_ID', 'Year_awarded', 'Bonus']}
+{'evaluation': ['Employee_ID', 'Year_awarded', 'Bonus']}
+{'hiring': ['Shop_ID', 'Employee_ID']}
+{'hiring': ['Shop_ID', 'Employee_ID', 'Start_from']}
+{'shop': ['Shop_ID', 'Number_products', 'District']}
+{'shop': ['Shop_ID', 'Number_products', 'District']}
+{'shop': ['Shop_ID', 'Location']}
+{'shop': ['Shop_ID', 'Location']}
+{'Documents': ['Document_ID']}
+{'Documents': ['Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name', 'Document_Description']}
+{'Documents': ['Document_ID', 'Document_Name', 'Document_Description']}
+{'Documents': ['Document_ID', 'Document_Name', 'Template_ID', 'Document_Description']}
+{'Documents': ['Document_ID', 'Template_ID', 'Document_Name', 'Document_Description']}
+{'Documents': ['Document_ID', 'Template_ID', 'Document_Name', 'Document_Description']}
+{'Documents': ['Document_ID', 'Template_ID', 'Document_Name', 'Document_Description']}
+{'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID', 'Template_Type_Code'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID', 'Template_Type_Code'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Documents': ['Document_ID', 'Template_ID'], 'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Templates': ['Template_ID', 'Template_Type_Code'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID', 'Template_Type_Code'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID']}
+{'Templates': ['Template_ID']}
+{'Templates': ['Template_ID', 'Version_Number', 'Template_Type_Code']}
+{'Templates': ['Template_ID', 'Version_Number', 'Template_Type_Code']}
+{'Templates': ['Template_ID', 'Template_Type_Code']}
+{'Ref_Template_Types': ['Template_Type_Code']}
+{'Templates': ['Template_ID', 'Template_Type_Code', 'Template_Details']}
+{'Templates': ['Template_ID', 'Template_Type_Code', 'Template_Details']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description'], 'Templates': ['Template_ID', 'Template_Type_Code']}
+{'Templates': ['Template_ID', 'Version_Number', 'Template_Type_Code']}
+{'Templates': ['Template_ID', 'Version_Number', 'Template_Type_Code']}
+{'Templates': ['Template_ID', 'Template_Type_Code']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description'], 'Templates': ['Template_ID', 'Template_Type_Code']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Templates': ['Template_ID', 'Version_Number', 'Template_Type_Code']}
+{'Templates': ['Template_ID', 'Version_Number', 'Template_Type_Code']}
+{'Templates': ['Template_ID', 'Template_Type_Code', 'Template_Details'], 'Documents': ['Document_ID', 'Template_ID', 'Document_Name']}
+{'Templates': ['Template_ID', 'Template_Type_Code', 'Template_Details'], 'Documents': ['Document_ID', 'Template_ID', 'Document_Name']}
+{'Documents': ['Document_ID', 'Template_ID', 'Document_Name'], 'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Documents': ['Document_ID', 'Template_ID', 'Document_Name'], 'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Templates': ['Template_ID', 'Template_Type_Code'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description'], 'Templates': ['Template_ID', 'Template_Type_Code']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description'], 'Templates': ['Template_ID', 'Template_Type_Code'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description'], 'Templates': ['Template_ID', 'Template_Type_Code']}
+{'Ref_Template_Types': ['Template_Type_Code'], 'Templates': ['Template_ID', 'Template_Type_Code']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description'], 'Templates': ['Template_ID', 'Template_Type_Code']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Templates': ['Template_ID', 'Template_Type_Code', 'Template_Type_Description'], 'Documents': ['Document_ID', 'Template_ID']}
+{'Templates': ['Template_ID', 'Template_Type_Code', 'Template_Details'], 'Documents': ['Document_ID', 'Template_ID'], 'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description']}
+{'Ref_Template_Types': ['Template_Type_Code', 'Template_Type_Description'], 'Templates': ['Template_ID', 'Template_Type_Code', 'Template_Type_Description']}
+{'Templates': ['Template_ID', 'Template_Type_Code', 'Template_Type_Description']}
+{'Paragraphs': ['Paragraph_ID']}
+{'Paragraphs': ['Paragraph_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name', 'Document_Description'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'Documents': ['Document_ID', 'Document_Name'], 'Paragraphs': ['Paragraph_ID', 'Document_ID', 'Paragraph_Text']}
+{'teacher': ['Teacher_ID']}
+{'teacher': ['Teacher_ID']}
+{'teacher': ['Teacher_ID', 'Name', 'Age']}
+{'teacher': ['Teacher_ID', 'Name', 'Age']}
+{'teacher': ['Teacher_ID', 'Age', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Age', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Name', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Name', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Name', 'Age']}
+{'teacher': ['Teacher_ID', 'Name', 'Age']}
+{'teacher': ['Teacher_ID', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Age']}
+{'teacher': ['Teacher_ID', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Hometown']}
+{'teacher': ['Teacher_ID', 'Hometown']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'course': ['Course_ID', 'Teacher_ID', 'Course'], 'teacher': ['Teacher_ID', 'Name']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'course': ['Course_ID', 'Course'], 'teacher': ['Teacher_ID', 'Name', 'Hometown']}
+{'course': ['Course_ID', 'Course'], 'teacher': ['Teacher_ID', 'Name']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'course_arrange': ['Course_ID', 'Teacher_ID'], 'teacher': ['Teacher_ID', 'Name']}
+{'visitor': ['ID', 'Age']}
+{'visitor': ['ID', 'Name', 'Level_of_membership']}
+{'visitor': ['ID', 'Name', 'Level_of_membership', 'Age']}
+{'visitor': ['ID', 'Name', 'Level_of_membership', 'Age']}
+{'museum': ['Museum_ID', 'Name', 'Num_of_staff']}
+{'museum': ['Museum_ID', 'Num_of_of_staff', 'Open_Year']}
+{'museum': ['Museum_ID', 'Name', 'Open_Year', 'Num_of_Staff']}
+{'museum': ['Museum_ID', 'Name', 'Num_of_Staff', 'Open_Year']}
+{'visitor': ['ID', 'Name', 'Age'], 'visit': ['Museum_ID', 'visitor_ID']}
+{'visitor': ['ID', 'Name', 'Level_of_membership', 'Total_spent']}
+{'visit': ['Museum_ID', 'visitor_ID'], 'museum': ['Museum_ID', 'Name']}
+{'museum': ['Museum_ID', 'Name'], 'visit': ['Museum_ID']}
+{'visitor': ['ID', 'Name', 'Age'], 'visit': ['Museum_ID', 'visitor_ID', 'Num_of_Ticket']}
+{'visit': ['Museum_ID', 'Num_of_Ticket']}
+{'visitor': ['ID', 'Level_of_membership', 'Total_spent']}
+{'visitor': ['ID', 'Name', 'Age'], 'visit': ['Museum_ID', 'visitor_ID', 'Num_of_Ticket']}
+{'visit': ['Museum_ID', 'Num_of_Ticket', 'Total_spent'], 'museum': ['Museum_ID', 'Name', 'Open_Year']}
+{'museum': ['Museum_ID', 'Open_Year']}
+{'players': ['player_id']}
+{'players': ['player_id']}
+{'matches': ['match_num']}
+{'matches': ['match_num']}
+{'players': ['player_id', 'first_name', 'birth_date', 'country_code']}
+{'players': ['player_id', 'first_name', 'birth_date', 'country_code']}
+{'matches': ['loser_age', 'winner_age']}
+{'matches': ['loser_age', 'winner_age']}
+{'matches': ['match_num', 'winner_rank']}
+{'matches': ['match_num', 'winner_rank']}
+{'matches': ['best_of', 'loser_rank']}
+{'matches': ['best_of', 'loser_rank']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'matches': ['loser_name']}
+{'matches': ['loser_name']}
+{'matches': ['match_num', 'tourney_id']}
+{'matches': ['match_num', 'tourney_id', 'tourney_name']}
+{'matches': ['best_of', 'winner_name'], 'winners': ['winner_id', 'winner_name', 'year']}
+{'players': ['player_id', 'first_name', 'last_name'], 'matches': ['best_of', 'winning_player_id', 'year']}
+{'matches': ['year']}
+{'matches': ['year', 'match_num']}
+{'players': ['player_id', 'first_name', 'country_code'], 'matches': ['best_of', 'win_points', 'tourney_id', 'tourney_name', 'winner_id']}
+{'players': ['player_id', 'first_name', 'country_code'], 'matches': ['best_of', 'win_points', 'tourney_id', 'tourney_name', 'win_date'], 'tourney_name': 'Australian Open', 'tourney_id': 1}
+{'players': ['player_id', 'first_name', 'country_code']}
+{'players': ['player_id', 'first_name', 'country_code']}
+{'players': ['player_id', 'first_name', 'last_name', 'birth_date']}
+{'players': ['player_id', 'first_name', 'last_name', 'birth_date']}
+{'players': ['player_id', 'first_name', 'last_name', 'hand', 'birth_date']}
+{'players': ['player_id', 'first_name', 'last_name', 'birth_date', 'hand']}
+{'players': ['player_id', 'first_name', 'country_code'], 'matches': ['match_num', 'player_id', 'tourney_date', 'tourney_id'], 'tourney_date': ['tourney_date', 'year']}
+{'players': ['player_id', 'first_name', 'country_code'], 'matches': ['best_of', 'tourney_date', 'player_id']}
+{'matches': ['year']}
+{'matches': ['year']}
+{'matches': ['best_of', 'winner_name', 'winner_rank_points'], 'players': ['player_id', 'first_name', 'last_name'], 'rankings': ['ranking_date', 'player_id', 'ranking']}
+{'matches': ['match_num', 'winner_name'], 'rankings': ['ranking_date', 'ranking', 'winner_name']}
+{'matches': ['best_of', 'winner_name', 'tourney_id'], 'players': ['player_id', 'first_name', 'last_name'], 'rankings': ['ranking_date', 'ranking', 'player_id']}
+{'matches': ['match_num', 'winner_name'], 'rankings': ['ranking_date', 'ranking', 'winner_name']}
+{'matches': ['match_num', 'minutes', 'winner_name', 'loser_name']}
+{'matches': ['best_of', 'loser_name', 'loser_id'], 'players': ['player_id', 'first_name', 'last_name']}
+{'players': ['player_id', 'first_name'], 'rankings': ['player_id']}
+{'players': ['player_id', 'first_name'], 'rankings': ['ranking_date', 'player_id', 'ranking']}
+{'players': ['player_id', 'first_name'], 'rankings': ['player_id']}
+{'players': ['player_id', 'first_name'], 'rankings': ['ranking_date', 'player_id', 'ranking']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'players': ['player_id', 'country_code']}
+{'rankings': ['ranking_date']}
+{'tourneys': ['tourney_date', 'tourney_id'], 'rankings': ['ranking_date', 'tourney_id']}
+{'matches': ['year']}
+{'matches': ['year']}
+{'matches': ['best_of', 'winner_name', 'winner_rank'], 'players': ['player_id', 'first_name', 'last_name', 'birth_date', 'country_code']}
+{'players': ['player_id', 'first_name', 'last_name', 'birth_date', 'country_code'], 'rankings': ['ranking_date', 'ranking', 'player_id'], 'matches': ['best_of', 'draw_size', 'loser_age', 'loser_rank', 'winner_rank']}
+{'matches': ['winner_hand', 'winner_id'], 'players': ['player_id', 'hand']}
+{'matches': ['best_of', 'winner_hand'], 'players': ['player_id', 'first_name', 'last_name', 'hand']}
+{'players': ['player_id', 'first_name', 'country_code', 'birth_date'], 'rankings': ['ranking_date', 'player_id', 'rank_points'], 'matches': ['best_of', 'draw_size', 'loser_age', 'loser_entry', 'loser_hand', 'loser_ht', 'loser_id', 'loser_name', 'loser_rank', 'loser_rank_points', 'winner_age', 'winner_entry', 'winner_hand', 'winner_ht', 'winner_id', 'winner_ioc', 'winner_name']}
+{'players': ['player_id', 'first_name', 'country_code'], 'matches': ['best_of', 'winner_rank_points', 'player_id']}
+{'players': ['player_id', 'hand']}
+{'players': ['player_id', 'hand']}
+{'ship': ['id', 'name', 'captured_by']}
+{'ship': ['id', 'name', 'tonnage']}
+{'battle': ['id', 'name', 'date', 'result']}
+{'death': ['caused_by_ship_id', 'id', 'killed', 'injured']}
+{'death': ['caused_by_ship_id', 'injured']}
+{'ship': ['id', 'tonnage', 'ship_type'], 'death': ['caused_by_ship_id', 'id', 'note', 'killed', 'injured']}
+{'battle': ['id', 'name', 'result', 'bulgarian_commander']}
+{'battle': ['id', 'name', 'result'], 'ship': ['lost_in_battle', 'id', 'name', 'ship_type']}
+{'battle': ['id', 'name', 'result'], 'death': ['caused_by_ship_id', 'id', 'killed']}
+{'ship': ['id', 'name'], 'death': ['caused_by_ship_id', 'id', 'injured']}
+{'battle': ['id', 'name', 'bulgarian_commander', 'latin_commander']}
+{'battle': ['id', 'result']}
+{'battle': ['id', 'name', 'result'], 'ship': ['lost_in_battle', 'id', 'tonnage']}
+{'battle': ['id', 'name', 'date', 'lost_in_battle', 'ship_id'], 'ship': ['id', 'name']}
+{'battle': ['id', 'name', 'result', 'latin_commander']}
+{'death': ['caused_by_ship_id', 'id', 'note']}
+{'Addresses': ['address_id', 'line_1', 'line_2']}
+{'Addresses': ['address_id', 'line_1', 'line_2']}
+{'Courses': ['course_id']}
+{'Courses': ['course_id']}
+{'Courses': ['course_id', 'course_name', 'course_description']}
+{'Courses': ['course_id', 'course_name', 'course_description']}
+{'Addresses': ['address_id', 'line_1', 'line_2', 'city', 'zip_postcode']}
+{'Addresses': ['address_id', 'line_1', 'line_2', 'zip_postcode']}
+{'Degree_Programs': ['degree_program_id', 'department_id'], 'Departments': ['department_id', 'department_name']}
+{'Degree_Programs': ['degree_program_id', 'department_id'], 'Departments': ['department_id', 'department_name']}
+{'Degree_Programs': ['degree_program_id', 'department_id'], 'Departments': ['department_id']}
+{'Degree_Programs': ['degree_program_id', 'department_id'], 'Departments': ['department_id', 'department_name']}
+{'Degree_Programs': ['degree_program_id', 'department_id', 'degree_summary_name']}
+{'Degrees': ['degree_id', 'degree_summary_name']}
+{'Degree_Programs': ['degree_program_id', 'department_id'], 'Departments': ['department_id', 'department_name']}
+{'Degree_Programs': ['degree_program_id', 'department_id'], 'Departments': ['department_id', 'department_name']}
+{'Sections': ['section_id', 'section_name', 'section_description']}
+{'Sections': ['section_id', 'section_name', 'section_description']}
+{'Courses': ['course_id', 'course_name'], 'Sections': ['section_id', 'course_id', 'section_number']}
+{'Courses': ['course_id', 'course_name'], 'Section_Assignments': ['course_id', 'section_id']}
+{'Sections': ['section_id', 'section_name']}
+{'Sections': ['section_id', 'section_name']}
+{'Student_Enrolment': ['student_enrolment_id', 'semester_id'], 'Semesters': ['semester_id', 'semester_name']}
+{'Student_Enrolment': ['student_enrolment_id', 'semester_id'], 'Semesters': ['semester_id', 'semester_name']}
+{'Departments': ['department_id', 'department_name', 'department_description']}
+{'Departments': ['department_id', 'department_name', 'department_description']}
+{'Student_Enrolment': ['student_enrolment_id', 'degree_program_id', 'semester_id'], 'Degree_Programs': ['degree_program_id', 'department_id'], 'Students': ['student_id', 'first_name', 'middle_name', 'last_name']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name'], 'Student_Enrolment': ['student_enrolment_id', 'degree_program_id', 'semester_id'], 'Degree_Programs': ['degree_program_id', 'degree_summary_name']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name'], 'Student_Enrolment': ['student_enrolment_id', 'degree_program_id', 'student_id']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name'], 'Student_Enrolment': ['student_enrolment_id', 'degree_program_id', 'student_id'], 'Degree_Programs': ['degree_program_id', 'degree_summary_name']}
+{'Degree_Programs': ['degree_program_id', 'degree_summary_name'], 'Student_Enrolment': ['student_enrolment_id', 'degree_program_id']}
+{'Degree_Programs': ['degree_program_id', 'degree_summary_name'], 'Student_Enrolment': ['student_enrolment_id', 'degree_program_id']}
+{'Degree_Programs': ['degree_program_id', 'degree_summary_name'], 'Student_Enrolment': ['student_enrolment_id', 'degree_program_id']}
+{'Degree_Programs': ['degree_program_id', 'department_id', 'degree_summary_name'], 'Student_Enrolment': ['student_enrolment_id', 'degree_program_id']}
+{'Student_Enrolment': ['student_id', 'semester_id'], 'Students': ['student_id', 'first_name', 'middle_name', 'last_name']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name'], 'Student_Enrolment': ['student_enrolment_id', 'student_id']}
+{'Semesters': ['semester_id', 'semester_name'], 'Student_Enrolment': ['student_enrolment_id', 'semester_id']}
+{'Semesters': ['semester_id', 'semester_name'], 'Student_Enrolment': ['student_enrolment_id', 'semester_id']}
+{'Courses': ['course_id', 'course_name'], 'Student_Enrolment': ['student_course_id', 'course_id'], 'Student_Enrolment_Courses': ['student_course_id', 'student_enrolment_id']}
+{'Courses': ['course_id', 'course_name'], 'Student_Enrolment': ['student_course_id', 'course_id'], 'Student_Enrolment_Courses': ['student_course_id', 'student_enrolment_id']}
+{'Courses': ['course_id', 'course_name'], 'Student_Enrolment': ['student_enrolment_id', 'course_id']}
+{'Courses': ['course_id', 'course_name'], 'Student_Enrolment': ['student_course_id', 'student_id'], 'Student_Enrolment_Courses': ['student_course_id', 'student_enrolment_id']}
+{'Students': ['student_id', 'last_name', 'state_province_county'], 'Student_Enrolment': ['student_enrolment_id', 'student_id'], 'Student_Enrolment_Courses': ['student_course_id', 'student_enrolment_id'], 'Courses': ['course_id', 'course_name']}
+{'Students': ['student_id', 'last_name', 'semester_id'], 'Student_Enrolment': ['student_enrolment_id', 'semester_id', 'student_id'], 'Semesters': ['semester_id', 'semester_name']}
+{'Transcript_Contents': ['student_course_id', 'transcript_id'], 'Student_Enrolment_Courses': ['student_course_id', 'student_enrolment_id'], 'Student_Enrolment': ['student_enrolment_id', 'date_enrolled', 'date_left']}
+{'Transcript_Contents': ['student_course_id', 'transcript_id'], 'Transcripts': ['transcript_id', 'transcript_date']}
+{'Students': ['student_id', 'first_name', 'last_name', 'cell_mobile_number']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name', 'cell_mobile_number']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name', 'date_first_registered']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name'], 'Student_Enrolment': ['student_enrolment_id', 'semester_id', 'student_id'], 'Semesters': ['semester_id', 'semester_name']}
+{'Students': ['student_id', 'permanent_address_id', 'first_name'], 'Addresses': ['address_id', 'line_1', 'line_2', 'city']}
+{'Students': ['student_id', 'first_name', 'permanent_address_id', 'current_address_id']}
+{'Addresses': ['address_id', 'line_1'], 'Students': ['student_id', 'current_address_id']}
+{'Addresses': ['address_id', 'line_1', 'line_2'], 'Student_Enrolment': ['student_enrolment_id', 'address_id']}
+{'Transcripts': ['transcript_id', 'transcript_date']}
+{'Transcripts': ['transcript_id', 'transcript_date']}
+{'Transcripts': ['transcript_id', 'transcript_date', 'other_details']}
+{'Transcripts': ['transcript_id', 'transcript_date']}
+{'Transcripts': ['transcript_id']}
+{'Transcripts': ['transcript_id']}
+{'Transcripts': ['transcript_id', 'transcript_date']}
+{'Transcripts': ['transcript_id', 'transcript_date']}
+{'Student_Enrolment': ['student_enrolment_id', 'course_id'], 'Courses': ['course_id', 'course_name'], 'Transcripts': ['transcript_id', 'course_id']}
+{'Courses': ['course_id', 'course_name'], 'Student_Enrolment': ['student_enrolment_id', 'course_id'], 'Student_Enrolment_Courses': ['student_course_id', 'student_enrolment_id']}
+{'Transcript_Contents': ['student_course_id', 'transcript_id'], 'Student_Enrolment_Courses': ['student_course_id', 'transcript_id'], 'Transcripts': ['transcript_id', 'transcript_date']}
+{'Transcript_Contents': ['student_course_id', 'transcript_id'], 'Transcripts': ['transcript_id', 'transcript_date']}
+{'Student_Enrolment': ['student_enrolment_id', 'semester_id'], 'Students': ['student_id', 'semester_id'], 'Student_Enrolment_Courses': ['student_course_id', 'student_enrolment_id'], 'Courses': ['course_id', 'course_name']}
+{'Semesters': ['semester_id', 'semester_name'], 'Student_Enrolment': ['student_enrolment_id', 'semester_id', 'student_id'], 'Students': ['student_id', 'semester_id', 'degree_summary_name']}
+{'Addresses': ['address_id', 'line_1'], 'Students': ['student_id', 'current_address_id']}
+{'Addresses': ['address_id', 'line_1'], 'Students': ['student_id', 'address_id']}
+{'Students': ['student_id', 'first_name', 'middle_name', 'last_name', 'date_left', 'date_first_registered']}
+{'Students': ['student_id', 'other_student_details']}
+{'Courses': ['course_id', 'course_name'], 'Sections': ['section_id', 'course_id', 'section_name']}
+{'Courses': ['course_id', 'course_name'], 'Sections': ['section_id', 'course_id', 'section_name']}
+{'Students': ['student_id', 'first_name', 'cell_mobile_number', 'country']}
+{'Students': ['student_id', 'first_name', 'cell_mobile_number', 'permanent_address_id']}
+{'Cartoon': ['id', 'Title']}
+{'Cartoon': ['id', 'Title']}
+{'Cartoon': ['id', 'Directed_by', 'Channel']}
+{'Cartoon': ['id', 'Directed_by']}
+{'Cartoon': ['id', 'Written_by']}
+{'Cartoon': ['id', 'Written_by']}
+{'Cartoon': ['id', 'Title', 'Directed_by', 'Air_Date']}
+{'Cartoon': ['id', 'Title', 'Directed_by', 'Air_Date']}
+{'Cartoon': ['id', 'Title', 'Directed_by']}
+{'Cartoon': ['id', 'Title', 'Directed_by', 'Channel']}
+{'TV_Channel': ['id', 'Country']}
+{'TV_Channel': ['id', 'Country']}
+{'TV_Channel': ['id', 'series_name', 'Content']}
+{'TV_Channel': ['id', 'Series_Name', 'Content']}
+{'TV_Channel': ['id', 'series_name', 'Content']}
+{'TV_Channel': ['id', 'Content'], 'TV_series': ['id', 'Episode', 'Air_Date', 'Channel']}
+{'TV_Channel': ['id', 'Series_Name', 'Package_Option']}
+{'TV_Channel': ['id', 'series_name', 'Package_Option']}
+{'TV_Channel': ['id', 'Language']}
+{'TV_Channel': ['id', 'Language']}
+{'TV_Channel': ['id', 'Language']}
+{'TV_Channel': ['id', 'Language']}
+{'TV_Channel': ['id', 'Language']}
+{'TV_Channel': ['id', 'Language']}
+{'TV_Channel': ['id', 'series_name'], 'TV_series': ['id', 'Episode', 'Channel']}
+{'TV_Channel': ['id', 'series_name'], 'TV_series': ['id', 'Episode', 'Channel']}
+{'Cartoon': ['id', 'Title', 'Channel'], 'TV_Channel': ['id', 'series_name', 'Channel']}
+{'Cartoon': ['id', 'Title', 'Channel'], 'TV_Channel': ['id', 'series_name']}
+{'TV_series': ['id', 'Episode', 'Rating']}
+{'TV_series': ['id', 'Episode', 'Rating']}
+{'TV_series': ['id', 'Episode', 'Rating']}
+{'TV_series': ['id', 'Episode', 'Rating']}
+{'TV_series': ['id', 'Share']}
+{'TV_series': ['id', 'Share']}
+{'TV_series': ['id', 'Episode', 'Air_Date']}
+{'TV_series': ['id', 'Episode', 'Air_Date']}
+{'TV_series': ['id', 'Episode', 'Weekly_Rank']}
+{'TV_series': ['id', 'Episode', 'Weekly_Rank']}
+{'TV_Channel': ['id', 'series_name'], 'TV_series': ['id', 'Episode', 'Channel']}
+{'TV_series': ['id', 'Episode', 'Title']}
+{'TV_Channel': ['id', 'series_name', 'Channel'], 'TV_series': ['id', 'Episode']}
+{'TV_series': ['id', 'Episode', 'Title']}
+{'Cartoon': ['id', 'Directed_by']}
+{'Cartoon': ['id', 'Directed_by']}
+{'Cartoon': ['id', 'Channel', 'Original_air_date']}
+{'Cartoon': ['id', 'Channel', 'Original_air_date']}
+{'TV_Channel': ['id', 'Channel', 'Hight_definition_TV', 'Package_Option']}
+{'TV_Channel': ['id', 'Channel', 'Hight_definition_TV', 'Package_Option'], 'TV_series': ['id', 'Episode', 'Channel']}
+{'Cartoon': ['id', 'Channel'], 'TV_Channel': ['id', 'Country', 'Content']}
+{'Cartoon': ['id', 'Channel', 'Directed_by', 'Written_by']}
+{'TV_Channel': ['id', 'Country', 'Content'], 'Cartoon': ['id', 'Channel']}
+{'Cartoon': ['id', 'Channel'], 'TV_Channel': ['id', 'Country']}
+{'TV_Channel': ['id', 'series_name', 'Country', 'Channel'], 'Cartoon': ['id', 'Channel']}
+{'TV_Channel': ['id', 'series_name', 'Country', 'Content'], 'Cartoon': ['id', 'Directed_by', 'Channel']}
+{'TV_Channel': ['id', 'Pixel_aspect_ratio_PAR', 'Country', 'Language']}
+{'TV_Channel': ['id', 'Pixel_aspect_ratio_PAR', 'Country', 'Language']}
+{'TV_Channel': ['id', 'Country']}
+{'TV_Channel': ['id', 'Channel']}
+{'Cartoon': ['id', 'Directed_by'], 'TV_Channel': ['id', 'Channel']}
+{'TV_Channel': ['id', 'Channel'], 'Cartoon': ['id', 'Channel']}
+{'TV_Channel': ['id', 'Package_Option'], 'Cartoon': ['id', 'Channel']}
+{'TV_Channel': ['id', 'Package_Option'], 'Cartoon': ['id', 'Channel']}
+{'poker_player': ['Poker_Player_ID']}
+{'poker_player': ['Poker_Player_ID']}
+{'poker_player': ['Poker_Player_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'Final_Table_Made', 'Best_Finish']}
+{'poker_player': ['Poker_Player_ID', 'Final_Table_Made', 'Best_Finish']}
+{'poker_player': ['Poker_Player_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'Final_Table_Made', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'Final_Table_Made', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Name']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Name']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Final_Table_Made']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Final_Table_Made']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Final_Table_Made', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Earnings']}
+{'people': ['People_ID', 'Height'], 'poker_player': ['Poker_Player_ID', 'People_ID', 'Money_Rank']}
+{'people': ['People_ID', 'Height'], 'poker_player': ['Poker_Player_ID', 'People_ID', 'Money_Rank']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Earnings'], 'people': ['People_ID', 'Height']}
+{'people': ['People_ID', 'Height'], 'poker_player': ['Poker_Player_ID', 'People_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Earnings']}
+{'poker_player': ['Poker_Player_ID', 'People_ID', 'Earnings']}
+{'people': ['People_ID', 'Nationality']}
+{'people': ['People_ID', 'Nationality']}
+{'people': ['People_ID', 'Nationality']}
+{'people': ['People_ID', 'Nationality']}
+{'people': ['People_ID', 'Nationality']}
+{'people': ['People_ID', 'Nationality']}
+{'people': ['People_ID', 'Name', 'Birth_Date']}
+{'people': ['People_ID', 'Name', 'Birth_Date']}
+{'people': ['People_ID', 'Nationality', 'Name']}
+{'people': ['People_ID', 'Name', 'Nationality']}
+{'people': ['People_ID', 'Name'], 'poker_player': ['Poker_Player_ID', 'People_ID']}
+{'people': ['People_ID', 'Name'], 'poker_player': ['Poker_Player_ID', 'People_ID']}
+{'people': ['People_ID', 'Nationality']}
+{'people': ['People_ID', 'Nationality']}
+{'AREA_CODE_STATE': ['area_code', 'state']}
+{'CONTESTANTS': ['contestant_number', 'contestant_name']}
+{'VOTES': ['vote_id', 'phone_number', 'state']}
+{'AREA_CODE_STATE': ['area_code', 'state']}
+{'VOTES': ['vote_id', 'created']}
+{'CONTESTANTS': ['contestant_number', 'contestant_name']}
+{'VOTES': ['vote_id', 'state', 'created']}
+{'CONTESTANTS': ['contestant_number', 'contestant_name'], 'VOTES': ['vote_id', 'contestant_number']}
+{'CONTESTANTS': ['contestant_number', 'contestant_name'], 'VOTES': ['vote_id', 'contestant_number']}
+{'VOTES': ['vote_id', 'state']}
+{'VOTES': ['vote_id', 'contestant_number']}
+{'VOTES': ['vote_id', 'area_code']}
+{'VOTES': ['vote_id', 'phone_number', 'state', 'contestant_number'], 'CONTESTANTS': ['contestant_number', 'contestant_name']}
+{'VOTES': ['vote_id', 'phone_number', 'state', 'contestant_number'], 'CONTESTANTS': ['contestant_number', 'contestant_name'], 'AREA_CODE_STATE': ['area_code', 'state']}
+{'CONTESTANTS': ['contestant_number', 'contestant_name']}
+{'country': ['Code', 'Name', 'IndepYear']}
+{'country': ['Code', 'Name', 'YearFounded', 'CountryName']}
+{'country': ['Code', 'Form', 'Region']}
+{'country': ['Code', 'GovernmentForm', 'CountryCode']}
+{'country': ['Code', 'Region', 'SurfaceArea']}
+{'country': ['Code', 'Region', 'SurfaceArea']}
+{'country': ['ID', 'CountryCode', 'Continent']}
+{'country': ['ID', 'Name', 'Continent']}
+{'city': ['ID', 'Name', 'Region']}
+{'city': ['ID', 'Name', 'Region']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'country': ['ID', 'Name', 'Population', 'LifeExpectancy']}
+{'country': ['ID', 'Name', 'Population', 'LifeExpectancy']}
+{'country': ['ID', 'Name', 'Region', 'Population']}
+{'country': ['Code', 'Name', 'Region', 'Population']}
+{'country': ['Code', 'Region', 'LifeExpectancy']}
+{'country': ['Code', 'Name', 'Region', 'LifeExpectancy']}
+{'country': ['Code', 'Name', 'LifeExpectancy', 'Asia']}
+{'country': ['Code', 'Name', 'Region', 'LifeExpectancy']}
+{'country': ['Code', 'Population', 'GNP', 'Asia']}
+{'country': ['Code', 'Name', 'Region', 'Population', 'GNP']}
+{'country': ['Code', 'Name', 'Region', 'LifeExpectancy', 'Country']}
+{'country': ['Code', 'Name', 'Region', 'LifeExpectancy', 'CountryCode', 'GovernmentForm']}
+{'country': ['Code', 'Continent', 'SurfaceArea']}
+{'country': ['Code', 'Region', 'SurfaceArea', 'Continent']}
+{'city': ['ID', 'District', 'Population']}
+{'city': ['ID', 'Population'], 'citydistrict': ['CityID', 'District']}
+{'country': ['Code', 'GovernmentForm', 'Population', 'GNP']}
+{'country': ['Code', 'Name', 'Continent', 'GNP', 'Population']}
+{'countrylanguage': ['CountryCode', 'Language']}
+{'countrylanguage': ['CountryCode', 'Language']}
+{'country': ['Code', 'Region', 'GovernmentForm']}
+{'country': ['Code', 'GovernmentForm']}
+{'countrylanguage': ['CountryCode', 'Language']}
+{'countrylanguage': ['CountryCode', 'Language']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'country': ['ID', 'Name', 'CountryCode'], 'countrylanguage': ['CountryCode', 'Language']}
+{'countrylanguage': ['CountryCode', 'Language', 'Percentage']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'country': ['Code', 'Name', 'Language']}
+{'countrylanguage': ['CountryCode', 'Language']}
+{'country': ['ID', 'Name', 'Language']}
+{'country': ['ID', 'Name', 'Language']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'country': ['ID', 'Name', 'CountryCode', 'OfficialLanguages']}
+{'country': ['Code', 'Name', 'Continent', 'Language']}
+{'country': ['Code', 'Name', 'Continent', 'Language']}
+{'country': ['Code', 'Region', 'Language']}
+{'country': ['Code', 'Name', 'Region', 'Language']}
+{'country': ['Code', 'Name', 'OfficialLanguages']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'countrylanguage': ['CountryCode', 'Language', 'Percentage']}
+{'countrylanguage': ['CountryCode', 'Language', 'IsOfficial'], 'country': ['ID', 'Name', 'GovernmentForm']}
+{'country': ['Code', 'CountryCode', 'GovernmentForm', 'CountryLanguage']}
+{'city': ['ID', 'Name', 'Population'], 'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'city': ['ID', 'Name', 'Population'], 'countrylanguage': ['CountryCode', 'Language', 'IsOfficial']}
+{'country': ['Code', 'Name', 'Population', 'Area', 'LifeExpectancy']}
+{'country': ['ID', 'Name', 'Population', 'LifeExpectancy', 'Area']}
+{'country': ['Code', 'Name', 'LifeExpectancy', 'Language']}
+{'country': ['Code', 'Name', 'Language', 'LifeExpectancy']}
+{'country': ['ID', 'Name', 'Language']}
+{'country': ['ID', 'CountryCode', 'Language'], 'countrylanguage': ['CountryCode', 'Language']}
+{'country': ['ID', 'CountryCode', 'HeadOfState', 'OfficialLanguage']}
+{'country': ['ID', 'Name', 'HeadOfState'], 'countrylanguage': ['CountryCode', 'Language']}
+{'country': ['Code', 'CountryCode', 'OfficialLanguages']}
+{'country': ['Code', 'Name', 'OfficialLanguages']}
+{'country': ['Code', 'SurfaceArea', 'Continent']}
+{'country': ['Code', 'Area', 'Continent']}
+{'country': ['ID', 'CountryCode', 'Population', 'Region']}
+{'country': ['Code', 'Name', 'Population', 'Region']}
+{'country': ['Code', 'Name', 'Population', 'Continent']}
+{'country': ['Code', 'Name', 'Population', 'Asia']}
+{'country': ['Code', 'CountryCode', 'Language']}
+{'country': ['Code', 'CountryCode', 'Language']}
+{'country': ['ID', 'CountryCode', 'Language']}
+{'country': ['Code', 'CountryCode', 'Language'], 'countrylanguage': ['CountryCode', 'Language']}
+{'country': ['Code', 'CountryCode', 'GovernmentForm', 'CountryName'], 'countrylanguage': ['CountryCode', 'Language']}
+{'country': ['Code', 'CountryCode', 'GovernmentForm', 'CountryName'], 'countrylanguage': ['CountryCode', 'Language']}
+{'city': ['ID', 'Name', 'CountryCode', 'District'], 'countrylanguage': ['CountryCode', 'Language']}
+{'city': ['ID', 'Name', 'CountryCode', 'Language'], 'countrylanguage': ['CountryCode', 'Language']}
+{'city': ['ID', 'Name', 'CountryCode', 'CountryName', 'OfficialLanguage'], 'country': ['Code', 'Name', 'Continent', 'Region', 'Population']}
+{'city': ['ID', 'Name', 'CountryCode', 'OfficialLanguage'], 'countrylanguage': ['CountryCode', 'Language']}
+{'country': ['ID', 'Name', 'Population', 'SurfaceArea', 'IndepYear']}
+{'country': ['ID', 'Name', 'CountryCode', 'IndepYear', 'Population', 'SurfaceArea']}
+{'country': ['ID', 'Name', 'Population', 'Area', 'HeadOfState']}
+{'country': ['ID', 'Name', 'Population', 'Area', 'HeadOfState']}
+{'country': ['ID', 'CountryCode', 'Name', 'Languages']}
+{'country': ['ID', 'Name', 'CountryCode', 'Languages']}
+{'city': ['ID', 'Population', 'District']}
+{'city': ['ID', 'District', 'Population']}
+{'country': ['Code', 'GovernmentForm', 'LifeExpectancy']}
+{'country': ['Code', 'GovernmentForm', 'Population', 'LifeExpectancy']}
+{'country': ['Code', 'LifeExpectancy', 'Continent']}
+{'country': ['Code', 'Continent', 'Population', 'LifeExpectancy']}
+{'country': ['ID', 'Name', 'Area']}
+{'country': ['ID', 'Name', 'SurfaceArea', 'Population']}
+{'country': ['ID', 'Name', 'Population']}
+{'city': ['ID', 'Name', 'Population'], 'country': ['Code', 'Name', 'Population']}
+{'country': ['ID', 'Name', 'Population']}
+{'country': ['ID', 'Name', 'Population']}
+{'country': ['Code', 'Region', 'CountryCode', 'Asia']}
+{'country': ['Code', 'Region', 'CountryCode', 'Asia']}
+{'country': ['ID', 'Name', 'Continent', 'Population']}
+{'country': ['Code', 'Name', 'Region', 'Population', 'CountryCode']}
+{'country': ['Code', 'Name', 'Continent', 'Population', 'Area']}
+{'country': ['ID', 'CountryCode', 'SurfaceArea', 'Population']}
+{'city': ['ID', 'Population']}
+{'city': ['ID', 'Name', 'Population']}
+{'countrylanguage': ['CountryCode', 'Language', 'Percentage']}
+{'countrylanguage': ['CountryCode', 'Language']}
+{'countrylanguage': ['CountryCode', 'Language', 'Percentage']}
+{'country': ['Code', 'CountryCode', 'Language'], 'countrylanguage': ['CountryCode', 'Language', 'Percentage']}
+{'country': ['Code', 'Name', 'Language', 'Percentage']}
+{'countrylanguage': ['CountryCode', 'Language']}
+{'country': ['Code', 'Name', 'Language', 'Percentage']}
+{'countrylanguage': ['CountryCode', 'Language']}
+{'conductor': ['Conductor_ID']}
+{'conductor': ['Conductor_ID']}
+{'conductor': ['Conductor_ID', 'Name', 'Age']}
+{'conductor': ['Conductor_ID', 'Name', 'Age']}
+{'conductor': ['Conductor_ID', 'Name', 'Nationality']}
+{'conductor': ['Conductor_ID', 'Name', 'Nationality']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID', 'Record_Company', 'Year_of_Founded']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID', 'Record_Company', 'Year_of_Founded']}
+{'show': ['Show_ID', 'Attendance']}
+{'show': ['Show_ID', 'Attendance']}
+{'performance': ['Performance_ID', 'Type', 'Share']}
+{'performance': ['Performance_ID', 'Type', 'Share']}
+{'conductor': ['Conductor_ID', 'Nationality']}
+{'conductor': ['Conductor_ID', 'Nationality']}
+{'conductor': ['Conductor_ID', 'Name', 'Year_of_Work']}
+{'conductor': ['Conductor_ID', 'Name', 'Year_of_Work']}
+{'conductor': ['Conductor_ID', 'Name', 'Year_of_Work']}
+{'conductor': ['Conductor_ID', 'Name', 'Year_of_Work']}
+{'conductor': ['Conductor_ID', 'Name', 'Orchestra_ID'], 'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID']}
+{'conductor': ['Conductor_ID', 'Name'], 'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID']}
+{'conductor': ['Conductor_ID', 'Name'], 'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID']}
+{'conductor': ['Conductor_ID', 'Name'], 'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID']}
+{'conductor': ['Conductor_ID', 'Name'], 'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID']}
+{'conductor': ['Conductor_ID', 'Name'], 'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID'], 'conductor': ['Conductor_ID', 'Name', 'Year_of_Work']}
+{'conductor': ['Conductor_ID', 'Name'], 'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID', 'Year_of_Founded']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Record_Company']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Record_Company']}
+{'orchestra': ['Orchestra_ID', 'Record_Company', 'Conductor_ID', 'Record_Format_Code']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Major_Record_Format']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Record_Company']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Record_Company']}
+{'orchestra': ['Orchestra_ID', 'Orchestra'], 'performance': ['Performance_ID', 'Orchestra_ID']}
+{'orchestra': ['Orchestra_ID', 'Orchestra'], 'performance': ['Performance_ID', 'Orchestra_ID']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Conductor_ID', 'Record_Company', 'Year_of_Founded']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Record_Company', 'Year_of_Founded']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Record_Company']}
+{'orchestra': ['Orchestra_ID', 'Record_Company', 'Major_Record_Format']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Year_of_Founded'], 'performance': ['Performance_ID', 'Orchestra_ID']}
+{'orchestra': ['Orchestra_ID', 'Orchestra', 'Year_of_Founded'], 'performance': ['Performance_ID', 'Orchestra_ID']}
+{'Highschooler': ['ID']}
+{'Highschooler': ['ID']}
+{'Highschooler': ['ID', 'name', 'grade']}
+{'Highschooler': ['ID', 'name', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'name', 'grade']}
+{'Highschooler': ['ID', 'name', 'grade']}
+{'Highschooler': ['ID', 'name', 'grade']}
+{'Highschooler': ['ID', 'name']}
+{'Highschooler': ['ID', 'name']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Friend': ['student_id']}
+{'Friend': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id', 'friend_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id', 'friend_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id', 'friend_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id', 'friend_id']}
+{'Friend': ['student_id', 'friend_id'], 'Highschooler': ['ID', 'name']}
+{'Friend': ['student_id', 'friend_id'], 'Highschooler': ['ID', 'name']}
+{'Friend': ['student_id', 'friend_id'], 'Highschooler': ['ID', 'name']}
+{'Friend': ['student_id', 'friend_id'], 'Likes': ['student_id']}
+{'Highschooler': ['ID'], 'Friend': ['student_id']}
+{'Highschooler': ['ID'], 'Friend': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id']}
+{'Friend': ['student_id', 'friend_id'], 'Likes': ['student_id']}
+{'Friend': ['student_id', 'friend_id'], 'Likes': ['student_id']}
+{'Friend': ['student_id', 'friend_id'], 'Likes': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Friend': ['student_id', 'friend_id'], 'Likes': ['student_id']}
+{'Likes': ['student_id']}
+{'Likes': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Likes': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Likes': ['student_id']}
+{'Highschooler': ['ID', 'name'], 'Likes': ['student_id']}
+{'Friend': ['student_id', 'friend_id'], 'Likes': ['student_id']}
+{'Friend': ['student_id', 'friend_id'], 'Likes': ['student_id']}
+{'Friend': ['student_id', 'friend_id'], 'Likes': ['student_id']}
+{'Highschooler': ['ID', 'name', 'grade'], 'Friend': ['student_id', 'friend_id']}
+{'Highschooler': ['ID', 'name', 'grade'], 'Friend': ['student_id', 'friend_id']}
+{'Likes': ['student_id', 'liked_id'], 'Friend': ['student_id', 'friend_id'], 'Highschooler': ['ID', 'name']}
+{'Likes': ['student_id', 'liked_id'], 'Friend': ['student_id', 'friend_id'], 'Highschooler': ['ID', 'name']}
+{'Highschooler': ['ID', 'grade'], 'Friend': ['student_id']}
+{'Highschooler': ['ID', 'grade'], 'Friend': ['student_id', 'friend_id']}
+{'Highschooler': ['ID', 'grade']}
+{'Highschooler': ['ID', 'grade']}
+{'Owners': ['owner_id', 'state'], 'Professionals': ['professional_id', 'state']}
+{'Owners': ['owner_id', 'state'], 'Professionals': ['professional_id', 'role_code', 'first_name', 'street', 'city', 'state']}
+{'Dogs': ['dog_id', 'age'], 'Treatments': ['treatment_id', 'dog_id']}
+{'Dogs': ['dog_id', 'age'], 'Treatments': ['treatment_id', 'dog_id']}
+{'Professionals': ['professional_id', 'last_name', 'cell_number'], 'Treatments': ['treatment_id', 'professional_id']}
+{'Professionals': ['professional_id', 'last_name', 'state', 'cell_number']}
+{'Dogs': ['dog_id', 'name'], 'Treatments': ['treatment_id', 'dog_id', 'cost_of_treatment']}
+{'Dogs': ['dog_id', 'owner_id', 'name'], 'Owners': ['owner_id', 'first_name', 'last_name'], 'Treatments': ['treatment_id', 'dog_id', 'cost_of_treatment']}
+{'Professionals': ['professional_id', 'first_name'], 'Owners': ['owner_id', 'first_name']}
+{'Professionals': ['professional_id', 'first_name'], 'Owners': ['owner_id', 'first_name'], 'Dogs': ['dog_id', 'owner_id', 'name']}
+{'Professionals': ['professional_id', 'role_code', 'email_address'], 'Treatments': ['treatment_id', 'professional_id']}
+{'Professionals': ['professional_id', 'role_code', 'email_address'], 'Treatments': ['treatment_id', 'professional_id']}
+{'Dogs': ['dog_id', 'owner_id'], 'Owners': ['owner_id', 'first_name', 'last_name']}
+{'Dogs': ['dog_id', 'owner_id', 'first_name', 'last_name']}
+{'Professionals': ['professional_id', 'role_code', 'first_name'], 'Treatments': ['treatment_id', 'professional_id']}
+{'Professionals': ['professional_id', 'role_code', 'first_name']}
+{'Dogs': ['dog_id', 'breed_code', 'name'], 'Breeds': ['breed_code', 'breed_name']}
+{'Dogs': ['dog_id', 'breed_code'], 'Breeds': ['breed_code', 'breed_name']}
+{'Treatments': ['treatment_id', 'dog_id', 'owner_id'], 'Owners': ['owner_id', 'last_name']}
+{'Treatments': ['treatment_id', 'dog_id', 'owner_id'], 'Dogs': ['dog_id', 'owner_id'], 'Owners': ['owner_id', 'last_name']}
+{'Treatments': ['treatment_id', 'treatment_type_code', 'cost_of_treatment']}
+{'Treatments': ['treatment_id', 'treatment_type_code', 'cost_of_treatment']}
+{'Dogs': ['dog_id', 'owner_id', 'cost_of_treatment'], 'Owners': ['owner_id', 'zip_code']}
+{'Owners': ['owner_id', 'first_name', 'last_name', 'zip_code'], 'Dogs': ['dog_id', 'owner_id', 'cost_of_treatment']}
+{'Treatments': ['treatment_id', 'professional_id'], 'Professionals': ['professional_id', 'cell_number']}
+{'Treatments': ['treatment_id', 'professional_id'], 'Professionals': ['professional_id', 'cell_number']}
+{'Professionals': ['professional_id', 'first_name', 'last_name'], 'Treatments': ['treatment_id', 'professional_id', 'cost_of_treatment']}
+{'Treatments': ['treatment_id', 'professional_id', 'treatment_type_code', 'cost_of_treatment'], 'Professionals': ['professional_id', 'first_name', 'last_name']}
+{'Treatments': ['treatment_id', 'date_of_treatment', 'professional_id'], 'Professionals': ['professional_id', 'first_name']}
+{'Treatments': ['treatment_id', 'professional_id', 'date_of_treatment'], 'Professionals': ['professional_id', 'first_name']}
+{'Treatments': ['treatment_id', 'treatment_type_code', 'cost_of_treatment']}
+{'Treatments': ['treatment_id', 'cost_of_treatment', 'treatment_type_code', 'treatment_description']}
+{'Dogs': ['dog_id', 'owner_id', 'size_code'], 'Owners': ['owner_id', 'first_name', 'last_name']}
+{'Dogs': ['dog_id', 'owner_id', 'size_code', 'first_name', 'last_name']}
+{'Dogs': ['dog_id', 'owner_id', 'name'], 'Owners': ['owner_id', 'first_name']}
+{'Dogs': ['dog_id', 'owner_id', 'name'], 'Owners': ['owner_id', 'first_name']}
+{'Dogs': ['dog_id', 'name', 'breed_code'], 'Treatments': ['treatment_id', 'dog_id', 'treatment_type_code', 'date_of_treatment']}
+{'Dogs': ['dog_id', 'breed_code', 'name'], 'Treatments': ['treatment_id', 'dog_id'], 'Breeds': ['breed_code', 'breed_name']}
+{'Dogs': ['dog_id', 'owner_id', 'name'], 'Owners': ['owner_id', 'first_name', 'state']}
+{'Owners': ['owner_id', 'first_name', 'state'], 'Dogs': ['dog_id', 'owner_id', 'name']}
+{'Dogs': ['dog_id', 'date_arrived', 'date_departed'], 'Treatments': ['treatment_id', 'dog_id']}
+{'Dogs': ['dog_id', 'date_arrived', 'date_departed'], 'Treatments': ['treatment_id', 'dog_id']}
+{'Dogs': ['dog_id', 'owner_id', 'age'], 'Owners': ['owner_id', 'last_name']}
+{'Dogs': ['dog_id', 'owner_id', 'age', 'date_of_birth', 'last_name']}
+{'Professionals': ['professional_id', 'email_address', 'state']}
+{'Professionals': ['professional_id', 'email_address', 'state']}
+{'Dogs': ['dog_id', 'date_arrived', 'date_departed']}
+{'Dogs': ['dog_id', 'date_arrived', 'date_departed']}
+{'Dogs': ['dog_id'], 'Treatments': ['dog_id']}
+{'Treatments': ['treatment_id', 'dog_id'], 'Dogs': ['dog_id']}
+{'Treatments': ['treatment_id', 'professional_id'], 'Professionals': ['professional_id']}
+{'Professionals': ['professional_id'], 'Treatments': ['treatment_id', 'professional_id']}
+{'Professionals': ['professional_id', 'role_code', 'first_name', 'last_name', 'city', 'state']}
+{'Professionals': ['professional_id', 'role_code', 'first_name', 'last_name', 'city', 'state']}
+{'Owners': ['owner_id', 'first_name', 'last_name', 'email_address', 'state']}
+{'Owners': ['owner_id', 'first_name', 'last_name', 'email_address', 'state']}
+{'Dogs': ['dog_id', 'age']}
+{'Dogs': ['dog_id', 'age']}
+{'Treatments': ['treatment_id', 'date_of_treatment', 'cost_of_treatment']}
+{'Treatments': ['treatment_id', 'cost_of_treatment']}
+{'Dogs': ['dog_id'], 'Treatments': ['treatment_id', 'dog_id']}
+{'Dogs': ['dog_id'], 'Treatments': ['treatment_id', 'dog_id']}
+{'Owners': ['owner_id'], 'Dogs': ['dog_id', 'owner_id']}
+{'Owners': ['owner_id'], 'Dogs': ['dog_id', 'owner_id']}
+{'Professionals': ['professional_id'], 'Treatments': ['treatment_id', 'professional_id']}
+{'Professionals': ['professional_id'], 'Treatments': ['treatment_id', 'professional_id']}
+{'Dogs': ['dog_id', 'owner_id', 'abandoned_yn'], 'Owners': ['owner_id', 'first_name', 'last_name', 'age']}
+{'Dogs': ['dog_id', 'name', 'age', 'weight', 'abandoned_yn']}
+{'Dogs': ['dog_id', 'age']}
+{'Dogs': ['dog_id', 'age']}
+{'Dogs': ['dog_id', 'age']}
+{'Dogs': ['dog_id', 'age']}
+{'Charges': ['charge_id', 'charge_type', 'charge_amount']}
+{'Charges': ['charge_id', 'charge_type', 'charge_amount']}
+{'Charges': ['charge_id', 'charge_amount']}
+{'Charges': ['charge_id', 'charge_amount'], 'Treatments': ['treatment_id', 'charge_id']}
+{'Professionals': ['professional_id', 'email_address', 'cell_number', 'home_phone']}
+{'Professionals': ['professional_id', 'email_address', 'cell_number', 'home_phone']}
+{'Breeds': ['breed_code', 'breed_name'], 'Sizes': ['size_code', 'size_description']}
+{'Dogs': ['dog_id', 'breed_code', 'size_code']}
+{'Professionals': ['professional_id', 'first_name', 'last_name'], 'Treatments': ['treatment_id', 'professional_id', 'treatment_type_code', 'date_of_treatment']}
+{'Treatments': ['treatment_id', 'professional_id', 'treatment_type_code'], 'Professionals': ['professional_id', 'first_name']}
+{'singer': ['Singer_ID']}
+{'singer': ['Singer_ID']}
+{'singer': ['Singer_ID', 'Name', 'Net_Worth_Millions']}
+{'singer': ['Singer_ID', 'Name', 'Net_Worth_Millions']}
+{'singer': ['Singer_ID', 'Birth_Year', 'Citizenship']}
+{'singer': ['Singer_ID', 'Birth_Year', 'Citizenship']}
+{'singer': ['Singer_ID', 'Name', 'Citizenship']}
+{'singer': ['Singer_ID', 'Name', 'Citizenship']}
+{'singer': ['Singer_ID', 'Name', 'Birth_Year']}
+{'singer': ['Singer_ID', 'Name', 'Birth_Year']}
+{'singer': ['Singer_ID', 'Name', 'Net_Worth_Millions']}
+{'singer': ['Singer_ID', 'Name', 'Net_Worth_Millions']}
+{'singer': ['Singer_ID', 'Citizenship']}
+{'singer': ['Singer_ID', 'Citizenship']}
+{'singer': ['Singer_ID', 'Citizenship']}
+{'singer': ['Singer_ID', 'Citizenship']}
+{'singer': ['Singer_ID', 'Citizenship', 'Net_Worth_Millions']}
+{'singer': ['Singer_ID', 'Net_Worth_Millions', 'Citizenship']}
+{'song': ['Song_ID', 'Title', 'Singer_ID'], 'singer': ['Singer_ID', 'Name']}
+{'song': ['Song_ID', 'Title', 'Singer_ID'], 'singer': ['Singer_ID', 'Name']}
+{'singer': ['Singer_ID', 'Name'], 'song': ['Song_ID', 'Singer_ID', 'Sales']}
+{'singer': ['Singer_ID', 'Name', 'Sales']}
+{'singer': ['Singer_ID', 'Name'], 'song': ['Song_ID', 'Singer_ID']}
+{'singer': ['Singer_ID', 'Name'], 'song': ['Song_ID', 'Singer_ID']}
+{'song': ['Song_ID', 'Singer_ID', 'Sales']}
+{'song': ['Song_ID', 'Singer_ID', 'Sales']}
+{'singer': ['Singer_ID', 'Name'], 'song': ['Song_ID', 'Singer_ID']}
+{'singer': ['Singer_ID', 'Name'], 'song': ['Song_ID', 'Singer_ID']}
+{'singer': ['Singer_ID', 'Birth_Year', 'Citizenship']}
+{'singer': ['Singer_ID', 'Birth_Year', 'Citizenship']}
+{'Other_Available_Features': ['feature_id']}
+{'Ref_Feature_Types': ['feature_type_code', 'feature_type_name'], 'Other_Available_Features': ['feature_id', 'feature_type_code', 'feature_name']}
+{'Ref_Property_Types': ['property_type_code', 'property_type_description'], 'Other_Available_Features': ['feature_id', 'property_type_code', 'property_feature_description']}
+{'Properties': ['property_id', 'property_type_code', 'property_name', 'room_count']}
