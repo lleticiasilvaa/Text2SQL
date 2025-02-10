@@ -134,7 +134,7 @@ def replace_alias(query: str) -> str:
 
 def to_sql(query: str) -> str:
     """Format SQL query with consistent styling."""
-    return sqlparse.format(replace_alias(query), reindent=True, keyword_case='UPPER')
+    return sqlparse.format(replace_alias(query), reindent=True, keyword_case='upper')
 
 def apply_sql_template(row: Dict[str, Any], tokenizer: AutoTokenizer, args: argparse.Namespace) -> Dict[str, Any]:
     """Apply template for SQL generation task."""

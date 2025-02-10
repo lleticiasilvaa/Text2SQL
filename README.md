@@ -56,33 +56,24 @@ python train.py\
     --save_steps=<steps>
 ```
 
-# Model Fine-tuning Configuration
+### Configuration Example
 
-This document outlines all available configuration options for the fine-tuning script.
-
-### Full Configuration Options
+Here is an example configuration for training the model:
 
 ```bash
 python train.py\
-    --model_name=<base_model_name>\
-    --output_name=<output_model_name>\
-    --read_token=<huggingface_read_token>\
-    --write_token=<huggingface_write_token>\
-    --task_type=<sql|schema>\
-    --dataset_id=<huggingface_dataset_id>\
-    --question_field=<field_name>\
-    --schema_field=<field_name>\
-    --output_field=<field_name>\
-    --prev_checkpoint=<checkpoint_name>\
-    --seed=<random_seed>\
-    --train_batch_size=<batch_size>\
-    --eval_batch_size=<batch_size>\
-    --grad_accum_steps=<steps>\
-    --learning_rate=<lr>\
-    --num_epochs=<epochs>\
-    --save_steps=<steps>
+    --model_name=stabilityai/stable-code-instruct-3b\
+    --output_name=test_script_py_sql\
+    --read_token=hf_\
+    --write_token=hf_\
+    --dataset_id=lleticiasilvaa/spider\
+    --task_type=sql\
+    --question_field=question\
+    --schema_field=schema\
+    --output_field=query\
+    --save_steps=5\
+    --prev_checkpoint=checkpoint-20
 ```
-
 ### Parameters
 
 | Parameter | Description | Default |
@@ -158,19 +149,42 @@ python train.py\
 
 #### SQL Generation Template
 The model uses a specific template for SQL generation tasks:
+
+<pre>
+<|system|>
+Given a user question and the schema of a database, your task is to generate an SQL query that accurately answers the question based on the provided schema.&lt;/s&gt;
+<|user|>
+# Schema:
+```sql
+{DATABASE SCHEMA}
 ```
-System: Given a user question and the schema of a database...
-User: [Schema details + Question]
-Assistant: [Generated SQL query]
+# Question: {NATURAL LANGUAGE QUERY} &lt;/s&gt;
+
+<|assistant|>
+```sql
+{GOLD SQL QUERY}
 ```
+&lt;/s&gt;
+</pre>
+
 
 #### Schema Linking Template
 For schema linking tasks:
+<pre>
+<|system|>
+Given a user question and the schema of a database, your task is to generate an SQL query that accurately answers the question based on the provided schema.&lt;/s&gt;
+<|user|>
+# Schema:
+```sql
+{DATABASE SCHEMA}
 ```
-System: Given a user question and the schema of a database...
-User: [Schema details + Question]
-Assistant: [JSON with relevant tables/columns]
+# Question: {NATURAL LANGUAGE QUERY} &lt;/s&gt;
+<|assistant|>
+```json
+{SCHEMA-LINKING JSON}
 ```
+&lt;/s&gt;
+</pre>
 
 ## Monitoring Training
 
