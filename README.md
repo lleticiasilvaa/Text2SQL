@@ -85,7 +85,7 @@ python train.py\
 | `--task_type` | Task type: 'sql' or 'schema' (required) | - |
 | `--dataset_id` | HuggingFace dataset ID (required) | - |
 | `--question_field` | Field name in dataset containing the question | 'question_en' |
-| `--schema_field` | Field name in dataset containing the database schema | 'schema_SQLDatabase' |
+| `--schema_field` | Field name in dataset containing the database schema | 'schema' |
 | `--output_field` | Field name in dataset containing the SQL query (for SQL task) or schema linking JSON (for schema task) | 'query' |
 | `--prev_checkpoint` | Previous checkpoint to continue training | None |
 | `--seed` | Random seed for reproducibility | 14 |
