@@ -24,32 +24,63 @@ pip install accelerate peft bitsandbytes transformers trl datasets huggingface_h
 ### Basic Command
 
 ```bash
-python finetuning.py \
-    --model_name <base_model_name> \
-    --output_name <output_model_name> \
-    --read_token <huggingface_read_token> \
-    --write_token <huggingface_write_token> \
-    --task_type <sql|schema>
+python train.py\
+    --model_name=<base_model_name>\
+    --output_name=<output_model_name>\
+    --read_token=<huggingface_read_token>\
+    --write_token=<huggingface_write_token>\
+    --dataset_id=<huggingface_dataset_id>\
+    --task_type=<sql|schema>
 ```
 
 ### Full Configuration Options
 
 ```bash
-python finetuning.py \
-    --model_name <base_model_name> \
-    --output_name <output_model_name> \
-    --read_token <huggingface_read_token> \
-    --write_token <huggingface_write_token> \
-    --task_type <sql|schema> \
-    --dataset_id <huggingface_dataset_id> \
-    --prev_checkpoint <checkpoint_name> \
-    --seed <random_seed> \
-    --train_batch_size <batch_size> \
-    --eval_batch_size <batch_size> \
-    --grad_accum_steps <steps> \
-    --learning_rate <lr> \
-    --num_epochs <epochs> \
-    --save_steps <steps>
+python train.py\
+    --model_name=<base_model_name>\
+    --output_name=<output_model_name>\
+    --read_token=<huggingface_read_token>\
+    --write_token=<huggingface_write_token>\
+    --task_type=<sql|schema>\
+    --dataset_id=<huggingface_dataset_id>\
+    --question_field=<field_name>\
+    --schema_field=<field_name>\
+    --output_field=<field_name>\
+    --prev_checkpoint=<checkpoint_name>\
+    --seed=<random_seed>\
+    --train_batch_size=<batch_size>\
+    --eval_batch_size=<batch_size>\
+    --grad_accum_steps=<steps>\
+    --learning_rate=<lr>\
+    --num_epochs=<epochs>\
+    --save_steps=<steps>
+```
+
+# Model Fine-tuning Configuration
+
+This document outlines all available configuration options for the fine-tuning script.
+
+### Full Configuration Options
+
+```bash
+python train.py\
+    --model_name=<base_model_name>\
+    --output_name=<output_model_name>\
+    --read_token=<huggingface_read_token>\
+    --write_token=<huggingface_write_token>\
+    --task_type=<sql|schema>\
+    --dataset_id=<huggingface_dataset_id>\
+    --question_field=<field_name>\
+    --schema_field=<field_name>\
+    --output_field=<field_name>\
+    --prev_checkpoint=<checkpoint_name>\
+    --seed=<random_seed>\
+    --train_batch_size=<batch_size>\
+    --eval_batch_size=<batch_size>\
+    --grad_accum_steps=<steps>\
+    --learning_rate=<lr>\
+    --num_epochs=<epochs>\
+    --save_steps=<steps>
 ```
 
 ### Parameters
@@ -61,7 +92,10 @@ python finetuning.py \
 | `--read_token` | HuggingFace read token (required) | - |
 | `--write_token` | HuggingFace write token (required) | - |
 | `--task_type` | Task type: 'sql' or 'schema' (required) | - |
-| `--dataset_id` | HuggingFace dataset ID | 'NESPED-GEN/spider_selector_schemaReduzido' |
+| `--dataset_id` | HuggingFace dataset ID (required) | - |
+| `--question_field` | Field name in dataset containing the question | 'question_en' |
+| `--schema_field` | Field name in dataset containing the database schema | 'schema_SQLDatabase' |
+| `--output_field` | Field name in dataset containing the SQL query (for SQL task) or schema linking JSON (for schema task) | 'query' |
 | `--prev_checkpoint` | Previous checkpoint to continue training | None |
 | `--seed` | Random seed for reproducibility | 14 |
 | `--train_batch_size` | Training batch size per device | 1 |
@@ -70,6 +104,7 @@ python finetuning.py \
 | `--learning_rate` | Learning rate | 1e-4 |
 | `--num_epochs` | Number of training epochs | 1 |
 | `--save_steps` | Save checkpoint every N steps | 250 |
+
 
 ## Training Process
 
@@ -112,10 +147,10 @@ python finetuning.py \
 To resume training from a previous checkpoint:
 
 ```bash
-python finetuning.py \
-    --model_name <base_model_name> \
-    --output_name <output_model_name> \
-    --prev_checkpoint checkpoint-1000 \
+python train.py\
+    --model_name=<base_model_name>\
+    --output_name=<output_model_name>\
+    --prev_checkpoint checkpoint-1000\
     ... [other parameters]
 ```
 

@@ -37,10 +37,16 @@ def parse_args():
                        help='HuggingFace write token')
     
     # Dataset configuration
-    parser.add_argument('--dataset_id', type=str, default='NESPED-GEN/spider_selector_schemaReduzido',
+    parser.add_argument('--dataset_id', type=str, required=True,
                        help='HuggingFace dataset ID')
     parser.add_argument('--task_type', choices=['sql', 'schema'], required=True,
                        help='Task type: sql generation or schema linking')
+    parser.add_argument('--question_field', type=str, default='question_en',
+                       help='Field name in dataset containing the question')
+    parser.add_argument('--schema_field', type=str, default='schema_SQLDatabase',
+                       help='Field name in dataset containing the database schema')
+    parser.add_argument('--output_field', type=str, default='query',
+                       help='Field name in dataset containing the SQL query (for SQL task) or schema linking JSON (for schema task)')
     
     # Training configuration
     parser.add_argument('--seed', type=int, default=14,
@@ -102,9 +108,9 @@ def prepare_data(dataset: Dataset, args: argparse.Namespace, tokenizer: AutoToke
     df = dataset.to_pandas()
     
     if args.task_type == 'sql':
-        df = df.apply(lambda x: apply_sql_template(x, tokenizer), axis=1)
+        df = df.apply(lambda x: apply_sql_template(x, tokenizer, args), axis=1)
     else:
-        df = df.apply(lambda x: apply_schema_template(x, tokenizer), axis=1)
+        df = df.apply(lambda x: apply_schema_template(x, tokenizer, args), axis=1)
     
     # Create dataset splits
     _df = pd.DataFrame({'text': df.sample(frac=1, random_state=args.seed)['text']})
@@ -130,11 +136,11 @@ def to_sql(query: str) -> str:
     """Format SQL query with consistent styling."""
     return sqlparse.format(replace_alias(query), reindent=True, keyword_case='UPPER')
 
-def apply_sql_template(row: Dict[str, Any], tokenizer: AutoTokenizer) -> Dict[str, Any]:
+def apply_sql_template(row: Dict[str, Any], tokenizer: AutoTokenizer, args: argparse.Namespace) -> Dict[str, Any]:
     """Apply template for SQL generation task."""
-    question = row['question_en']
-    schema = row['schema_SQLDatabase']
-    sql = to_sql(row['query'])
+    question = row[args.question_field]
+    schema = row[args.schema_field]
+    sql = to_sql(row[args.output_field])
     
     system_message = "Given a user question and the schema of a database, your task is to generate an SQL query that accurately answers the question based on the provided schema."
     
@@ -147,11 +153,11 @@ def apply_sql_template(row: Dict[str, Any], tokenizer: AutoTokenizer) -> Dict[st
     row['text'] = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=False)
     return row
 
-def apply_schema_template(row: Dict[str, Any], tokenizer: AutoTokenizer) -> Dict[str, Any]:
+def apply_schema_template(row: Dict[str, Any], tokenizer: AutoTokenizer, args: argparse.Namespace) -> Dict[str, Any]:
     """Apply template for schema linking task."""
-    question = row['question_en']
-    schema = row['schema_SQLDatabase_min']
-    schema_linking = row['selector_correct']
+    question = row[args.question_field]
+    schema = row[args.schema_field]
+    schema_linking = row[args.output_field]
     
     system_message = "Given a user question and the schema of a database, your task is to generate an JSON with the the names of tables and columns of the schema that the question is referring to."
     
