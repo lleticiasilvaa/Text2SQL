@@ -78,23 +78,23 @@ python train.py\
 
 | Parameter | Description | Default |
 |-----------|-------------|---------|
-| `--model_name` | Base model to fine-tune (required) | - |
-| `--output_name` | Name for the fine-tuned model (required) | - |
-| `--read_token` | HuggingFace read token (required) | - |
-| `--write_token` | HuggingFace write token (required) | - |
-| `--task_type` | Task type: 'sql' or 'schema' (required) | - |
-| `--dataset_id` | HuggingFace dataset ID (required) | - |
-| `--question_field` | Field name in dataset containing the question | 'question_en' |
-| `--schema_field` | Field name in dataset containing the database schema | 'schema' |
-| `--output_field` | Field name in dataset containing the SQL query (for SQL task) or schema linking JSON (for schema task) | 'query' |
-| `--prev_checkpoint` | Previous checkpoint to continue training | None |
-| `--seed` | Random seed for reproducibility | 14 |
-| `--train_batch_size` | Training batch size per device | 1 |
-| `--eval_batch_size` | Evaluation batch size per device | 1 |
-| `--grad_accum_steps` | Gradient accumulation steps | 8 |
-| `--learning_rate` | Learning rate | 1e-4 |
-| `--num_epochs` | Number of training epochs | 1 |
-| `--save_steps` | Save checkpoint every N steps | 250 |
+| `model_name` | Base model to fine-tune (required) | - |
+| `output_name` | Name for the fine-tuned model (required) | - |
+| `read_token` | HuggingFace read token (required) | - |
+| `write_token` | HuggingFace write token (required) | - |
+| `task_type` | Task type: 'sql' or 'schema' (required) | - |
+| `dataset_id` | HuggingFace dataset ID (required) | - |
+| `question_field` | Field name in dataset containing the question | 'question' |
+| `schema_field` | Field name in dataset containing the database schema | 'schema' |
+| `output_field` | Field name in dataset containing the SQL query (for SQL task) or schema linking JSON (for schema task) | 'query' |
+| `prev_checkpoint` | Previous checkpoint to continue training | None |
+| `seed` | Random seed for reproducibility | 14 |
+| `train_batch_size` | Training batch size per device | 1 |
+| `eval_batch_size` | Evaluation batch size per device | 1 |
+| `grad_accum_steps` | Gradient accumulation steps | 8 |
+| `learning_rate` | Learning rate | 1e-4 |
+| `num_epochs` | Number of training epochs | 1 |
+| `save_steps` | Save checkpoint every N steps | 250 |
 
 
 ## Training Process

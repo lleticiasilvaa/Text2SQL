@@ -41,9 +41,9 @@ def parse_args():
                        help='HuggingFace dataset ID')
     parser.add_argument('--task_type', choices=['sql', 'schema'], required=True,
                        help='Task type: sql generation or schema linking')
-    parser.add_argument('--question_field', type=str, default='question_en',
+    parser.add_argument('--question_field', type=str, default='question',
                        help='Field name in dataset containing the question')
-    parser.add_argument('--schema_field', type=str, default='schema_SQLDatabase',
+    parser.add_argument('--schema_field', type=str, default='schema',
                        help='Field name in dataset containing the database schema')
     parser.add_argument('--output_field', type=str, default='query',
                        help='Field name in dataset containing the SQL query (for SQL task) or schema linking JSON (for schema task)')
